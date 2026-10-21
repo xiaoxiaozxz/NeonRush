@@ -9,6 +9,8 @@ Unity 街机竞速原型，包含漂移集气、氮气、小喷、空喷、落�
 3. 在菜单选择 `NeonRush > Open Neon Harbor`。
 4. 点击 Play，再点击 Game 窗口，选择挑战或自由练习。
 
+主菜单采用全屏半透明遮罩与左侧选项，可用鼠标或 ↑ / ↓ 选择、Enter 确认。Esc 打开暂停菜单；设置页用滑杆或 ← / → 调整音量，Esc 返回上一级。主菜单、暂停、设置和结算期间隐藏驾驶 HUD，开始或继续驾驶后恢复。
+
 方向键驾驶，E / Shift 漂移，Q 释放氮气，轻点 W 触发小喷/空喷/落地喷，R 救援，Esc 暂停。支持 WASD；推荐方向键驾驶以便左手操作 E/Q/W。
 
 ## 内容
@@ -26,12 +28,10 @@ Unity 街机竞速原型，包含漂移集气、氮气、小喷、空喷、落�
 
 ## 验证
 
-当前 Play Mode 测试 **31 / 31 通过**，包括完整三圈、跳台喷射、撞墙保留氮气、救援保留集气与库存。
+当前 Play Mode 测试 **34 / 34 通过**，包括菜单切换与暂停停表、完整三圈、跳台喷射、撞墙保留氮气、救援保留集气与库存。
 
 RTX 2070 在 1920×1080 Unity 编辑器 Game View 中，真实单圈采样平均 9.25 ms/帧、P95 11.59 ms。独立 Windows 构建尚未测量。详细结果位于 `NeonRush/Captures/NeonHarbor/`。
 
-![原创跑车](NeonRush/Captures/NeonHarbor/vela-rear-studio.png)
-
-![NeonRush 游戏界面](NeonRush/Captures/NeonHarbor/neonrush-title-final.png)
+![NeonRush 主菜单](NeonRush/Captures/MenuRefresh/main-menu.png)
 
 Unity MCP 和本地 Blender 桥接工具用于开发，运行游戏本身无需连接 MCP。Unity 缓存、日志、IDE 状态、本地凭据及第三方工具检出目录已通过 `.gitignore` 排除。

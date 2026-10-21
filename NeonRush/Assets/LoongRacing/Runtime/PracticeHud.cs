@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 
 namespace LoongRacing
 {
-    public sealed class PracticeHud : MonoBehaviour
+    public sealed partial class PracticeHud : MonoBehaviour
     {
         [SerializeField] private ArcadeKartController kart;
         private Font font;
@@ -42,38 +42,62 @@ namespace LoongRacing
 
         private void Update()
         {
-            if (Keyboard.current != null && Keyboard.current.escapeKey.wasPressedThisFrame) TogglePause();
-            if (Keyboard.current != null && Keyboard.current.mKey.wasPressedThisFrame && sounds != null) sounds.ToggleMute();
-            if (race != null && Keyboard.current != null && Application.isFocused)
+            SynchronizeMenu();
+            var keyboard = Keyboard.current;
+            if (keyboard == null || !Application.isFocused) return;
+            if (keyboard.escapeKey.wasPressedThisFrame) { BackFromMenu(); return; }
+            if (keyboard.mKey.wasPressedThisFrame && sounds != null) sounds.ToggleMute();
+            if (IsMenuVisible)
             {
-                if (Keyboard.current.f5Key.wasPressedThisFrame) BeginChallenge(race.TotalLaps);
-                else if (Keyboard.current.enterKey.wasPressedThisFrame && !paused
-                    && (race.State == KartRaceState.Ready || race.State == KartRaceState.Finished)) BeginChallenge(race.TotalLaps);
+                if (keyboard.upArrowKey.wasPressedThisFrame) NavigateMenu(-1);
+                if (keyboard.downArrowKey.wasPressedThisFrame) NavigateMenu(1);
+                if (settingsOpen && menuSelection == 0 && sounds != null)
+                {
+                    if (keyboard.leftArrowKey.wasPressedThisFrame) sounds.SetMasterVolume(sounds.MasterVolume - 0.05f);
+                    if (keyboard.rightArrowKey.wasPressedThisFrame) sounds.SetMasterVolume(sounds.MasterVolume + 0.05f);
+                }
+                if (keyboard.enterKey.wasPressedThisFrame || keyboard.numpadEnterKey.wasPressedThisFrame) ConfirmMenuSelection();
+                return;
             }
+            if (race != null && keyboard.f5Key.wasPressedThisFrame) BeginChallenge(race.TotalLaps);
         }
 
         public void TogglePause()
         {
+            if (!paused && race != null && (race.State == KartRaceState.Ready || race.State == KartRaceState.Finished)) return;
             paused = !paused;
+            settingsOpen = false;
             Time.timeScale = paused ? 0f : 1f;
             AudioListener.pause = paused;
             if (sounds != null) sounds.PlayPause(paused);
-            if (kart != null) { kart.SetDriveInput(0f, 0f); kart.CancelBufferedActions(); }
+            if (kart != null) { kart.SetDriveInput(0f, 0f); kart.SetDriftInput(false); kart.CancelBufferedActions(); }
+            SynchronizeMenu();
         }
 
         private void OnApplicationFocus(bool focused)
         {
-            if (isActiveAndEnabled && !focused && !paused && Application.isPlaying) TogglePause();
+            if (isActiveAndEnabled && !focused && !IsMenuVisible && Application.isPlaying) TogglePause();
         }
 
         private void OnGUI()
         {
             if (kart == null) return;
-            if (label == null) label = new GUIStyle(GUI.skin.label) { font = font, richText = false };
+            if (label == null) label = new GUIStyle(GUI.skin.label) { font = font, richText = false, wordWrap = false, padding = new RectOffset() };
+            SynchronizeMenu();
             Matrix4x4 previous = GUI.matrix;
+            if (IsMenuVisible) DrawMenuBackdrop();
             float scale = Mathf.Min(Screen.width / 1600f, Screen.height / 900f);
             GUI.matrix = Matrix4x4.TRS(new Vector3((Screen.width - 1600f * scale) / 2f,
                 (Screen.height - 900f * scale) / 2f, 0f), Quaternion.identity, Vector3.one * scale);
+
+            // Menus and driving HUD are mutually exclusive, including pause and results.
+            if (IsMenuVisible)
+            {
+                DrawMenu();
+                GUI.matrix = previous;
+                GUI.color = Color.white;
+                return;
+            }
 
             Panel(36, 32, 328, 104);
             Box(new Rect(36, 32, 5, 104), accent);
@@ -153,36 +177,9 @@ namespace LoongRacing
                 : "按顺序正向通过黄色检查点  /  跳台在左侧，可从右侧绕行";
             Text(494, 836, 612, 18, routeHint, 13, progress != null && progress.IsWrongWay ? yellow : muted, FontStyle.Normal, TextAnchor.MiddleCenter);
 
-            if (race != null && !paused) DrawRaceOverlay();
-            if (paused) DrawPause();
+            if (race != null) DrawRaceOverlay();
             GUI.matrix = previous;
             GUI.color = Color.white;
-        }
-
-        private void DrawPause()
-        {
-            Box(new Rect(0, 0, 1600, 900), new Color(0.01f, 0.025f, 0.04f, 0.76f));
-            Panel(560, 260, 480, 400);
-            Box(new Rect(560, 260, 480, 4), accent);
-            Text(590, 298, 420, 50, "已暂停", 36, Color.white, FontStyle.Bold, TextAnchor.MiddleCenter);
-            Text(590, 354, 420, 27, "按 ESC 继续，或选择下方操作", 18, muted, FontStyle.Normal, TextAnchor.MiddleCenter);
-            var button = new GUIStyle(GUI.skin.button) { font = font, fontSize = 22, fontStyle = FontStyle.Bold };
-            if (sounds != null)
-            {
-                Text(610, 389, 380, 24, $"音效音量    {sounds.MasterVolume * 100:0}%", 17, muted);
-                float volume = GUI.HorizontalSlider(new Rect(610, 426, 380, 20), sounds.MasterVolume, 0f, 1f);
-                if (!Mathf.Approximately(volume, sounds.MasterVolume)) sounds.SetMasterVolume(volume);
-            }
-            if (GUI.Button(new Rect(610, 466, 380, 58), "继续驾驶", button)) TogglePause();
-            if (GUI.Button(new Rect(610, 544, 380, 58), race != null && race.State != KartRaceState.Practice ? "重新挑战" : "重置本次练习", button))
-            {
-                TogglePause();
-                if (race == null) kart.ResetToSpawn();
-                else if (race.State == KartRaceState.Practice) race.StartPractice();
-                else race.StartChallenge(race.TotalLaps);
-            }
-            if (race != null && GUI.Button(new Rect(610, 614, 380, 32), "返回赛道菜单", button))
-            { TogglePause(); race.ReturnToMenu(); }
         }
 
         public static string FormatTime(float seconds, bool emptyWhenZero = true)
@@ -194,26 +191,14 @@ namespace LoongRacing
 
         private void BeginChallenge(int laps)
         {
-            if (paused) TogglePause();
+            RestoreMenuTime();
             race.StartChallenge(laps);
+            SynchronizeMenu();
         }
 
         private void DrawRaceOverlay()
         {
-            var button = new GUIStyle(GUI.skin.button) { font=font, fontSize=22, fontStyle=FontStyle.Bold };
-            if (race.State == KartRaceState.Ready)
-            {
-                Panel(490, 250, 620, 430);
-                Box(new Rect(490,250,620,4),accent);
-                Text(520,276,560,50,progress.Route.DisplayName,36,Color.white,FontStyle.Bold,TextAnchor.MiddleCenter);
-                Text(520,337,560,28,"单人计时  ·  按顺序通过全部检查点",19,muted,FontStyle.Normal,TextAnchor.MiddleCenter);
-                Text(520,385,560,26,"本地最佳圈速  " + FormatTime(race.BestLap),20,accent,FontStyle.Normal,TextAnchor.MiddleCenter);
-                if (GUI.Button(new Rect(530,438,255,64),"单圈挑战",button)) BeginChallenge(1);
-                if (GUI.Button(new Rect(815,438,255,64),"三圈挑战",button)) BeginChallenge(3);
-                if (GUI.Button(new Rect(650,530,300,54),"自由练习",button)) race.StartPractice();
-                Text(520,610,560,24,"Enter 开始挑战  /  救援保留集气，计时继续",16,muted,FontStyle.Normal,TextAnchor.MiddleCenter);
-            }
-            else if (race.State == KartRaceState.Countdown)
+            if (race.State == KartRaceState.Countdown)
             {
                 Panel(650,300,300,240);
                 Text(670,318,260,36,"准备起跑",24,muted,FontStyle.Normal,TextAnchor.MiddleCenter);
@@ -222,22 +207,6 @@ namespace LoongRacing
             }
             else if (race.ShowGo)
                 Text(650,330,300,130,"GO!",92,accent,FontStyle.Bold,TextAnchor.MiddleCenter);
-            else if (race.State == KartRaceState.Finished)
-            {
-                Panel(470,190,660,570);
-                Box(new Rect(470,190,660,4),accent);
-                Text(500,208,600,48,"挑战完成",34,Color.white,FontStyle.Bold,TextAnchor.MiddleCenter);
-                Text(500,262,600,26,$"{race.TotalLaps} 圈挑战  ·  救援 {progress.RecoveryCount} 次",18,muted,FontStyle.Normal,TextAnchor.MiddleCenter);
-                Text(500,298,600,60,FormatTime(race.ElapsedSeconds),48,accent,FontStyle.Bold,TextAnchor.MiddleCenter);
-                for(int i=0;i<race.LapTimes.Count;i++)
-                    Text(540,370+i*30,520,28,$"第 {i+1} 圈                          {FormatTime(race.LapTimes[i])}",21,Color.white);
-                Text(500,469,600,25,race.NewBestTotal ? "新的最佳总成绩！" : race.NewBestLap ? "新的最佳圈速！" : "本次成绩已记录",20,yellow,FontStyle.Bold,TextAnchor.MiddleCenter);
-                Text(540,506,520,25,"本地最佳圈速          " + FormatTime(race.BestLap),18,muted);
-                Text(540,535,520,25,$"本地 {race.TotalLaps} 圈最佳          " + FormatTime(race.BestTotal),18,muted);
-                if (GUI.Button(new Rect(510,585,280,58),"再次挑战",button)) BeginChallenge(race.TotalLaps);
-                if (GUI.Button(new Rect(810,585,280,58),"返回菜单",button)) race.ReturnToMenu();
-                if (GUI.Button(new Rect(650,674,300,48),"自由练习",button)) race.StartPractice();
-            }
         }
 
         private void DrawRouteMap()
@@ -304,7 +273,12 @@ namespace LoongRacing
             GUI.Label(new Rect(x, y, width, height), value, label);
         }
 
-        private void OnDisable() { Time.timeScale = 1f; AudioListener.pause = false; paused = false; }
-        private void OnDestroy() { if (font != null) Destroy(font); }
+        private void OnDisable() { RestoreMenuTime(); }
+        private void OnDestroy()
+        {
+            if (font != null) Destroy(font);
+            if (menuGradient != null) Destroy(menuGradient);
+            if (selectionGradient != null) Destroy(selectionGradient);
+        }
     }
 }
