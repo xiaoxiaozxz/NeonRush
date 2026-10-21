@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dc293ab4d513304a8d3c2911680c3f6, type: 3}
+  m_Name: ArcadeKartTuning
+  m_EditorClassIdentifier: LoongRacing.Runtime::LoongRacing.KartTuning
+  maximumForwardSpeed: 48
+  maximumReverseSpeed: 9
+  acceleration: 18
+  reverseAcceleration: 10
+  braking: 32
+  coastDeceleration: 3.2
+  reverseHoldDelay: 0.35
+  lowSpeedSteering: 100
+  highSpeedSteering: 76
+  steeringResponse: 10
+  lateralGrip: 14
+  extraGravity: 18
+  minimumDriftSpeed: 12
+  driftGrip: 4.2
+  driftSteeringMultiplier: 1.16
+  driftEntrySlip: 2
+  driftTargetAngle: 48
+  driftDeceleration: 2.4
+  driftAccelerationMultiplier: 0.65
+  gripRecoverySeconds: 0.28
+  driftChargePerSecond: 68
+  minimumChargeAngle: 8
+  maximumDriftAngle: 67
+  nitroDuration: 2.5
+  nitroAcceleration: 24
+  nitroSpeedBonus: 18
+  nitroKick: 5
+  quickBoostDuration: 0.55
+  quickBoostAcceleration: 30
+  quickBoostSpeedBonus: 10
+  quickBoostKick: 3
+  miniBoostWindow: 1.15
+  airBoostWindow: 1.1
+  landingBoostWindow: 0.9
+  minimumValidDriftTime: 0.25
+  overspeedDeceleration: 9
+  cameraBaseFieldOfView: 58
+  cameraSpeedFieldOfView: 12

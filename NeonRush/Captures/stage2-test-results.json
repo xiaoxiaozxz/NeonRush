@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-20",
+  "unity": "6000.3.26f1",
+  "summary": {
+    "total": 8,
+    "passed": 8,
+    "failed": 0,
+    "skipped": 0,
+    "durationSeconds": 23.9423131,
+    "resultState": "Passed"
+  },
+  "tests": [
+    {
+      "name": "AcceleratesBrakesReversesAndResets",
+      "state": "Passed",
+      "durationSeconds": 3.8649878
+    },
+    {
+      "name": "AirborneThrottleDoesNotCreateForwardAcceleration",
+      "state": "Passed",
+      "durationSeconds": 0.7268071
+    },
+    {
+      "name": "AudioBankPlaysLoopsAndRespondsToSpeedAndMute",
+      "state": "Passed",
+      "durationSeconds": 1.6779566
+    },
+    {
+      "name": "DriftCreatesSlipChargesAndRecoversOnRelease",
+      "state": "Passed",
+      "durationSeconds": 6.5165824
+    },
+    {
+      "name": "LeavingGroundStopsDriftAndEnergyGain",
+      "state": "Passed",
+      "durationSeconds": 2.4646223
+    },
+    {
+      "name": "LowSpeedAndOrdinarySteeringDoNotChargeEnergy",
+      "state": "Passed",
+      "durationSeconds": 2.6541606
+    },
+    {
+      "name": "SteeringRequiresMovementAndTurnsInBothDirections",
+      "state": "Passed",
+      "durationSeconds": 3.1617673
+    },
+    {
+      "name": "WallStopsVehicleWithoutTunnelling",
+      "state": "Passed",
+      "durationSeconds": 2.8156307
+    }
+  ]
+}

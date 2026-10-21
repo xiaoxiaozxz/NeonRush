@@ -1,0 +1,6 @@
+{
+  "name": "LoongRacing.Runtime",
+  "rootNamespace": "LoongRacing",
+  "references": ["Unity.InputSystem"],
+  "autoReferenced": true
+}

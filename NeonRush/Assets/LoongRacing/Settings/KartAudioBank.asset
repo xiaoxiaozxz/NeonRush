@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 846e014eea2a9784e8035c229ec4790f, type: 3}
+  m_Name: KartAudioBank
+  m_EditorClassIdentifier: LoongRacing.Runtime::LoongRacing.KartAudioBank
+  idleLoop: {fileID: 8300000, guid: 9e70c6041f344ff45bf4578959c491a4, type: 3}
+  driveLoop: {fileID: 8300000, guid: 024637c41a6e0d74f931644a8a4acb9a, type: 3}
+  tyreLoop: {fileID: 8300000, guid: de5e66fd04c4c7b4f8a04f731be3aebf, type: 3}
+  windLoop: {fileID: 8300000, guid: 34038a3809a534e458e781d358602def, type: 3}
+  collisions:
+  - {fileID: 8300000, guid: 8f27aa9f95a76d948873a52758f703de, type: 3}
+  - {fileID: 8300000, guid: 486d0eab0dc62804a9e623f1b4df9382, type: 3}
+  - {fileID: 8300000, guid: 9b4bbcf2c20331d4da5ab1130ea37765, type: 3}
+  reset: {fileID: 8300000, guid: 55f680fdf2d178f48a6d091ea1a59ff4, type: 3}
+  pause: {fileID: 8300000, guid: 39b7b82a851a50f4cacc39e8e0280aae, type: 3}
+  resume: {fileID: 8300000, guid: af03c69c459dfed40a9808e21d62173c, type: 3}
+  gasReady: {fileID: 8300000, guid: bb5cb92a879b753408e10fa7425b3ec7, type: 3}
+  nitro: {fileID: 8300000, guid: e6f675bcb208d8843a5cde8cc47c2520, type: 3}
+  miniBoost: {fileID: 8300000, guid: 4b521b155b55e0b499acdb78c8e5b787, type: 3}
+  airBoost: {fileID: 8300000, guid: 73d5cdd5117f1a64b98dcc801d8db613, type: 3}
+  landing: {fileID: 8300000, guid: 657cb476cea55c64b908c319e23813d7, type: 3}
+  countdown: {fileID: 8300000, guid: 373f6e29374c58044af51f054ade2ebd, type: 3}
+  raceStart: {fileID: 8300000, guid: f77d0432999d6124b8007acd76e8632c, type: 3}

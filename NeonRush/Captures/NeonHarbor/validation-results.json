@@ -1,0 +1,365 @@
+{
+  "date": "2026-10-21",
+  "testRun": {
+    "mode": "PlayMode",
+    "summary": {
+      "total": 31,
+      "passed": 31,
+      "failed": 0,
+      "skipped": 0,
+      "durationSeconds": 125.1693773,
+      "resultState": "Passed"
+    },
+    "results": [
+      {
+        "name": "NeonCoupeFinishesThreePhysicalLapsWithoutRecovery",
+        "fullName": "LoongRacing.Tests.HarborCircuitTests.NeonCoupeFinishesThreePhysicalLapsWithoutRecovery",
+        "state": "Passed",
+        "durationSeconds": 33.3172998,
+        "message": null,
+        "stackTrace": null,
+        "output": "[Neon QA] state=Finished laps=3 total=94.901s gates=36 offset=1.17m rescues=0\r\n"
+      },
+      {
+        "name": "NeonCoupeJumpHasSeparateAirAndLandingBoosts",
+        "fullName": "LoongRacing.Tests.HarborCircuitTests.NeonCoupeJumpHasSeparateAirAndLandingBoosts",
+        "state": "Passed",
+        "durationSeconds": 2.719212,
+        "message": null,
+        "stackTrace": null,
+        "output": "[Jump QA] air=True landing=True peak=2.28m speed=181.4km/h pos=(-4.77, 0.50, -1.15) ground=True throttle=1 rescues=0\r\n"
+      },
+      {
+        "name": "NeonRigWheelsSteerRollAndBrakeAtBoundAnchors",
+        "fullName": "LoongRacing.Tests.HarborCircuitTests.NeonRigWheelsSteerRollAndBrakeAtBoundAnchors",
+        "state": "Passed",
+        "durationSeconds": 1.6920522,
+        "message": null,
+        "stackTrace": null,
+        "output": ""
+      },
+      {
+        "name": "OptionalJumpNaturallyEnablesAirAndLandingBoosts",
+        "fullName": "LoongRacing.Tests.HarborCircuitTests.OptionalJumpNaturallyEnablesAirAndLandingBoosts",
+        "state": "Passed",
+        "durationSeconds": 2.7609012,
+        "message": null,
+        "stackTrace": null,
+        "output": "[Jump QA] air=True landing=True peak=2.27m speed=182.0km/h pos=(-4.67, 0.50, -1.08) ground=True throttle=1 rescues=0\r\n"
+      },
+      {
+        "name": "SingleLapChallengeFinishesThroughAllTwelveGatesWithPhysicalDriving",
+        "fullName": "LoongRacing.Tests.HarborCircuitTests.SingleLapChallengeFinishesThroughAllTwelveGatesWithPhysicalDriving",
+        "state": "Passed",
+        "durationSeconds": 11.9484849,
+        "message": null,
+        "stackTrace": null,
+        "output": "[Circuit QA] elapsed=32.36s gates=12 height=6.94m maxOffset=1.24m recoveries=0\r\n"
+      },
+      {
+        "name": "AcceleratesBrakesReversesAndResets",
+        "fullName": "LoongRacing.Tests.KartDrivingTests.AcceleratesBrakesReversesAndResets",
+        "state": "Passed",
+        "durationSeconds": 3.8501787,
+        "message": null,
+        "stackTrace": null,
+        "output": ""
+      },
+      {
+        "name": "AirBoostAndLandingBoostAreSeparateSingleUseWindows",
+        "fullName": "LoongRacing.Tests.KartDrivingTests.AirBoostAndLandingBoostAreSeparateSingleUseWindows",
+        "state": "Passed",
+        "durationSeconds": 1.4396856,
+        "message": null,
+        "stackTrace": null,
+        "output": ""
+      },
+      {
+        "name": "AirborneThrottleDoesNotCreateForwardAcceleration",
+        "fullName": "LoongRacing.Tests.KartDrivingTests.AirborneThrottleDoesNotCreateForwardAcceleration",
+        "state": "Passed",
+        "durationSeconds": 0.6609816,
+        "message": null,
+        "stackTrace": null,
+        "output": ""
+      },
+      {
+        "name": "AudioBankPlaysLoopsAndRespondsToSpeedAndMute",
+        "fullName": "LoongRacing.Tests.KartDrivingTests.AudioBankPlaysLoopsAndRespondsToSpeedAndMute",
+        "state": "Passed",
+        "durationSeconds": 1.6588627,
+        "message": null,
+        "stackTrace": null,
+        "output": ""
+      },
+      {
+        "name": "BufferedWOnDriftReleaseTriggersOneMiniBoost",
+        "fullName": "LoongRacing.Tests.KartDrivingTests.BufferedWOnDriftReleaseTriggersOneMiniBoost",
+        "state": "Passed",
+        "durationSeconds": 3.3197213,
+        "message": null,
+        "stackTrace": null,
+        "output": ""
+      },
+      {
+        "name": "DriftCreatesSlipChargesAndRecoversOnRelease",
+        "fullName": "LoongRacing.Tests.KartDrivingTests.DriftCreatesSlipChargesAndRecoversOnRelease",
+        "state": "Passed",
+        "durationSeconds": 6.5191362,
+        "message": null,
+        "stackTrace": null,
+        "output": ""
+      },
+      {
+        "name": "LargerDriftAngleAndFasterDefaultCharge",
+        "fullName": "LoongRacing.Tests.KartDrivingTests.LargerDriftAngleAndFasterDefaultCharge",
+        "state": "Passed",
+        "durationSeconds": 2.9401372,
+        "message": null,
+        "stackTrace": null,
+        "output": ""
+      },
+      {
+        "name": "LeavingGroundStopsDriftAndEnergyGain",
+        "fullName": "LoongRacing.Tests.KartDrivingTests.LeavingGroundStopsDriftAndEnergyGain",
+        "state": "Passed",
+        "durationSeconds": 2.4598243,
+        "message": null,
+        "stackTrace": null,
+        "output": ""
+      },
+      {
+        "name": "LowSpeedAndOrdinarySteeringDoNotChargeEnergy",
+        "fullName": "LoongRacing.Tests.KartDrivingTests.LowSpeedAndOrdinarySteeringDoNotChargeEnergy",
+        "state": "Passed",
+        "durationSeconds": 2.6604487,
+        "message": null,
+        "stackTrace": null,
+        "output": ""
+      },
+      {
+        "name": "MiniBoostWindowExpires",
+        "fullName": "LoongRacing.Tests.KartDrivingTests.MiniBoostWindowExpires",
+        "state": "Passed",
+        "durationSeconds": 3.9010872,
+        "message": null,
+        "stackTrace": null,
+        "output": ""
+      },
+      {
+        "name": "NitroConsumesOneChargeCapsSpeedAndExpires",
+        "fullName": "LoongRacing.Tests.KartDrivingTests.NitroConsumesOneChargeCapsSpeedAndExpires",
+        "state": "Passed",
+        "durationSeconds": 7.9969479,
+        "message": null,
+        "stackTrace": null,
+        "output": ""
+      },
+      {
+        "name": "RealKeyboardE_Q_WBindingsTriggerDriftNitroAndMini",
+        "fullName": "LoongRacing.Tests.KartDrivingTests.RealKeyboardE_Q_WBindingsTriggerDriftNitroAndMini",
+        "state": "Passed",
+        "durationSeconds": 3.2257054,
+        "message": null,
+        "stackTrace": null,
+        "output": ""
+      },
+      {
+        "name": "RecoveryPreservesPartialChargeAndInventoryButNewRunClearsBoth",
+        "fullName": "LoongRacing.Tests.KartDrivingTests.RecoveryPreservesPartialChargeAndInventoryButNewRunClearsBoth",
+        "state": "Passed",
+        "durationSeconds": 3.5339101,
+        "message": null,
+        "stackTrace": null,
+        "output": ""
+      },
+      {
+        "name": "SteeringRequiresMovementAndTurnsInBothDirections",
+        "fullName": "LoongRacing.Tests.KartDrivingTests.SteeringRequiresMovementAndTurnsInBothDirections",
+        "state": "Passed",
+        "durationSeconds": 3.1586719,
+        "message": null,
+        "stackTrace": null,
+        "output": ""
+      },
+      {
+        "name": "WallImpactKeepsNitroUntilItsOriginalExpiry",
+        "fullName": "LoongRacing.Tests.KartDrivingTests.WallImpactKeepsNitroUntilItsOriginalExpiry",
+        "state": "Passed",
+        "durationSeconds": 5.1784333,
+        "message": null,
+        "stackTrace": null,
+        "output": ""
+      },
+      {
+        "name": "WallStopsVehicleWithoutTunnelling",
+        "fullName": "LoongRacing.Tests.KartDrivingTests.WallStopsVehicleWithoutTunnelling",
+        "state": "Passed",
+        "durationSeconds": 2.8211044,
+        "message": null,
+        "stackTrace": null,
+        "output": ""
+      },
+      {
+        "name": "CountdownLocksControlsAndBothClocksRespectPause",
+        "fullName": "LoongRacing.Tests.RaceSessionTests.CountdownLocksControlsAndBothClocksRespectPause",
+        "state": "Passed",
+        "durationSeconds": 3.627696,
+        "message": null,
+        "stackTrace": null,
+        "output": ""
+      },
+      {
+        "name": "OrderedFinishProducesOneResultAndRetryClearsRunOnly",
+        "fullName": "LoongRacing.Tests.RaceSessionTests.OrderedFinishProducesOneResultAndRetryClearsRunOnly",
+        "state": "Passed",
+        "durationSeconds": 3.4106832,
+        "message": null,
+        "stackTrace": null,
+        "output": ""
+      },
+      {
+        "name": "PracticeDoesNotWriteRecordsAndFullResetReturnsToMenu",
+        "fullName": "LoongRacing.Tests.RaceSessionTests.PracticeDoesNotWriteRecordsAndFullResetReturnsToMenu",
+        "state": "Passed",
+        "durationSeconds": 0.2623162,
+        "message": null,
+        "stackTrace": null,
+        "output": ""
+      },
+      {
+        "name": "RecordsPersistOnlyFinitePositiveImprovements",
+        "fullName": "LoongRacing.Tests.RaceSessionTests.RecordsPersistOnlyFinitePositiveImprovements",
+        "state": "Passed",
+        "durationSeconds": 0.0104383,
+        "message": null,
+        "stackTrace": null,
+        "output": ""
+      },
+      {
+        "name": "ThreeLapsKeepTimingThroughRecoveryAndSaveSeparateTotal",
+        "fullName": "LoongRacing.Tests.RaceSessionTests.ThreeLapsKeepTimingThroughRecoveryAndSaveSeparateTotal",
+        "state": "Passed",
+        "durationSeconds": 4.9231578,
+        "message": null,
+        "stackTrace": null,
+        "output": ""
+      },
+      {
+        "name": "CircuitRequiresEveryCheckpointAndCanRepeat",
+        "fullName": "LoongRacing.Tests.RouteProgressTests.CircuitRequiresEveryCheckpointAndCanRepeat",
+        "state": "Passed",
+        "durationSeconds": 0.2433153,
+        "message": null,
+        "stackTrace": null,
+        "output": ""
+      },
+      {
+        "name": "FallingAutomaticallyRecoversWithoutAdvancing",
+        "fullName": "LoongRacing.Tests.RouteProgressTests.FallingAutomaticallyRecoversWithoutAdvancing",
+        "state": "Passed",
+        "durationSeconds": 0.2942907,
+        "message": null,
+        "stackTrace": null,
+        "output": ""
+      },
+      {
+        "name": "NearbyRecoveryPreservesSessionAndDoesNotPassGates",
+        "fullName": "LoongRacing.Tests.RouteProgressTests.NearbyRecoveryPreservesSessionAndDoesNotPassGates",
+        "state": "Passed",
+        "durationSeconds": 1.2401707,
+        "message": null,
+        "stackTrace": null,
+        "output": ""
+      },
+      {
+        "name": "OffRoadTimeoutRecoversAndWrongWayWarns",
+        "fullName": "LoongRacing.Tests.RouteProgressTests.OffRoadTimeoutRecoversAndWrongWayWarns",
+        "state": "Passed",
+        "durationSeconds": 3.0824324,
+        "message": null,
+        "stackTrace": null,
+        "output": ""
+      },
+      {
+        "name": "OnlyOrderedForwardCrossingsWithinGateCount",
+        "fullName": "LoongRacing.Tests.RouteProgressTests.OnlyOrderedForwardCrossingsWithinGateCount",
+        "state": "Passed",
+        "durationSeconds": 0.2354692,
+        "message": null,
+        "stackTrace": null,
+        "output": ""
+      }
+    ]
+  },
+  "performance": {
+    "context": "Unity Editor Game View, uncapped, one physical lap, first 2s excluded",
+    "gpu": "NVIDIA GeForce RTX 2070",
+    "state": "Finished",
+    "width": 1920,
+    "height": 1080,
+    "recoveries": 0,
+    "lapSeconds": 32.342716217041016,
+    "gpuTimingsAvailable": true,
+    "frameMs": {
+      "count": 3280,
+      "mean": 9.251426431923969,
+      "median": 9.358999319374561,
+      "p95": 11.589895002543926
+    },
+    "sampleSectionFrameMs": {
+      "count": 446,
+      "mean": 9.274505847238105,
+      "median": 9.41199716180563,
+      "p95": 11.753302067518234
+    },
+    "mainThreadMs": {
+      "count": 3280,
+      "mean": 9.232527408536578,
+      "median": 9.3738,
+      "p95": 11.5283
+    },
+    "gpuMs": {
+      "count": 3278,
+      "mean": 2.740111228798046,
+      "median": 2.748416,
+      "p95": 2.926592
+    },
+    "drawCalls": {
+      "count": 3280,
+      "mean": 481.53993902439026,
+      "median": 474,
+      "p95": 551
+    }
+  },
+  "manualDrift": {
+    "speed": 130.29184,
+    "angle": 34.4108238,
+    "energy": 59.732357,
+    "charges": 0,
+    "drifting": true,
+    "position": "(20.12, 0.50, 105.05)"
+  },
+  "rescueResourceCheck": {
+    "energyBefore": 81.27588,
+    "energyAfterRescue": 81.27588
+  },
+  "nitroCheck": {
+    "nitro": true,
+    "burst": "None",
+    "speed": 29.84595,
+    "jets": 2
+  },
+  "assetBudget": {
+    "sourceTriangles": 39188,
+    "unityVisibleTriangles": 38932,
+    "vehicleRenderers": 5,
+    "sourceLengthMetres": 4.8,
+    "gameLengthMetres": 3.2
+  },
+  "notes": [
+    "Editor Game View performance at 1920x1080; not a standalone Windows build benchmark.",
+    "Automated driving uses real controller inputs; record keys isolated from user records.",
+    "Art sample refined at route distances 125–245m; remainder uses simpler night modules."
+  ]
+}

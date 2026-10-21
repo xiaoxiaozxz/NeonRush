@@ -1,0 +1,50 @@
+# Unity-generated folders (the Unity project is under NeonRush/).
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Ll]ogs/
+**/[Uu]ser[Ss]ettings/
+**/[Bb]uild/
+**/[Bb]uilds/
+**/MemoryCaptures/
+**/Recordings/
+
+# IDE and local tooling state.
+.vs/
+.idea/
+.vscode/
+.codex/
+.agents/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.pidb
+*.booproj
+*.opendb
+*.VC.db
+*.log
+*.tmp
+*.bak
+*.blend1
+*.blend2
+__pycache__/
+*.pyc
+.venv/
+venv/
+node_modules/
+.DS_Store
+Thumbs.db
+
+# Locally installed third-party Blender bridge checkout.
+/Tools/blender-mcp/
+
+# Local secrets and credentials.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12

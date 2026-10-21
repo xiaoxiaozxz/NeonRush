@@ -1,0 +1,40 @@
+{
+    "context": "Unity Editor Game View, uncapped, one physical lap, first 2s excluded",
+    "gpu": "NVIDIA GeForce RTX 2070",
+    "state": "Finished",
+    "width": 1920,
+    "height": 1080,
+    "recoveries": 0,
+    "lapSeconds": 32.342716217041019,
+    "gpuTimingsAvailable": true,
+    "frameMs": {
+        "count": 3280,
+        "mean": 9.251426431923969,
+        "median": 9.358999319374562,
+        "p95": 11.589895002543927
+    },
+    "sampleSectionFrameMs": {
+        "count": 446,
+        "mean": 9.274505847238105,
+        "median": 9.41199716180563,
+        "p95": 11.753302067518235
+    },
+    "mainThreadMs": {
+        "count": 3280,
+        "mean": 9.232527408536578,
+        "median": 9.3738,
+        "p95": 11.5283
+    },
+    "gpuMs": {
+        "count": 3278,
+        "mean": 2.740111228798046,
+        "median": 2.748416,
+        "p95": 2.926592
+    },
+    "drawCalls": {
+        "count": 3280,
+        "mean": 481.53993902439029,
+        "median": 474.0,
+        "p95": 551.0
+    }
+}

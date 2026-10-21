@@ -1,0 +1,6 @@
+{
+  "name": "LoongRacing.PlayModeTests",
+  "references": ["LoongRacing.Runtime", "Unity.InputSystem"],
+  "optionalUnityReferences": ["TestAssemblies"],
+  "autoReferenced": false
+}

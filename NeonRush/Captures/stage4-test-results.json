@@ -1,0 +1,449 @@
+{
+  "stage": 4,
+  "scene": "Assets/LoongRacing/Scenes/HarborCircuit.unity",
+  "track": {
+    "name": "霓虹港湾",
+    "lengthMetres": 903.448547,
+    "checkpoints": 12,
+    "halfWidthMetres": 9.5,
+    "maximumRoadHeightMetres": 6.43922424
+  },
+  "validationRuns": [
+    {
+      "purpose": "Full driving and route regression before ramp toe fix",
+      "mode": "PlayMode",
+      "summary": {
+        "total": 21,
+        "passed": 20,
+        "failed": 1,
+        "skipped": 0,
+        "durationSeconds": 69.7344067,
+        "resultState": "Failed(Child)"
+      },
+      "results": [
+        {
+          "name": "OptionalJumpNaturallyEnablesAirAndLandingBoosts",
+          "fullName": "LoongRacing.Tests.HarborCircuitTests.OptionalJumpNaturallyEnablesAirAndLandingBoosts",
+          "state": "Failed",
+          "durationSeconds": 7.1731838,
+          "message": "  Actual ramp must create a usable air boost window.\r\n  Expected: True\r\n  But was:  False\r\n",
+          "stackTrace": "at LoongRacing.Tests.HarborCircuitTests+<OptionalJumpNaturallyEnablesAirAndLandingBoosts>d__5.MoveNext () [0x0025e] in D:\\myproject\\3dloong\\3DLoong\\Assets\\LoongRacing\\Tests\\PlayMode\\HarborCircuitTests.cs:57\r\nat UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\\Library\\PackageCache\\com.unity.test-framework@bd7f943e9647\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:44\r\n",
+          "output": "[Jump QA] air=False landing=False peak=0.65m speed=0.0km/h pos=(-5.40, 0.50, -43.51) ground=True throttle=1 rescues=0\r\n"
+        },
+        {
+          "name": "RealCircuitCompletesAllTwelveGatesWithPhysicalDriving",
+          "fullName": "LoongRacing.Tests.HarborCircuitTests.RealCircuitCompletesAllTwelveGatesWithPhysicalDriving",
+          "state": "Passed",
+          "durationSeconds": 10.7718011,
+          "message": null,
+          "stackTrace": null,
+          "output": "[Circuit QA] elapsed=31.88s gates=12 height=6.94m maxOffset=1.23m recoveries=0\r\n"
+        },
+        {
+          "name": "AcceleratesBrakesReversesAndResets",
+          "fullName": "LoongRacing.Tests.KartDrivingTests.AcceleratesBrakesReversesAndResets",
+          "state": "Passed",
+          "durationSeconds": 3.8718762,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "AirBoostAndLandingBoostAreSeparateSingleUseWindows",
+          "fullName": "LoongRacing.Tests.KartDrivingTests.AirBoostAndLandingBoostAreSeparateSingleUseWindows",
+          "state": "Passed",
+          "durationSeconds": 1.4352781,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "AirborneThrottleDoesNotCreateForwardAcceleration",
+          "fullName": "LoongRacing.Tests.KartDrivingTests.AirborneThrottleDoesNotCreateForwardAcceleration",
+          "state": "Passed",
+          "durationSeconds": 0.6618377,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "AudioBankPlaysLoopsAndRespondsToSpeedAndMute",
+          "fullName": "LoongRacing.Tests.KartDrivingTests.AudioBankPlaysLoopsAndRespondsToSpeedAndMute",
+          "state": "Passed",
+          "durationSeconds": 1.6609238,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "BufferedWOnDriftReleaseTriggersOneMiniBoost",
+          "fullName": "LoongRacing.Tests.KartDrivingTests.BufferedWOnDriftReleaseTriggersOneMiniBoost",
+          "state": "Passed",
+          "durationSeconds": 3.3167418,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "DriftCreatesSlipChargesAndRecoversOnRelease",
+          "fullName": "LoongRacing.Tests.KartDrivingTests.DriftCreatesSlipChargesAndRecoversOnRelease",
+          "state": "Passed",
+          "durationSeconds": 6.5237647,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "LargerDriftAngleAndFasterDefaultCharge",
+          "fullName": "LoongRacing.Tests.KartDrivingTests.LargerDriftAngleAndFasterDefaultCharge",
+          "state": "Passed",
+          "durationSeconds": 2.9373078,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "LeavingGroundStopsDriftAndEnergyGain",
+          "fullName": "LoongRacing.Tests.KartDrivingTests.LeavingGroundStopsDriftAndEnergyGain",
+          "state": "Passed",
+          "durationSeconds": 2.4576758,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "LowSpeedAndOrdinarySteeringDoNotChargeEnergy",
+          "fullName": "LoongRacing.Tests.KartDrivingTests.LowSpeedAndOrdinarySteeringDoNotChargeEnergy",
+          "state": "Passed",
+          "durationSeconds": 2.6594873,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "MiniBoostWindowExpires",
+          "fullName": "LoongRacing.Tests.KartDrivingTests.MiniBoostWindowExpires",
+          "state": "Passed",
+          "durationSeconds": 3.9004748,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "NitroConsumesOneChargeCapsSpeedAndExpires",
+          "fullName": "LoongRacing.Tests.KartDrivingTests.NitroConsumesOneChargeCapsSpeedAndExpires",
+          "state": "Passed",
+          "durationSeconds": 7.9997808,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "RealKeyboardE_Q_WBindingsTriggerDriftNitroAndMini",
+          "fullName": "LoongRacing.Tests.KartDrivingTests.RealKeyboardE_Q_WBindingsTriggerDriftNitroAndMini",
+          "state": "Passed",
+          "durationSeconds": 3.2235685,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "SteeringRequiresMovementAndTurnsInBothDirections",
+          "fullName": "LoongRacing.Tests.KartDrivingTests.SteeringRequiresMovementAndTurnsInBothDirections",
+          "state": "Passed",
+          "durationSeconds": 3.1561213,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "WallStopsVehicleWithoutTunnelling",
+          "fullName": "LoongRacing.Tests.KartDrivingTests.WallStopsVehicleWithoutTunnelling",
+          "state": "Passed",
+          "durationSeconds": 2.8205088,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "CircuitRequiresEveryCheckpointAndCanRepeat",
+          "fullName": "LoongRacing.Tests.RouteProgressTests.CircuitRequiresEveryCheckpointAndCanRepeat",
+          "state": "Passed",
+          "durationSeconds": 0.2344458,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "FallingAutomaticallyRecoversWithoutAdvancing",
+          "fullName": "LoongRacing.Tests.RouteProgressTests.FallingAutomaticallyRecoversWithoutAdvancing",
+          "state": "Passed",
+          "durationSeconds": 0.2971706,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "NearbyRecoveryPreservesSessionAndDoesNotPassGates",
+          "fullName": "LoongRacing.Tests.RouteProgressTests.NearbyRecoveryPreservesSessionAndDoesNotPassGates",
+          "state": "Passed",
+          "durationSeconds": 1.2420447,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "OffRoadTimeoutRecoversAndWrongWayWarns",
+          "fullName": "LoongRacing.Tests.RouteProgressTests.OffRoadTimeoutRecoversAndWrongWayWarns",
+          "state": "Passed",
+          "durationSeconds": 3.0789131,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "OnlyOrderedForwardCrossingsWithinGateCount",
+          "fullName": "LoongRacing.Tests.RouteProgressTests.OnlyOrderedForwardCrossingsWithinGateCount",
+          "state": "Passed",
+          "durationSeconds": 0.2418664,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        }
+      ]
+    },
+    {
+      "purpose": "Actual track retest after burying the ramp toe, includes the entire physical circuit",
+      "mode": "PlayMode",
+      "summary": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "skipped": 0,
+        "durationSeconds": 13.5012642,
+        "resultState": "Passed"
+      },
+      "results": [
+        {
+          "name": "OptionalJumpNaturallyEnablesAirAndLandingBoosts",
+          "fullName": "LoongRacing.Tests.HarborCircuitTests.OptionalJumpNaturallyEnablesAirAndLandingBoosts",
+          "state": "Passed",
+          "durationSeconds": 2.6847146,
+          "message": null,
+          "stackTrace": null,
+          "output": "[Jump QA] air=True landing=True peak=2.27m speed=182.0km/h pos=(-4.67, 0.50, -1.08) ground=True throttle=1 rescues=0\r\n"
+        },
+        {
+          "name": "RealCircuitCompletesAllTwelveGatesWithPhysicalDriving",
+          "fullName": "LoongRacing.Tests.HarborCircuitTests.RealCircuitCompletesAllTwelveGatesWithPhysicalDriving",
+          "state": "Passed",
+          "durationSeconds": 10.7697078,
+          "message": null,
+          "stackTrace": null,
+          "output": "[Circuit QA] elapsed=31.88s gates=12 height=6.94m maxOffset=1.23m recoveries=0\r\n"
+        }
+      ]
+    }
+  ],
+  "latestResultPerTest": [
+    {
+      "name": "OptionalJumpNaturallyEnablesAirAndLandingBoosts",
+      "fullName": "LoongRacing.Tests.HarborCircuitTests.OptionalJumpNaturallyEnablesAirAndLandingBoosts",
+      "state": "Passed",
+      "durationSeconds": 2.6847146,
+      "message": null,
+      "stackTrace": null,
+      "output": "[Jump QA] air=True landing=True peak=2.27m speed=182.0km/h pos=(-4.67, 0.50, -1.08) ground=True throttle=1 rescues=0\r\n"
+    },
+    {
+      "name": "RealCircuitCompletesAllTwelveGatesWithPhysicalDriving",
+      "fullName": "LoongRacing.Tests.HarborCircuitTests.RealCircuitCompletesAllTwelveGatesWithPhysicalDriving",
+      "state": "Passed",
+      "durationSeconds": 10.7697078,
+      "message": null,
+      "stackTrace": null,
+      "output": "[Circuit QA] elapsed=31.88s gates=12 height=6.94m maxOffset=1.23m recoveries=0\r\n"
+    },
+    {
+      "name": "AcceleratesBrakesReversesAndResets",
+      "fullName": "LoongRacing.Tests.KartDrivingTests.AcceleratesBrakesReversesAndResets",
+      "state": "Passed",
+      "durationSeconds": 3.8718762,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "AirBoostAndLandingBoostAreSeparateSingleUseWindows",
+      "fullName": "LoongRacing.Tests.KartDrivingTests.AirBoostAndLandingBoostAreSeparateSingleUseWindows",
+      "state": "Passed",
+      "durationSeconds": 1.4352781,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "AirborneThrottleDoesNotCreateForwardAcceleration",
+      "fullName": "LoongRacing.Tests.KartDrivingTests.AirborneThrottleDoesNotCreateForwardAcceleration",
+      "state": "Passed",
+      "durationSeconds": 0.6618377,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "AudioBankPlaysLoopsAndRespondsToSpeedAndMute",
+      "fullName": "LoongRacing.Tests.KartDrivingTests.AudioBankPlaysLoopsAndRespondsToSpeedAndMute",
+      "state": "Passed",
+      "durationSeconds": 1.6609238,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "BufferedWOnDriftReleaseTriggersOneMiniBoost",
+      "fullName": "LoongRacing.Tests.KartDrivingTests.BufferedWOnDriftReleaseTriggersOneMiniBoost",
+      "state": "Passed",
+      "durationSeconds": 3.3167418,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "DriftCreatesSlipChargesAndRecoversOnRelease",
+      "fullName": "LoongRacing.Tests.KartDrivingTests.DriftCreatesSlipChargesAndRecoversOnRelease",
+      "state": "Passed",
+      "durationSeconds": 6.5237647,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "LargerDriftAngleAndFasterDefaultCharge",
+      "fullName": "LoongRacing.Tests.KartDrivingTests.LargerDriftAngleAndFasterDefaultCharge",
+      "state": "Passed",
+      "durationSeconds": 2.9373078,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "LeavingGroundStopsDriftAndEnergyGain",
+      "fullName": "LoongRacing.Tests.KartDrivingTests.LeavingGroundStopsDriftAndEnergyGain",
+      "state": "Passed",
+      "durationSeconds": 2.4576758,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "LowSpeedAndOrdinarySteeringDoNotChargeEnergy",
+      "fullName": "LoongRacing.Tests.KartDrivingTests.LowSpeedAndOrdinarySteeringDoNotChargeEnergy",
+      "state": "Passed",
+      "durationSeconds": 2.6594873,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "MiniBoostWindowExpires",
+      "fullName": "LoongRacing.Tests.KartDrivingTests.MiniBoostWindowExpires",
+      "state": "Passed",
+      "durationSeconds": 3.9004748,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "NitroConsumesOneChargeCapsSpeedAndExpires",
+      "fullName": "LoongRacing.Tests.KartDrivingTests.NitroConsumesOneChargeCapsSpeedAndExpires",
+      "state": "Passed",
+      "durationSeconds": 7.9997808,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "RealKeyboardE_Q_WBindingsTriggerDriftNitroAndMini",
+      "fullName": "LoongRacing.Tests.KartDrivingTests.RealKeyboardE_Q_WBindingsTriggerDriftNitroAndMini",
+      "state": "Passed",
+      "durationSeconds": 3.2235685,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "SteeringRequiresMovementAndTurnsInBothDirections",
+      "fullName": "LoongRacing.Tests.KartDrivingTests.SteeringRequiresMovementAndTurnsInBothDirections",
+      "state": "Passed",
+      "durationSeconds": 3.1561213,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "WallStopsVehicleWithoutTunnelling",
+      "fullName": "LoongRacing.Tests.KartDrivingTests.WallStopsVehicleWithoutTunnelling",
+      "state": "Passed",
+      "durationSeconds": 2.8205088,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "CircuitRequiresEveryCheckpointAndCanRepeat",
+      "fullName": "LoongRacing.Tests.RouteProgressTests.CircuitRequiresEveryCheckpointAndCanRepeat",
+      "state": "Passed",
+      "durationSeconds": 0.2344458,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "FallingAutomaticallyRecoversWithoutAdvancing",
+      "fullName": "LoongRacing.Tests.RouteProgressTests.FallingAutomaticallyRecoversWithoutAdvancing",
+      "state": "Passed",
+      "durationSeconds": 0.2971706,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "NearbyRecoveryPreservesSessionAndDoesNotPassGates",
+      "fullName": "LoongRacing.Tests.RouteProgressTests.NearbyRecoveryPreservesSessionAndDoesNotPassGates",
+      "state": "Passed",
+      "durationSeconds": 1.2420447,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "OffRoadTimeoutRecoversAndWrongWayWarns",
+      "fullName": "LoongRacing.Tests.RouteProgressTests.OffRoadTimeoutRecoversAndWrongWayWarns",
+      "state": "Passed",
+      "durationSeconds": 3.0789131,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "OnlyOrderedForwardCrossingsWithinGateCount",
+      "fullName": "LoongRacing.Tests.RouteProgressTests.OnlyOrderedForwardCrossingsWithinGateCount",
+      "state": "Passed",
+      "durationSeconds": 0.2418664,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    }
+  ],
+  "latestSummary": {
+    "total": 21,
+    "passed": 21,
+    "failed": 0
+  },
+  "manualChecks": [
+    "1600x900 HUD: Chinese text, minimap alignment, next gate, recovery controls and grounded state visually verified",
+    "Track overview captured",
+    "No race timer/lap results claimed; phase 5 remains pending"
+  ]
+}

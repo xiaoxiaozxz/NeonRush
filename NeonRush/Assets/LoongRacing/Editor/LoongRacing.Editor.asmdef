@@ -1,0 +1,7 @@
+{
+  "name": "LoongRacing.Editor",
+  "rootNamespace": "LoongRacing.Editor",
+  "references": ["LoongRacing.Runtime", "Unity.RenderPipelines.Core.Runtime", "Unity.RenderPipelines.Universal.Runtime"],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": true
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Loong Vela",
+  "triangles": 39188,
+  "meshes": 191,
+  "source_axes": "X right / Y forward / Z up",
+  "modules": [
+    "Module_Rail",
+    "Module_Gate",
+    "Module_Pier",
+    "Module_TowerA",
+    "Module_TowerB",
+    "Module_Billboard"
+  ],
+  "source": "D:/myproject/3dloong/ArtSource/NeonHarbor/LoongVela_NeonHarbor.blend",
+  "export": "D:/myproject/3dloong/NeonRush/Assets/LoongRacing/Art/NeonHarbor/Models/VelaCoupe.fbx"
+}
