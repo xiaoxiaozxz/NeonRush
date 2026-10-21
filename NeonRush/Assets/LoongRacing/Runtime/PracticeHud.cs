@@ -8,6 +8,7 @@ namespace LoongRacing
         [SerializeField] private ArcadeKartController kart;
         private Font font;
         private GUIStyle label;
+        private static readonly Unity.Profiling.ProfilerMarker DrawMarker = new Unity.Profiling.ProfilerMarker("NeonRush.HudDraw");
         private bool paused;
         private KartAudioController sounds;
         private KartRouteProgress progress;
@@ -28,15 +29,7 @@ namespace LoongRacing
             if (kart != null) sounds = kart.GetComponent<KartAudioController>();
             if (kart != null) progress = kart.GetComponent<KartRouteProgress>();
             if (kart != null) race = kart.GetComponent<KartRaceSession>();
-            mapMinimum = new Vector2(float.PositiveInfinity, float.PositiveInfinity);
-            mapMaximum = new Vector2(float.NegativeInfinity, float.NegativeInfinity);
-            if (progress != null && progress.Route != null)
-                for (int i = 0; i < 128; i++)
-                {
-                    progress.Route.Sample(progress.Route.Length * i / 128f, out Vector3 p, out Vector3 f);
-                    mapMinimum = Vector2.Min(mapMinimum, new Vector2(p.x, p.z));
-                    mapMaximum = Vector2.Max(mapMaximum, new Vector2(p.x, p.z));
-                }
+            EnsureMapCache();
             font = Font.CreateDynamicFontFromOSFont(new[] { "Microsoft YaHei", "Noto Sans CJK SC", "Arial" }, 24);
         }
 
@@ -81,9 +74,17 @@ namespace LoongRacing
 
         private void OnGUI()
         {
+            using (DrawMarker.Auto()) DrawHud();
+        }
+
+        private void DrawHud()
+        {
             if (kart == null) return;
             if (label == null) label = new GUIStyle(GUI.skin.label) { font = font, richText = false, wordWrap = false, padding = new RectOffset() };
             SynchronizeMenu();
+            // The driving HUD has no interactive controls. Layout/mouse events need no redraw.
+            if (!IsMenuVisible && Event.current.type != EventType.Repaint) return;
+            WarmHudFont();
             Matrix4x4 previous = GUI.matrix;
             if (IsMenuVisible) DrawMenuBackdrop();
             float scale = Mathf.Min(Screen.width / 1600f, Screen.height / 900f);
@@ -98,21 +99,18 @@ namespace LoongRacing
                 GUI.color = Color.white;
                 return;
             }
+            RefreshHudText();
 
             Panel(36, 32, 328, 104);
             Box(new Rect(36, 32, 5, 104), accent);
             Text(58, 40, 282, 40, "NEONRUSH / 霓虹疾驰", 22, Color.white, FontStyle.Bold);
-            string mode = race != null && race.State != KartRaceState.Practice ? "计时挑战" : "自由练习";
-            Text(58, 84, 282, 28, progress == null ? "自由练习    ·    环形训练场" : mode + "    ·    " + progress.Route.DisplayName, 18, muted);
+            Text(58, 84, 282, 28, modeCaption, 18, muted);
 
             bool challenge = race != null && race.State != KartRaceState.Practice;
             Panel(642, 32, 316, challenge ? 104 : 74);
-            string clockTitle = !challenge ? "本次驾驶时间" : race.State == KartRaceState.Ready ? "等待起跑"
-                : race.State == KartRaceState.Countdown ? "准备起跑" : $"第 {race.CurrentLap} / {race.TotalLaps} 圈  ·  总用时";
-            Text(642, 42, 316, 20, clockTitle, 14, muted, FontStyle.Normal, TextAnchor.MiddleCenter);
-            float time = challenge ? race.ElapsedSeconds : kart.DrivingTime;
-            Text(642, 64, 316, 30, FormatTime(time,false), 27, Color.white, FontStyle.Bold, TextAnchor.MiddleCenter);
-            if (challenge) Text(642, 102, 316, 20, "本圈 " + FormatTime(race.CurrentLapSeconds), 14, accent, FontStyle.Normal, TextAnchor.MiddleCenter);
+            Text(642, 42, 316, 20, clockCaption, 14, muted, FontStyle.Normal, TextAnchor.MiddleCenter);
+            Text(642, 64, 316, 30, timeCaption, 27, Color.white, FontStyle.Bold, TextAnchor.MiddleCenter);
+            if (challenge) Text(642, 102, 316, 20, lapCaption, 14, accent, FontStyle.Normal, TextAnchor.MiddleCenter);
 
             Panel(1264, 32, 300, 272);
             Text(1284, 44, 260, 26, "驾驶操作", 18, accent, FontStyle.Bold);
@@ -129,7 +127,7 @@ namespace LoongRacing
             Text(56, 170, 286, 26, kart.IsDrifting ? "DRIFT  /  漂移中" : "漂移集气", 20, kart.IsDrifting ? yellow : accent, FontStyle.Bold);
             Box(new Rect(56, 213, 286, 14), new Color(0.12f, 0.2f, 0.24f));
             Box(new Rect(56, 213, 286 * kart.DriftEnergy / 100f, 14), accent);
-            Text(56, 237, 286, 24, $"储气   {kart.NitroCharges} / {ArcadeKartController.MaximumNitroCharges}      集气 {kart.DriftEnergy:0}%", 17, Color.white);
+            Text(56, 237, 286, 24, chargeCaption, 17, Color.white);
             Text(56, 272, 286, 20, kart.NitroCharges > 0 ? "按 Q 释放氮气" : "提速后按住 E + 方向键", 13, muted);
 
             Panel(36, 328, 328, 94);
@@ -153,14 +151,12 @@ namespace LoongRacing
 
             Panel(36, 742, 330, 122);
             Text(56, 754, 290, 22, challenge ? "挑战记录" : "练习记录", 15, accent, FontStyle.Bold);
-            Text(56, 787, 290, 25, $"最高速度     {kart.TopSpeedKph:0} km/h", 20, Color.white);
-            string recordText = challenge ? $"最佳 {FormatTime(race.BestLap)}    救援 {progress.RecoveryCount} 次"
-                : progress == null ? $"行驶距离     {kart.DistanceMetres:0} m" : $"距离 {kart.DistanceMetres:0} m    救援 {progress.RecoveryCount} 次";
-            Text(56, 822, 290, 22, recordText, 16, muted);
+            Text(56, 787, 290, 25, topSpeedCaption, 20, Color.white);
+            Text(56, 822, 290, 22, recordCaption, 16, muted);
 
             Panel(1224, 670, 340, 194);
             Text(1246, 681, 292, 24, kart.IsReversing ? "REVERSE  /  倒车" : "SPEED  /  速度", 15, muted);
-            Text(1242, 702, 216, 99, $"{Mathf.RoundToInt(kart.SpeedKph):000}", 83, Color.white, FontStyle.Bold);
+            Text(1242, 702, 216, 99, speedCaption, 83, Color.white, FontStyle.Bold);
             Text(1464, 753, 80, 32, "km/h", 20, accent);
             float ratio = Mathf.Clamp01(kart.SpeedKph / (kart.Tuning.maximumForwardSpeed * 3.6f));
             for (int i = 0; i < 24; i++)
@@ -211,18 +207,13 @@ namespace LoongRacing
 
         private void DrawRouteMap()
         {
+            EnsureMapCache();
             Panel(1264, 326, 300, 314);
-            Text(1284, 338, 260, 24, $"路线  /  {progress.Route.Length:0} m", 18, accent, FontStyle.Bold);
-            for (int i = 0; i < 128; i++)
-            {
-                progress.Route.Sample(progress.Route.Length*i/128f, out Vector3 a, out Vector3 af);
-                progress.Route.Sample(progress.Route.Length*(i+1)/128f, out Vector3 b, out Vector3 bf);
-                MapLine(MapPoint(a), MapPoint(b), 3f, new Color(0.36f, 0.52f, 0.58f));
-            }
+            Text(1284, 338, 260, 24, mapTitle, 18, accent, FontStyle.Bold);
+            GUI.DrawTexture(new Rect(1294, 371, 240, 210), routeTexture);
             for (int i = 0; i < progress.Route.CheckpointCount; i++)
             {
-                progress.Route.Sample(progress.Route.CheckpointDistance(i), out Vector3 p, out Vector3 f);
-                Vector2 dot = MapPoint(p);
+                Vector2 dot = gateMapPoints[i];
                 Color color = i == progress.NextCheckpointIndex ? yellow : i < progress.NextCheckpointIndex ? accent : muted;
                 float size = i == progress.NextCheckpointIndex ? 8f : 4f;
                 Box(new Rect(dot.x-size/2f,dot.y-size/2f,size,size),color);
@@ -233,9 +224,8 @@ namespace LoongRacing
             MapLine(player+heading*7f,player-heading*4f+side*4f,2f,Color.white);
             MapLine(player+heading*7f,player-heading*4f-side*4f,2f,Color.white);
             MapLine(player-heading*4f+side*4f,player-heading*4f-side*4f,2f,Color.white);
-            Text(1284, 592, 260, 22, $"目标检查点  {progress.NextCheckpointIndex+1} / {progress.Route.CheckpointCount}", 17, yellow);
-            Text(1284, 616, 260, 18, race != null && race.State != KartRaceState.Practice
-                ? $"已完成 {race.LapTimes.Count} / {race.TotalLaps} 圈" : $"已完整通过 {progress.CompletedCircuits} 次", 13, muted);
+            Text(1284, 592, 260, 22, gateCaption, 17, yellow);
+            Text(1284, 616, 260, 18, circuitCaption, 13, muted);
         }
 
         private Vector2 MapPoint(Vector3 p)
@@ -279,6 +269,7 @@ namespace LoongRacing
             if (font != null) Destroy(font);
             if (menuGradient != null) Destroy(menuGradient);
             if (selectionGradient != null) Destroy(selectionGradient);
+            if (routeTexture != null) Destroy(routeTexture);
         }
     }
 }

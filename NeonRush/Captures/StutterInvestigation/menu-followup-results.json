@@ -1,0 +1,40 @@
+{
+  "mode": "PlayMode",
+  "summary": {
+    "total": 3,
+    "passed": 3,
+    "failed": 0,
+    "skipped": 0,
+    "durationSeconds": 7.2274978,
+    "resultState": "Passed"
+  },
+  "results": [
+    {
+      "name": "LeavingPauseSettingsKeepsTheClockStoppedUntilResume",
+      "fullName": "LoongRacing.Tests.MenuFlowTests.LeavingPauseSettingsKeepsTheClockStoppedUntilResume",
+      "state": "Passed",
+      "durationSeconds": 4.8662508,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "MainMenuSettingsAndSelectionStartTheChosenMode",
+      "fullName": "LoongRacing.Tests.MenuFlowTests.MainMenuSettingsAndSelectionStartTheChosenMode",
+      "state": "Passed",
+      "durationSeconds": 1.0866936,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "ReturningFromPauseRestoresMainMenuAndCountdownControls",
+      "fullName": "LoongRacing.Tests.MenuFlowTests.ReturningFromPauseRestoresMainMenuAndCountdownControls",
+      "state": "Passed",
+      "durationSeconds": 1.2183989,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    }
+  ]
+}

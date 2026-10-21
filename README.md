@@ -32,6 +32,8 @@ Unity 街机竞速原型，包含漂移集气、氮气、小喷、空喷、落�
 
 RTX 2070 在 1920×1080 Unity 编辑器 Game View 中，真实单圈采样平均 9.25 ms/帧、P95 11.59 ms。独立 Windows 构建尚未测量。详细结果位于 `NeonRush/Captures/NeonHarbor/`。
 
+最近的 HUD 卡顿优化加入字体预热与小地图缓存；修复后高速轻量采样连续统计 60 秒，平均 5.36 ms/帧、最长 22.35 ms，无超过 33.33 ms 的帧。此采样与早期单圈基准口径不同，原因分析与原始数据见 [卡顿调查记录](NeonRush/Captures/StutterInvestigation/README.md)。
+
 ![NeonRush 主菜单](NeonRush/Captures/MenuRefresh/main-menu.png)
 
 Unity MCP 和本地 Blender 桥接工具用于开发，运行游戏本身无需连接 MCP。Unity 缓存、日志、IDE 状态、本地凭据及第三方工具检出目录已通过 `.gitignore` 排除。
