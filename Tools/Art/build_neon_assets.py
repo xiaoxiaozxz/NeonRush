@@ -12,7 +12,7 @@ from mathutils import Vector
 
 ROOT = 'D:/myproject/3dloong'
 SOURCE = ROOT + '/ArtSource/NeonHarbor'
-ART = ROOT + '/NeonRush/Assets/LoongRacing/Art/NeonHarbor'
+ART = ROOT + '/NeonRush/Assets/_Project/Art/NeonHarbor'
 TEX = ART + '/Textures'
 for folder in [SOURCE, TEX, ART + '/Models', ROOT + '/NeonRush/Captures/NeonHarbor']:
     os.makedirs(folder, exist_ok=True)

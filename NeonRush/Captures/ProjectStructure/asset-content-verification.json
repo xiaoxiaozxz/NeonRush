@@ -1,0 +1,16 @@
+{
+  "unchangedAssetFileCount": 125,
+  "changedCodeFiles": [
+    "LoongRacing/Editor/HarborCircuitBuilder.cs",
+    "LoongRacing/Editor/KartAudioSetup.cs",
+    "LoongRacing/Editor/NeonHarborSetup.cs",
+    "LoongRacing/Editor/StageThreeSetup.cs",
+    "LoongRacing/Editor/TrainingSceneBuilder.cs",
+    "LoongRacing/Runtime/LoongRacing.Runtime.asmdef",
+    "LoongRacing/Runtime/RaceRecordStore.cs",
+    "LoongRacing/Tests/PlayMode/KartDrivingTests.cs",
+    "TutorialInfo/Scripts/Readme.cs",
+    "TutorialInfo/Scripts/Editor/ReadmeEditor.cs"
+  ],
+  "allExistingNonCodeAssetsByteIdentical": true
+}

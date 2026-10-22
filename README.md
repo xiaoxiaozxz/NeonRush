@@ -15,13 +15,16 @@ Unity 街机竞速原型，包含漂移集气、氮气、小喷、空喷、落�
 
 ## 内容
 
-- `NeonRush/Assets`：游戏源码、场景、模型、材质、音频与测试。
+- `NeonRush/Assets/_Project`：自有游戏源码、场景、模型、材质、音频与测试。
+- `NeonRush/Assets/ThirdParty`：模板示例及手动导入的第三方资源；UPM 插件由 `Packages` 管理。
 - `NeonRush/Packages`、`NeonRush/ProjectSettings`：Unity 依赖和项目配置。
 - `ArtSource/NeonHarbor`：原创黄色跑车与环境模块的 Blender 源文件和交付说明。
 - `Tools/Art`：美术生成脚本。
 - `Tools/generate_kart_audio.py`：原创程序合成音频生成脚本。
 - `NeonRush/Captures`：阶段截图和验证记录。
 - [开发与操作说明](DEVELOPMENT.md)
+- [项目目录与代码放置约定](PROJECT_STRUCTURE.md)
+- [VS Code C# 导航与环境设置](NeonRush/Captures/IdeSetup/README.md)
 - [跑车及夜景样板交付说明](ArtSource/NeonHarbor/README.md)
 
 夜景场景保留约 903 米完整比赛路线，重点制作 125–245 米的约 120 米美术样板。原灰盒赛道、训练场与方块车保留，便于回归比较。
@@ -29,6 +32,8 @@ Unity 街机竞速原型，包含漂移集气、氮气、小喷、空喷、落�
 ## 验证
 
 当前 Play Mode 测试 **34 / 34 通过**，包括菜单切换与暂停停表、完整三圈、跳台喷射、撞墙保留氮气、救援保留集气与库存。
+
+目录整理后再次通过全部 Play Mode 测试，并新增 **24 / 24 EditMode 测试**，覆盖纯成绩规则、三个自有场景、两个车辆 Prefab、构建场景和音频配置引用。原有 161 个资源/文件夹 GUID 与导入设置全部保留，见 [目录迁移验证](NeonRush/Captures/ProjectStructure/README.md)。
 
 RTX 2070 在 1920×1080 Unity 编辑器 Game View 中，真实单圈采样平均 9.25 ms/帧、P95 11.59 ms。独立 Windows 构建尚未测量。详细结果位于 `NeonRush/Captures/NeonHarbor/`。
 

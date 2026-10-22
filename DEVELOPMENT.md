@@ -1,5 +1,14 @@
 # NeonRush · 霓虹疾驰 原型开发计划
 
+## 目录整理（2026-10-22）
+
+- 自有内容迁入 `Assets/_Project`，脚本分为 Runtime/Core、Gameplay、UI、Editor 与 Tests/EditMode、PlayMode；资源分为 Data、Prefabs、Scenes、Art、Audio。
+- Unity 模板 Readme 与 SampleScene 移入 `Assets/ThirdParty/UnityTemplate`；UPM 插件仍由 Packages 管理。
+- 保留全部 161 个既有 GUID 和导入配置，125 个既有资源文件内容完全一致，其余既有文件仅修改代码或程序集引用。场景、Prefab、美术与音频资产没有重新生成。
+- 同步修正场景构建器、音频/美术生成脚本、Build Settings、模板默认场景及文档路径；Blender 源文件两张外部贴图同步改用新相对路径。
+- 将成绩有效性与刷新纪录判断提取到不引用引擎的 `LoongRacing.Core`；PlayerPrefs 存储适配保留在 Gameplay。保持既有命名空间、Runtime/Editor 程序集名称、成绩键与车辆逻辑兼容。
+- Unity 实际重新导入、编译通过；新增 EditMode 24 / 24 通过，原有 PlayMode 34 / 34 通过。详情见 `NeonRush/Captures/ProjectStructure/README.md`。
+
 ## 项目更名（2026-10-21）
 
 - 项目正式名称为 **NeonRush（霓虹疾驰）**，Unity 工程文件夹从 `3DLoong` 改为 `NeonRush`。
@@ -55,20 +64,24 @@
 - 已接入引擎怠速与行驶混合、车速变调、风噪、侧滑/刹车胎噪、三种碰撞、落地、复位、暂停/恢复提示。
 - 集气完成提示音已在第二阶段连接；氮气、小喷、空喷、落地喷音效已在第三阶段连接；倒计时和 GO 起跑音效已在第五阶段接入。
 - M 静音/恢复，暂停菜单调节音效音量；默认 65%，音量选择会保存。
-- 生成脚本：`Tools/generate_kart_audio.py`；音效说明：`NeonRush/Assets/LoongRacing/Audio/README.md`。
+- 生成脚本：`Tools/generate_kart_audio.py`；音效说明：`NeonRush/Assets/_Project/Audio/README.md`。
 - `NeonRush/Captures/racing-sfx-preview.wav` 可试听音色；`audio-quality-report.json` 记录峰值、RMS、直流和循环接缝检查。
 - 已在 Unity 运行验证四个循环源正常播放，静音/音量恢复、暂停/恢复通过。
 
 ## 项目结构
 
-- `NeonRush/Assets/LoongRacing/Runtime`：车辆、输入、镜头、练习界面。
-- `NeonRush/Assets/LoongRacing/Editor`：训练场搭建工具。
-- `NeonRush/Assets/LoongRacing/Tests`：Play Mode 物理行为验证。
-- `NeonRush/Assets/LoongRacing/Scenes/TrainingGround.unity`：生成后的训练场景。
-- `NeonRush/Assets/LoongRacing/Scenes/HarborCircuit.unity`：保留的原灰盒完整赛道。
-- `NeonRush/Assets/LoongRacing/Scenes/NeonHarbor.unity`：黄色跑车与夜景样板，当前默认启动场景。
-- `NeonRush/Assets/LoongRacing/Settings/HarborRoute.asset`：赛道中心线、宽度与顺序检查点。
-- `NeonRush/Assets/LoongRacing/Settings`：可在 Inspector 调整的车辆参数。
+- `NeonRush/Assets/_Project/Scripts/Runtime/Core`：不引用引擎的纯 C# 成绩规则。
+- `NeonRush/Assets/_Project/Scripts/Runtime/Gameplay`：车辆、输入、镜头、比赛、视听组件及配置类型。
+- `NeonRush/Assets/_Project/Scripts/Runtime/UI`：驾驶 HUD、菜单与显示缓存。
+- `NeonRush/Assets/_Project/Scripts/Editor`：训练场搭建工具。
+- `NeonRush/Assets/_Project/Scripts/Tests/EditMode`：纯逻辑及迁移后资源引用验证。
+- `NeonRush/Assets/_Project/Scripts/Tests/PlayMode`：驾驶、比赛和菜单行为验证。
+- `NeonRush/Assets/_Project/Scenes/TrainingGround.unity`：生成后的训练场景。
+- `NeonRush/Assets/_Project/Scenes/HarborCircuit.unity`：保留的原灰盒完整赛道。
+- `NeonRush/Assets/_Project/Scenes/NeonHarbor.unity`：黄色跑车与夜景样板，当前默认启动场景。
+- `NeonRush/Assets/_Project/Data/HarborRoute.asset`：赛道中心线、宽度与顺序检查点。
+- `NeonRush/Assets/_Project/Data`：可在 Inspector 调整的车辆参数。
+- 完整约定与第三方内容边界见 [PROJECT_STRUCTURE.md](PROJECT_STRUCTURE.md)。
 
 ## 后续手感访谈
 
@@ -86,7 +99,7 @@
 - 暂停、恢复、练习数据清零和镜头复位经运行验证。
 - 已检查实际游戏截图：中文 HUD 正常、光照调整后车尾清晰可见。
 - 截图：`NeonRush/Captures/stage1-driving.png`。
-- 车辆参数：`NeonRush/Assets/LoongRacing/Settings/ArcadeKartTuning.asset`，可在 Inspector 中调节。
+- 车辆参数：`NeonRush/Assets/_Project/Data/ArcadeKartTuning.asset`，可在 Inspector 中调节。
 - 第一阶段结束时尚未实现漂移、集气、喷射、跳台和完整计圈；漂移与集气现已在第二阶段实现。
 
 ## 第二阶段验证记录（2026-10-20）

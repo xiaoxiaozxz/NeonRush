@@ -1,0 +1,17 @@
+{
+  "allTexturesResolved": true,
+  "images": [
+    {
+      "name": "NightRun_Poster",
+      "previous": "//..\\..\\NeonRush\\Assets\\LoongRacing\\Art\\NeonHarbor\\Textures\\NightRun_Poster.png",
+      "current": "//..\\..\\NeonRush\\Assets\\_Project\\Art\\NeonHarbor\\Textures\\NightRun_Poster.png",
+      "exists": true
+    },
+    {
+      "name": "VelaPaint_Albedo",
+      "previous": "//..\\..\\NeonRush\\Assets\\LoongRacing\\Art\\NeonHarbor\\Textures\\VelaPaint_Albedo.png",
+      "current": "//..\\..\\NeonRush\\Assets\\_Project\\Art\\NeonHarbor\\Textures\\VelaPaint_Albedo.png",
+      "exists": true
+    }
+  ]
+}

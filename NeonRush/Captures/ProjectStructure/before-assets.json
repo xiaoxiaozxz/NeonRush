@@ -1,0 +1,968 @@
+[
+  {
+    "path": "Editor",
+    "guid": "259ed6162e746df4cb46527635134110",
+    "isFolder": true,
+    "metaHash": "6B6FAC1512ACF01B36D644FA898CBC7A04B58D14FFA9A54033E1E0B633CDB890"
+  },
+  {
+    "path": "InputSystem_Actions.inputactions",
+    "guid": "052faaac586de48259a63d0c4782560b",
+    "isFolder": false,
+    "metaHash": "3B4E424A80F5B4FA76B6ABD774884A24285EAA61F22FF9BB20E5AD505FD8B569"
+  },
+  {
+    "path": "LoongRacing",
+    "guid": "2c8526c0d51d9594094c92f2ea8fe817",
+    "isFolder": true,
+    "metaHash": "2F8E0F269D6116DC36A12B95C9B344FD6CEEA42DA8E5999C065A23A8F4A17020"
+  },
+  {
+    "path": "Readme.asset",
+    "guid": "8105016687592461f977c054a80ce2f2",
+    "isFolder": false,
+    "metaHash": "46C6B89AC1D47BD0C0D1A8B141AE3E32CD95D3E74C49381F0D9F942488C254CE"
+  },
+  {
+    "path": "Scenes",
+    "guid": "3abbaa757b9f168419250dc319e56bcc",
+    "isFolder": true,
+    "metaHash": "C65B9F69974A21C80D36DCF5BBF780FC6323BAA5DF01146C76E8246438F60E2B"
+  },
+  {
+    "path": "Settings",
+    "guid": "709f11a7f3c4041caa4ef136ea32d874",
+    "isFolder": true,
+    "metaHash": "73C8E19843240273FACB0AF6BDBF430D719E397ADED705629594060CE25CE7AD"
+  },
+  {
+    "path": "TutorialInfo",
+    "guid": "ba062aa6c92b140379dbc06b43dd3b9b",
+    "isFolder": true,
+    "metaHash": "07F022E5932C833D026E020B27D73452EBD781993B616D76003494AF1E140946"
+  },
+  {
+    "path": "LoongRacing/Art",
+    "guid": "ce41c1d3c8e5c3b4d8265e885d33e194",
+    "isFolder": true,
+    "metaHash": "B743313FB91D624AA776FFDE316B3267C770E231CBC25F8692D3F4D8681BF10A"
+  },
+  {
+    "path": "LoongRacing/Audio",
+    "guid": "64147bf3700a60749b831e418eff84dc",
+    "isFolder": true,
+    "metaHash": "0A3B7DDF17C538DC154D4407A209BF8447D0DB5F3116FA64264BBCB2877C5A63"
+  },
+  {
+    "path": "LoongRacing/Editor",
+    "guid": "a9c1f61d98df19244a446698569603a7",
+    "isFolder": true,
+    "metaHash": "8C7E77ED8D08B8E0B2CBFFD140277163D3D2818A89E0222D8BECDD07C09A5B25"
+  },
+  {
+    "path": "LoongRacing/Materials",
+    "guid": "fd39dc67f5c926f4bbc09c98a6e81741",
+    "isFolder": true,
+    "metaHash": "1431387325F5D1BEE6951862889E89D4ABB0A16AC5973B4C2FC0746576EFBBA1"
+  },
+  {
+    "path": "LoongRacing/Meshes",
+    "guid": "e1ba0ca141f04674696ccbd096d26f88",
+    "isFolder": true,
+    "metaHash": "444623331CCA11FAEEF995EF351A5A2D5663C125D484A29C5146E82724A4FF54"
+  },
+  {
+    "path": "LoongRacing/Prefabs",
+    "guid": "a5f03e3ba64386e4081f4efbfc14911c",
+    "isFolder": true,
+    "metaHash": "81288E6D4A99AD87AF4D6825F4B54A1733F391EFDAA1F0CC3CBA2F09C4D5B91B"
+  },
+  {
+    "path": "LoongRacing/Runtime",
+    "guid": "f285f60655aefd5439ecfbbbbc93ddb5",
+    "isFolder": true,
+    "metaHash": "6CD8BC40D8059B35DAC6DFAAA73DBCB9CBA756BE45346800FC91DA08D9A5C0EC"
+  },
+  {
+    "path": "LoongRacing/Scenes",
+    "guid": "a07ed6d050f00c144b3c0478723111f0",
+    "isFolder": true,
+    "metaHash": "2418559E56F5348F206C53947CEAA8B4AD57D471E4E77FF210E45F390B2A5FC4"
+  },
+  {
+    "path": "LoongRacing/Settings",
+    "guid": "6ab6f18fe48e83b44bbc5ae768c59599",
+    "isFolder": true,
+    "metaHash": "9BEFABC54D03ECA90624C4019510884BE6C117FA3C7CD472737B15FCCC1A845A"
+  },
+  {
+    "path": "LoongRacing/Tests",
+    "guid": "edf00b6c17d84f1488f299e6ae511359",
+    "isFolder": true,
+    "metaHash": "90B5983DBE7ECBBBB2CB347C11A29AF3907BB12596E815A275CC850D54C2CE9B"
+  },
+  {
+    "path": "LoongRacing/Art/ConnectionProbe",
+    "guid": "ca6337704908c1a44bf5c87b4ec7b064",
+    "isFolder": true,
+    "metaHash": "D0D0C85FDA57938376C764E441708172AF301B587151FD90B7153A1C5F7E07C5"
+  },
+  {
+    "path": "LoongRacing/Art/NeonHarbor",
+    "guid": "d70cae3daf3d42e4a80af7ef91083540",
+    "isFolder": true,
+    "metaHash": "2049ED8EAAC127E1A8E8AF326B1DFF0F738A42A1F0B0CB1AD671BED9B6528E43"
+  },
+  {
+    "path": "LoongRacing/Art/ConnectionProbe/CodexPipelineProbe.fbx",
+    "guid": "ecf65e2978dd50c42a1c479184b0e1bb",
+    "isFolder": false,
+    "metaHash": "79DBEE95EF915812282A96DEBBAA7444A10C0A3E3D69B9DFFC4BBAA0F66045CA"
+  },
+  {
+    "path": "LoongRacing/Art/NeonHarbor/Materials",
+    "guid": "6e9d56cb47feca24c9349899eb9df3fe",
+    "isFolder": true,
+    "metaHash": "4D40C5B110C996459E9AE4788511D2C1186BDFDC14131C957BFAC2B39E811937"
+  },
+  {
+    "path": "LoongRacing/Art/NeonHarbor/Meshes",
+    "guid": "4ad4c067d50690c469311cf409b7d66f",
+    "isFolder": true,
+    "metaHash": "5C2E078A048BFFF5CB81898559416F07FC30B78DCB4B9A28DBF84A8A2F672F79"
+  },
+  {
+    "path": "LoongRacing/Art/NeonHarbor/Models",
+    "guid": "9d35255f1b1f65e41843d7cd31b19bd3",
+    "isFolder": true,
+    "metaHash": "181BABB893C666C0E97BFFFA0EE0DCA196BFFC9604DF7E0B893E89311D2DDDB8"
+  },
+  {
+    "path": "LoongRacing/Art/NeonHarbor/NeonSky.shader",
+    "guid": "5b653cc15651df8478677cd756f6e469",
+    "isFolder": false,
+    "metaHash": "B97B396F787A34F33A62257091A57F64CD8C6F25992D7EDD758E00E9FA7AB328"
+  },
+  {
+    "path": "LoongRacing/Art/NeonHarbor/Probes",
+    "guid": "25567e3551916354f966fe89d776ade4",
+    "isFolder": true,
+    "metaHash": "32C539C6B04C1232908DCB23C2CCE091642457248CA8B5C432082EF3CC5D052C"
+  },
+  {
+    "path": "LoongRacing/Art/NeonHarbor/Textures",
+    "guid": "ed4670ab405921d44948b8de87f798e0",
+    "isFolder": true,
+    "metaHash": "DC0F5063EEA7277AF1F1A1B4412C58B9779346969223B13FFC5FB52347CFBD72"
+  },
+  {
+    "path": "LoongRacing/Art/NeonHarbor/Materials/Neon_Concrete.mat",
+    "guid": "cef814cb6271ef146a04a6282380cadf",
+    "isFolder": false,
+    "metaHash": "48E359CF4C439119ACA34437F0369CFD88BDB1F3ADA45DDB52D8EBF1D727C25A"
+  },
+  {
+    "path": "LoongRacing/Art/NeonHarbor/Materials/Neon_Cyan.mat",
+    "guid": "02861cc919c25cf4989b13a9d17fe646",
+    "isFolder": false,
+    "metaHash": "FDDC94C6A9B6E17C00E4D593B6A38CA41755E7DE35492E28467900D206963B87"
+  },
+  {
+    "path": "LoongRacing/Art/NeonHarbor/Materials/Neon_Pink.mat",
+    "guid": "d717f503e8963ab478af05e902398fc5",
+    "isFolder": false,
+    "metaHash": "0E5E0973D629286A538F87EC78F2C70A4BC148E57C36024B52453F9EAC368CBE"
+  },
+  {
+    "path": "LoongRacing/Art/NeonHarbor/Materials/Neon_Poster.mat",
+    "guid": "00f4ef4c9cfda204988b15f9613f01f9",
+    "isFolder": false,
+    "metaHash": "5095FACB6F03A5CBB10583345B303360F37AD01CE53377684D0E148D4068C6C1"
+  },
+  {
+    "path": "LoongRacing/Art/NeonHarbor/Materials/Neon_Tower.mat",
+    "guid": "5dcbcb95178234148a9ba64928cbe88c",
+    "isFolder": false,
+    "metaHash": "D8F6E5DC73B2F0CC354F1395AD72B1C788D2E130365ECD42565132920CDF6086"
+  },
+  {
+    "path": "LoongRacing/Art/NeonHarbor/Materials/NeonGrade.asset",
+    "guid": "f3449c0d26d83544592ec0c3ed7034a3",
+    "isFolder": false,
+    "metaHash": "89A99B114DCEEB16E7CF460F7114E494EF1D3A05A7337830562BA932259D27CB"
+  },
+  {
+    "path": "LoongRacing/Art/NeonHarbor/Materials/NeonSky.mat",
+    "guid": "118ac6e6320912346af11225712aa09b",
+    "isFolder": false,
+    "metaHash": "A8D85691218EA10450D2FF8E3AFBFA3C5F01418DB98F26037566DD0EC6D6548A"
+  },
+  {
+    "path": "LoongRacing/Art/NeonHarbor/Materials/Vela_Glass.mat",
+    "guid": "21d5eeda841826348b6829073dbfcafa",
+    "isFolder": false,
+    "metaHash": "06C737AC578BFBAECEA6961A0A4EEA7D7E73B5B2020A24ABE921AE96412CE2C2"
+  },
+  {
+    "path": "LoongRacing/Art/NeonHarbor/Materials/Vela_Head.mat",
+    "guid": "2b84213d897a57741860330a56d51945",
+    "isFolder": false,
+    "metaHash": "5998D32C8268AB961388BF80710AC793A86BC4F33007F560899D7133E6DE7B32"
+  },
+  {
+    "path": "LoongRacing/Art/NeonHarbor/Materials/Vela_Metal.mat",
+    "guid": "0e2675013f4c4be4a899ba411bbe8fd7",
+    "isFolder": false,
+    "metaHash": "A6633076474DC946635412AEFC18EE409149B65671DA0A6D5FDB7C7C7E5BE04F"
+  },
+  {
+    "path": "LoongRacing/Art/NeonHarbor/Materials/Vela_Paint.mat",
+    "guid": "dd4f6d0910ae6ef408a1b96fe9777da4",
+    "isFolder": false,
+    "metaHash": "34FFF219D1AE90B3CBAF633761A021CE13E372194D3C3A302DB629CCA4A53835"
+  },
+  {
+    "path": "LoongRacing/Art/NeonHarbor/Materials/Vela_Rubber.mat",
+    "guid": "30467d9792aa86a409979a90db6ae348",
+    "isFolder": false,
+    "metaHash": "44F578CDC95E0FD5B263DB4CA1216A66071D57ED7E8964C18D4A1C92BCF7324F"
+  },
+  {
+    "path": "LoongRacing/Art/NeonHarbor/Materials/Vela_Tail.mat",
+    "guid": "c67a5b2035a6a704da58b6cc9c20f330",
+    "isFolder": false,
+    "metaHash": "83369CB9782395D3EB542F2172FB5862AA64842D43945ED3B6DBA464936B2320"
+  },
+  {
+    "path": "LoongRacing/Art/NeonHarbor/Materials/Vela_Trim.mat",
+    "guid": "c59e521035a25fd4ab4ee0d777c31fab",
+    "isFolder": false,
+    "metaHash": "D7EFD29A24AA6EE41DCDAB9FC26CF39DA6ADDA53730100B3CC0F5E5D68887EEA"
+  },
+  {
+    "path": "LoongRacing/Art/NeonHarbor/Materials/WetRoad.mat",
+    "guid": "84635e681c01e8a45b1c06b4f1d4adc7",
+    "isFolder": false,
+    "metaHash": "1A76B0A4E18E44A641D0BA05BFD9775FC99BCF4BB4156F6299361B5389EDD466"
+  },
+  {
+    "path": "LoongRacing/Art/NeonHarbor/Meshes/StaticArtSample.asset",
+    "guid": "e4e3afc8daf5bad47a1dcb3ed207fb63",
+    "isFolder": false,
+    "metaHash": "877401D72B5CAE97CFB7A6E990729A8AD281769BBD8A4A793F891F004AE3D0E1"
+  },
+  {
+    "path": "LoongRacing/Art/NeonHarbor/Meshes/StaticContinuousGuardrails.asset",
+    "guid": "fcb35033fa73fd34bae326de13d7ad6e",
+    "isFolder": false,
+    "metaHash": "25D0C3FA0F39C285A37FEE60194B9BDAFA22C666D9FB4A447C9F7F22475A9E6B"
+  },
+  {
+    "path": "LoongRacing/Art/NeonHarbor/Meshes/StaticNeonSkyline.asset",
+    "guid": "65b119194e1527e438159461a2e4c085",
+    "isFolder": false,
+    "metaHash": "383AC3F530ABB85C3C662388DAF44B2D9822581F687FAC96EFE83D99D71FAE6F"
+  },
+  {
+    "path": "LoongRacing/Art/NeonHarbor/Meshes/StaticRouteMarkings.asset",
+    "guid": "97162c0e6a4bbd14eae83ac8dcd4e90b",
+    "isFolder": false,
+    "metaHash": "923A7CE8F33F558D3E3F64CCB279DC71E050363DBF0046E8FFC04AC2ADADBEA9"
+  },
+  {
+    "path": "LoongRacing/Art/NeonHarbor/Meshes/VelaBody.asset",
+    "guid": "1c0fde92d92baff4c931aa023e96917e",
+    "isFolder": false,
+    "metaHash": "4E1B06AE152CD976C5AA0EC2431C26782BF2934B68980A02A49F026E45BCDFB4"
+  },
+  {
+    "path": "LoongRacing/Art/NeonHarbor/Meshes/VelaWheel_FL.asset",
+    "guid": "db6d382e48113564d8e96a5e88e25ba3",
+    "isFolder": false,
+    "metaHash": "F58F614352824B02A11AAE0D67CDCEEA6FE6441715D026C8C47131854B744AF4"
+  },
+  {
+    "path": "LoongRacing/Art/NeonHarbor/Meshes/VelaWheel_FR.asset",
+    "guid": "c8e74cc56d5b6e741bf509a63c50794f",
+    "isFolder": false,
+    "metaHash": "F63887217BEDD2E41DFE48B356313FC77050EC30F3A93341BA70B364D2228749"
+  },
+  {
+    "path": "LoongRacing/Art/NeonHarbor/Meshes/VelaWheel_RL.asset",
+    "guid": "cf4e44d241debbe4fa3ce542ec882604",
+    "isFolder": false,
+    "metaHash": "4F7561283EB817401867EDE11B3A031FF4D986DA407DED9E7AABB7573E3D5966"
+  },
+  {
+    "path": "LoongRacing/Art/NeonHarbor/Meshes/VelaWheel_RR.asset",
+    "guid": "914fd61be735aa34a9c46f313827691e",
+    "isFolder": false,
+    "metaHash": "18D83C58940ACE8B293588D050F183A3A94FD6CE473058D405F759735A528D67"
+  },
+  {
+    "path": "LoongRacing/Art/NeonHarbor/Models/Module_Billboard.fbx",
+    "guid": "203816099063da247a76a4c503aa06a3",
+    "isFolder": false,
+    "metaHash": "FC11028E186A3B87AA6CCC5A5DC4480E52B1A7BFED2FC1AE1E795351D6F4B84A"
+  },
+  {
+    "path": "LoongRacing/Art/NeonHarbor/Models/Module_Gate.fbx",
+    "guid": "cad59baf946806440a51a4834c23f797",
+    "isFolder": false,
+    "metaHash": "D7523A03576E86D7D2CB1927692FFB93F8D97161F8EB00EFDCF326F132D5B22A"
+  },
+  {
+    "path": "LoongRacing/Art/NeonHarbor/Models/Module_Pier.fbx",
+    "guid": "b7402dd0f5ba5e744bd943dbbe48a37d",
+    "isFolder": false,
+    "metaHash": "CC97D033213AABCDEEFFAF127D3D2F8AE2BE7CB09FE21F0D4E8B07EEF255738B"
+  },
+  {
+    "path": "LoongRacing/Art/NeonHarbor/Models/Module_Rail.fbx",
+    "guid": "4de976e0da4e6874c98945d5d575359f",
+    "isFolder": false,
+    "metaHash": "AF9E1CC0634AC6AB6995551D25246DD30876F2624A0BD6BAE52206651D1A16C3"
+  },
+  {
+    "path": "LoongRacing/Art/NeonHarbor/Models/Module_TowerA.fbx",
+    "guid": "c7865736be0600045babd1187ce9a695",
+    "isFolder": false,
+    "metaHash": "FCFB51AC2E15F305F348D7079723B07E552185CAA885AC6C0A3A31548121AFBD"
+  },
+  {
+    "path": "LoongRacing/Art/NeonHarbor/Models/Module_TowerB.fbx",
+    "guid": "ecd22e5eecfee0848894dee725e5e314",
+    "isFolder": false,
+    "metaHash": "AC1B789CED722C27F757460DDB52FC907D49B736B69482F0AB3EDAE16DE568D0"
+  },
+  {
+    "path": "LoongRacing/Art/NeonHarbor/Models/VelaCoupe.fbx",
+    "guid": "486439bc45cbec741be891bc8265f623",
+    "isFolder": false,
+    "metaHash": "EE9BB66039D266A178FE60C27E63BF13EC6F4664B13F49A195A55F8C753619C0"
+  },
+  {
+    "path": "LoongRacing/Art/NeonHarbor/Probes/Probe-20.exr",
+    "guid": "980105c2906c80343a0b1fc1cd9e9b22",
+    "isFolder": false,
+    "metaHash": "05F700FB4839E44AF6E15F8242792EB7F403DB21EAB650C13469C23D94CDB3DE"
+  },
+  {
+    "path": "LoongRacing/Art/NeonHarbor/Probes/Probe-80.exr",
+    "guid": "4c3caa317b5739c43bba3cb823a2ffed",
+    "isFolder": false,
+    "metaHash": "8A59031D2FE8E97077062851C37FB3B4102104EE53BA6F0DF813E17DA24DBD97"
+  },
+  {
+    "path": "LoongRacing/Art/NeonHarbor/Probes/Probe90.exr",
+    "guid": "1c207c5f5549c2c4d8aa063234ba0391",
+    "isFolder": false,
+    "metaHash": "E15B0F882FC4E99AAA4786715F0ECAF3F220599CC030125298D362A5339636FA"
+  },
+  {
+    "path": "LoongRacing/Art/NeonHarbor/Textures/NightRun_Poster.png",
+    "guid": "004be2eb4d934e8438d64614fe8a4956",
+    "isFolder": false,
+    "metaHash": "D0033E19751D55AAB5485F58228E61478523464FE9C09D73EFB14F4A8B206C93"
+  },
+  {
+    "path": "LoongRacing/Art/NeonHarbor/Textures/VelaPaint_Albedo.png",
+    "guid": "0eac679e296c86d46bdd84aefe7231b6",
+    "isFolder": false,
+    "metaHash": "5A487FACE28947DF2FDA672D72FD029CA4A01187F0519E6F0AED5E8626659D93"
+  },
+  {
+    "path": "LoongRacing/Art/NeonHarbor/Textures/WetRoad_Albedo.png",
+    "guid": "e8301bdb86ef7b24f84b3c339d379d19",
+    "isFolder": false,
+    "metaHash": "33D0E1E9BE04A389403B19F7255F97E1C95BF99E56A8B18B0791507A69796B2D"
+  },
+  {
+    "path": "LoongRacing/Art/NeonHarbor/Textures/WetRoad_MetalSmooth.png",
+    "guid": "3d1501e7c79d5384e93d4e16f2a084e9",
+    "isFolder": false,
+    "metaHash": "D231BA5F52F37B129C84AAB85506BE5CB92EBA085C35BE3FBE26C2020BC27DBF"
+  },
+  {
+    "path": "LoongRacing/Art/NeonHarbor/Textures/WetRoad_Normal.png",
+    "guid": "aac849f6127e2ea4190f7f7b660b2a40",
+    "isFolder": false,
+    "metaHash": "ADDD19CB0AED51BCD26A77B00DFB957A858871E11617E7FC8967C72DD7DD2B1A"
+  },
+  {
+    "path": "LoongRacing/Audio/air_boost.wav",
+    "guid": "73d5cdd5117f1a64b98dcc801d8db613",
+    "isFolder": false,
+    "metaHash": "CB12FB7EF4043CC86024047260E258C37B3EE0B985D9A21FEC6DB16A371BE6EE"
+  },
+  {
+    "path": "LoongRacing/Audio/collision_01.wav",
+    "guid": "8f27aa9f95a76d948873a52758f703de",
+    "isFolder": false,
+    "metaHash": "36C6687F7F5DB6DDB22C91A23412016ED7C77E2774C2921F94B8E63639107FE1"
+  },
+  {
+    "path": "LoongRacing/Audio/collision_02.wav",
+    "guid": "486d0eab0dc62804a9e623f1b4df9382",
+    "isFolder": false,
+    "metaHash": "6027E9877F395CF13DBA29CEE17B5FE275F929DC6B231AA3EE46B83A496486B1"
+  },
+  {
+    "path": "LoongRacing/Audio/collision_03.wav",
+    "guid": "9b4bbcf2c20331d4da5ab1130ea37765",
+    "isFolder": false,
+    "metaHash": "6F7648CF5FCF24CE4EAFB0A065DE6813A4BACCCF8CC128C248903BD999A788A0"
+  },
+  {
+    "path": "LoongRacing/Audio/countdown_tick.wav",
+    "guid": "373f6e29374c58044af51f054ade2ebd",
+    "isFolder": false,
+    "metaHash": "2B6B3C4AFBD51289DDAABB4683427841297496B51DA426EA23E482AE52C0E1BC"
+  },
+  {
+    "path": "LoongRacing/Audio/engine_drive_loop.wav",
+    "guid": "024637c41a6e0d74f931644a8a4acb9a",
+    "isFolder": false,
+    "metaHash": "454F6F82D89EAAE363E1F1EDA67714612796F337E61A7364DDC496874FBB00A1"
+  },
+  {
+    "path": "LoongRacing/Audio/engine_idle_loop.wav",
+    "guid": "9e70c6041f344ff45bf4578959c491a4",
+    "isFolder": false,
+    "metaHash": "14E15471599E8BF58E12F432CAFB521CD450A52C113EEC37816728292A60262A"
+  },
+  {
+    "path": "LoongRacing/Audio/gas_ready.wav",
+    "guid": "bb5cb92a879b753408e10fa7425b3ec7",
+    "isFolder": false,
+    "metaHash": "3B418AE410E2E462C8B7FD3F39B3602651A649239CAE92465E3ABE438A3F2361"
+  },
+  {
+    "path": "LoongRacing/Audio/landing.wav",
+    "guid": "657cb476cea55c64b908c319e23813d7",
+    "isFolder": false,
+    "metaHash": "D2CBBBD0D0A70A64F7A5EDEAD27622521D4052F5D5B86823BD020797E087E994"
+  },
+  {
+    "path": "LoongRacing/Audio/mini_boost.wav",
+    "guid": "4b521b155b55e0b499acdb78c8e5b787",
+    "isFolder": false,
+    "metaHash": "A75CD8B1193F83DFA29F018995234A107C51942421DE98AC16FCF420554E8432"
+  },
+  {
+    "path": "LoongRacing/Audio/nitro_burst.wav",
+    "guid": "e6f675bcb208d8843a5cde8cc47c2520",
+    "isFolder": false,
+    "metaHash": "DC30B00A701AFCD0AE076F9683678A7C6575A8CB4CD57E5C243D3F6898960B12"
+  },
+  {
+    "path": "LoongRacing/Audio/race_start.wav",
+    "guid": "f77d0432999d6124b8007acd76e8632c",
+    "isFolder": false,
+    "metaHash": "D60F9FDC65999F60E0EA4A168C85CBFB0853639C1B63CDD58846249E54118CDC"
+  },
+  {
+    "path": "LoongRacing/Audio/README.md",
+    "guid": "adcbda018a196ad4d8ebd9f449d998e8",
+    "isFolder": false,
+    "metaHash": "96F8DB2E38FDF92D83AD62BB61C6D6409310D4CCD9EDD1849975AAF4AFFF6631"
+  },
+  {
+    "path": "LoongRacing/Audio/reset.wav",
+    "guid": "55f680fdf2d178f48a6d091ea1a59ff4",
+    "isFolder": false,
+    "metaHash": "DAD287F65B5068869A9650241A58F05CB95E996A5205BD813F373D5DCA6F6A12"
+  },
+  {
+    "path": "LoongRacing/Audio/tyre_skid_loop.wav",
+    "guid": "de5e66fd04c4c7b4f8a04f731be3aebf",
+    "isFolder": false,
+    "metaHash": "CC847C091FE7994B625587F57D2AE703A04DE67820DA5CAB31B33BA78FA34134"
+  },
+  {
+    "path": "LoongRacing/Audio/ui_pause.wav",
+    "guid": "39b7b82a851a50f4cacc39e8e0280aae",
+    "isFolder": false,
+    "metaHash": "4AD8E46D40FCEE4DD18A9611875B470F806309EC59D2D002E863EE1A0CD0D4DC"
+  },
+  {
+    "path": "LoongRacing/Audio/ui_resume.wav",
+    "guid": "af03c69c459dfed40a9808e21d62173c",
+    "isFolder": false,
+    "metaHash": "72993AC8951A2531AF7AF75E2FCF21805689F0E6580EA1D717CE13D7D5F59446"
+  },
+  {
+    "path": "LoongRacing/Audio/wind_loop.wav",
+    "guid": "34038a3809a534e458e781d358602def",
+    "isFolder": false,
+    "metaHash": "D7AD7E46F1E7BBAA038BCD4C791F91D13D57973302B50808409A4BB20FEE5FF4"
+  },
+  {
+    "path": "LoongRacing/Editor/HarborCircuitBuilder.cs",
+    "guid": "08498f53680a91a4cb5e01d82772a951",
+    "isFolder": false,
+    "metaHash": "012C62FFE63DB9BE06B78EFF2A1B9CC3180FE9FBC7DA9326FFB3770F78BB6BDD"
+  },
+  {
+    "path": "LoongRacing/Editor/KartAudioSetup.cs",
+    "guid": "ed7b12af24fe3264180e7cd805872507",
+    "isFolder": false,
+    "metaHash": "C0C96408F17B63DF0808550C9760B5F9FD93560BE1ECA43F59044AEFA747A337"
+  },
+  {
+    "path": "LoongRacing/Editor/LoongRacing.Editor.asmdef",
+    "guid": "a9cf8880979722e45bd6f38c4ed40530",
+    "isFolder": false,
+    "metaHash": "3D396DC6782818DA48E76FE265FEBB3AFA919D0F16A405EED0FB628E370AA59A"
+  },
+  {
+    "path": "LoongRacing/Editor/NeonHarborSetup.cs",
+    "guid": "8a3f9d8641b86ea4da9edde0d23296d8",
+    "isFolder": false,
+    "metaHash": "26DBCA1F5B5D1110AB3E4CF290CB188730E02F1EB7BC3C9FA27CBD7BC867C677"
+  },
+  {
+    "path": "LoongRacing/Editor/NeonPerformanceValidation.cs",
+    "guid": "a9d50a1e5769d624cadfabbf8b197444",
+    "isFolder": false,
+    "metaHash": "420A2056284C56DE69A50C101E7DD8B413243E8FB9E5ACC015353F80C720046A"
+  },
+  {
+    "path": "LoongRacing/Editor/StageFiveSetup.cs",
+    "guid": "65a939cea3c9af24685fa062d19406eb",
+    "isFolder": false,
+    "metaHash": "90AB56AEB69BB050DE7F66A2759EA00E2DFDB483BD944001626F677EB2BA4658"
+  },
+  {
+    "path": "LoongRacing/Editor/StageThreeSetup.cs",
+    "guid": "17577a25c7060a0489a52a148f64e6d8",
+    "isFolder": false,
+    "metaHash": "BF32F50BA72AAC63DA4B093D576B97A74A128CF3F4DEF714182260F5C99B85B2"
+  },
+  {
+    "path": "LoongRacing/Editor/StutterInvestigation.cs",
+    "guid": "f9a63349b6582d84897952f1504fd300",
+    "isFolder": false,
+    "metaHash": "D52D8879F95ABE99D8112D2E2DB5C1BC50BFEAC6088775A46B85FC22DB6EF51C"
+  },
+  {
+    "path": "LoongRacing/Editor/TrainingSceneBuilder.cs",
+    "guid": "2bf14a263e988b347a16c82bea4de490",
+    "isFolder": false,
+    "metaHash": "3737AF0105691062A8ADAEC61CE9DE0D6A05AD3B2B2F396A9402EF207C53C7D8"
+  },
+  {
+    "path": "LoongRacing/Materials/Accent_Cyan.mat",
+    "guid": "9dc13967167f3864bb3d84c247abb3c5",
+    "isFolder": false,
+    "metaHash": "B09CB2F3F468E75366ED25B9301FBC759DA844F96D4F33589CF8179C80270F6D"
+  },
+  {
+    "path": "LoongRacing/Materials/Barrier_Graphite.mat",
+    "guid": "c956647979d7ad74a862c53e9fb9ccdc",
+    "isFolder": false,
+    "metaHash": "9D2A55225ED36390FB855801B9D0C62D2952BDE610FBBB2DC1086BF8D7CCA4AB"
+  },
+  {
+    "path": "LoongRacing/Materials/BoostPlume.mat",
+    "guid": "22534d49c91cbc7458e42dc11a750169",
+    "isFolder": false,
+    "metaHash": "0F95BB2679249125A90B9E0A33686ABE849084888E03C61BE04CE027F9BD8713"
+  },
+  {
+    "path": "LoongRacing/Materials/Buildings.mat",
+    "guid": "12b053ff4214e844ba59983fddc5b0e4",
+    "isFolder": false,
+    "metaHash": "B12EF9C5FA2911CF6AB26290545CFDFCCB943AED1E2EA50878FF0A25865F5D2D"
+  },
+  {
+    "path": "LoongRacing/Materials/Curb_Cyan.mat",
+    "guid": "240bb464d54598d44b4fb0e10834f1d7",
+    "isFolder": false,
+    "metaHash": "9676D7CD2FFD50D748DF47CB8DE3C67883CBBE604C426A34672805C60D1B2BE7"
+  },
+  {
+    "path": "LoongRacing/Materials/Ground.mat",
+    "guid": "1d0e1a83b7bbc9a4f946930a27ffdfb9",
+    "isFolder": false,
+    "metaHash": "3203CC5CCF0461F838F5D3F768E202E3EE9DA5A356021814DE524022C861F455"
+  },
+  {
+    "path": "LoongRacing/Materials/Headlights.mat",
+    "guid": "494d33375de9aa24d924eec1def2c856",
+    "isFolder": false,
+    "metaHash": "0127EB16DA4609738E86119F6162389D0780827202523B5151A7F78BA1E850D5"
+  },
+  {
+    "path": "LoongRacing/Materials/Kart_Yellow.mat",
+    "guid": "20c60f1e410d0ec4cad709264c2e3bad",
+    "isFolder": false,
+    "metaHash": "8965FE6AE3450D5CB20F75C379EB7AAC41DE7587AB8B60D5F49922518524D2BE"
+  },
+  {
+    "path": "LoongRacing/Materials/Marking_White.mat",
+    "guid": "a5bc243ae3a0e1a49990aa781c419f64",
+    "isFolder": false,
+    "metaHash": "3DF4450E22EF10103E8D9ACD515BDD1BC3C2EAE452CCBE77E513CBFCB71D6DFA"
+  },
+  {
+    "path": "LoongRacing/Materials/Rear_Lights.mat",
+    "guid": "f984480abaf744f48847aff0b0763d4c",
+    "isFolder": false,
+    "metaHash": "0C9F81124D3F87D4F3E133886F62D9566EE76F2D29F22FAFDEB3E3F4A8146D72"
+  },
+  {
+    "path": "LoongRacing/Materials/Road.mat",
+    "guid": "f44892b1979e7814e9d063139a0eb6d5",
+    "isFolder": false,
+    "metaHash": "28BA1B2A1CB539291B083AFA78E676F1604B029947B6FA79C19BB1C272B000E8"
+  },
+  {
+    "path": "LoongRacing/Materials/Tyre_Black.mat",
+    "guid": "2c6961593d1403e49ad6699d9168a4a0",
+    "isFolder": false,
+    "metaHash": "75361E0D6D144542BBEE33BEAAEBB6DFE1392422DC9AF7F85558DD19D9C944C0"
+  },
+  {
+    "path": "LoongRacing/Materials/TyreMarks.mat",
+    "guid": "6608b2a4940fcd6468eecd0516d43a89",
+    "isFolder": false,
+    "metaHash": "40C4847630F6321654A7E8068FA64BF0CF5D6039E654AB1B3F4B8EE59A81EEC2"
+  },
+  {
+    "path": "LoongRacing/Materials/Window_Blue.mat",
+    "guid": "01e8144791fab6b4bb913c7dd8769bc7",
+    "isFolder": false,
+    "metaHash": "BC25BE39F20ECFEFC7BCA5D705EAF92E555FACE97D01FCF5205160D3E9194034"
+  },
+  {
+    "path": "LoongRacing/Meshes/BoostPracticeRamp.asset",
+    "guid": "eaf99b4191618fc41900cdf1e67c9c7e",
+    "isFolder": false,
+    "metaHash": "84B6A7F89379F84E092D33A29AAE5CB725A50040624A2CC19FB9255B66BBA87C"
+  },
+  {
+    "path": "LoongRacing/Meshes/HarborJump.asset",
+    "guid": "ef17ec71b33907e42aa718de2f321c8e",
+    "isFolder": false,
+    "metaHash": "04227E2CCB0291CBE2996AF9E45A7897BD055DD805B83FB22A691647288B74A8"
+  },
+  {
+    "path": "LoongRacing/Meshes/HarborRoad.asset",
+    "guid": "bb18f83461e83bf4eb00558a1eb3d6bb",
+    "isFolder": false,
+    "metaHash": "60BCF6CC98B858EF334A0A97D3847A9EF91949B0BC41F233A3A70A39912B6B8D"
+  },
+  {
+    "path": "LoongRacing/Meshes/TrainingRoad.asset",
+    "guid": "7877017c2ba242548b7ceca718e93f14",
+    "isFolder": false,
+    "metaHash": "160BD983D517092757F98101A78DDD487DAC186E5051CFC133498BAAFE67C786"
+  },
+  {
+    "path": "LoongRacing/Prefabs/BlockKart.prefab",
+    "guid": "b3df6849941698c42b9855f381ef3b54",
+    "isFolder": false,
+    "metaHash": "952DEAC360860A5C660D2344A0B0616E3C06FD1368A6A2AE7E534794C461130C"
+  },
+  {
+    "path": "LoongRacing/Prefabs/VelaRacer.prefab",
+    "guid": "ae93ea049a1592c4f9a87dc9adee0280",
+    "isFolder": false,
+    "metaHash": "7EF5E3CDA874FD568AF082769BE60A8D03EB29613326CCE239EB45FAA9F50A2A"
+  },
+  {
+    "path": "LoongRacing/Runtime/ArcadeKartController.cs",
+    "guid": "879d6a49138027343b7f27cc0af993dd",
+    "isFolder": false,
+    "metaHash": "4680297365444BC2BC0ED56BDC8B1A86C68D5E86547D60BB3703232AE99064F1"
+  },
+  {
+    "path": "LoongRacing/Runtime/CheckpointGateView.cs",
+    "guid": "30f6b9a8dddbd4c4b90004b9138e680f",
+    "isFolder": false,
+    "metaHash": "29F8E402DBAF27E7E20163AD2175E422AED0018D19FD542BD107265233E506BB"
+  },
+  {
+    "path": "LoongRacing/Runtime/KartAudioBank.cs",
+    "guid": "846e014eea2a9784e8035c229ec4790f",
+    "isFolder": false,
+    "metaHash": "378A8816175A52315562C1A27B1F6BCEB78F55CA7687F5E0AA73D4EF59EECABD"
+  },
+  {
+    "path": "LoongRacing/Runtime/KartAudioController.cs",
+    "guid": "4238b421abcce2145be72ac951a9a170",
+    "isFolder": false,
+    "metaHash": "278EC08A93497A9FEFEE563F16F92EFF0BF233AA6A0E69630C78DDB36879A3D5"
+  },
+  {
+    "path": "LoongRacing/Runtime/KartBoostEffects.cs",
+    "guid": "337f9f6b139b81b4294056653c4edef3",
+    "isFolder": false,
+    "metaHash": "ECE004736FED475F8A003C8B4B5BFE7D296395C67D4D5BF031F7F53B6A14C1EC"
+  },
+  {
+    "path": "LoongRacing/Runtime/KartChaseCamera.cs",
+    "guid": "d09aa78c2073acc469302ef95c2b164a",
+    "isFolder": false,
+    "metaHash": "9763AF2880F45C4201DDC5BFD42061C6E6955A0C8A85083E38251ED386C3804A"
+  },
+  {
+    "path": "LoongRacing/Runtime/KartDriftEffects.cs",
+    "guid": "9ab0d1ac9d8bf68428b03857b4de3cca",
+    "isFolder": false,
+    "metaHash": "89C80D15E41D32B9AE5DDC7DA2727B3B5126ADA1B8CC9E3A7A4FEA6DA52DB714"
+  },
+  {
+    "path": "LoongRacing/Runtime/KartKeyboardInput.cs",
+    "guid": "b9711b00333ae8141aba6b68d13f08f5",
+    "isFolder": false,
+    "metaHash": "579EB850DEC64A5EFBD00FEE712283ADE93D533F1C566D01CD3C9F8E27A6FFD0"
+  },
+  {
+    "path": "LoongRacing/Runtime/KartRaceSession.cs",
+    "guid": "94c8463590a30f74e8c3b94928666c9a",
+    "isFolder": false,
+    "metaHash": "EB1CA50E3708084E6DF6D37A84E6800B1E9E2E0F767019445C888C37B879DD68"
+  },
+  {
+    "path": "LoongRacing/Runtime/KartRouteProgress.cs",
+    "guid": "e28a6b6038aa84f4aae3479fcca191ad",
+    "isFolder": false,
+    "metaHash": "34306314149A6BA01DD446E2793964DC337E80896A87D37BC84A8C0608EC19FF"
+  },
+  {
+    "path": "LoongRacing/Runtime/KartTuning.cs",
+    "guid": "6dc293ab4d513304a8d3c2911680c3f6",
+    "isFolder": false,
+    "metaHash": "68C0DF60C03F5957A7684C8539B16F6861D3B6B390A8FA2FCE58C2AB9D745974"
+  },
+  {
+    "path": "LoongRacing/Runtime/KartVisualRig.cs",
+    "guid": "dc334a5f696196046a3b846e2e57ee76",
+    "isFolder": false,
+    "metaHash": "4EB072B79F54A609915817B79C394697BB855E24ACEF0ED5EC4257E9DD99CF86"
+  },
+  {
+    "path": "LoongRacing/Runtime/LoongRacing.Runtime.asmdef",
+    "guid": "46a436871d26d5a48a85be6982776ea6",
+    "isFolder": false,
+    "metaHash": "61CFC31C671E14BA4A71BA9A6334FE04CC2BA1A76856D21AEE379C52972F80EC"
+  },
+  {
+    "path": "LoongRacing/Runtime/NeonEnvironment.cs",
+    "guid": "acc2c46a8304ec44bab144472ee16029",
+    "isFolder": false,
+    "metaHash": "3C35B28ACBD5BACD404D0FA16CE547FF71AEDFBB1C1837D044BF8490136822DF"
+  },
+  {
+    "path": "LoongRacing/Runtime/PracticeHud.Cache.cs",
+    "guid": "59cfd6bc879ef9b4b9397af134f0e133",
+    "isFolder": false,
+    "metaHash": "876E442AF8E0501D0178542EBCD1F0D457EC7CE3CB2322CEDA84D3047D81A16E"
+  },
+  {
+    "path": "LoongRacing/Runtime/PracticeHud.cs",
+    "guid": "715afc626b055694c80293da27c4b875",
+    "isFolder": false,
+    "metaHash": "81F3CC44A58618F1FCEDE2E54049BFBD4707281CF4686A84A3C072379219BD4E"
+  },
+  {
+    "path": "LoongRacing/Runtime/PracticeHud.Menu.cs",
+    "guid": "9048c2f7aa3b76c4498b0ecb7355ba65",
+    "isFolder": false,
+    "metaHash": "D1D1DBD64850B9D193B19AA10F69D11CD1132AFEDB64E0D7ED1FB5B4914F48BB"
+  },
+  {
+    "path": "LoongRacing/Runtime/RaceRecordStore.cs",
+    "guid": "a7b77cea8ecf6854994e4e0c766fec96",
+    "isFolder": false,
+    "metaHash": "4BAFE374199E763A61CEF22F149337382D503FA413F49BD0CB1B43436FB91E05"
+  },
+  {
+    "path": "LoongRacing/Runtime/TrackRoute.cs",
+    "guid": "79eb17f6fd80251428d2f7d524e99d26",
+    "isFolder": false,
+    "metaHash": "5B4631F709E4673D1D7D9422B79379D8B490116769691D879348EC468B5B35CE"
+  },
+  {
+    "path": "LoongRacing/Scenes/HarborCircuit.unity",
+    "guid": "3e7e9fcc9c9f79548847e41df25ef4e8",
+    "isFolder": false,
+    "metaHash": "D75EC71161AAA759B63E5EA90BF236F0E31529C70F793455AF9D0A8D89C04C8E"
+  },
+  {
+    "path": "LoongRacing/Scenes/NeonHarbor.unity",
+    "guid": "017375f0ee9e87b4fb52b5ea32179e62",
+    "isFolder": false,
+    "metaHash": "9D86F43D306943E6BFBDE28638C43F8515C50F59413DC48D1F5F114E1EFB6849"
+  },
+  {
+    "path": "LoongRacing/Scenes/TrainingGround.unity",
+    "guid": "b1d09c2f28240434eaf4798b2c3e205d",
+    "isFolder": false,
+    "metaHash": "4B4B4E24709825A7321076BD02593BEC78BA1721444E01345B51616FBFDFB023"
+  },
+  {
+    "path": "LoongRacing/Settings/ArcadeKartTuning.asset",
+    "guid": "d1195d5c24a8280429f7a9f1e30b0a98",
+    "isFolder": false,
+    "metaHash": "5F6A667492B160409BFAD5F9AE6913CDBEB03BA8BCDC434BF8224A1B4F321FDA"
+  },
+  {
+    "path": "LoongRacing/Settings/HarborRoute.asset",
+    "guid": "ac45faf59e182314887927c32d60bc73",
+    "isFolder": false,
+    "metaHash": "06E4EBDB72A97F448CF9776E4DCCA98E0298D380540B7EB05F3C2438EEBB8C25"
+  },
+  {
+    "path": "LoongRacing/Settings/Kart_WallSlide.physicMaterial",
+    "guid": "115d7931d2e1c664687b3ff768feaade",
+    "isFolder": false,
+    "metaHash": "D671DCB24DC86168156E807F52A1AF9024F68A7C755F6A109B24AE80CDA9BFD7"
+  },
+  {
+    "path": "LoongRacing/Settings/KartAudioBank.asset",
+    "guid": "43d39f98bb4f64e47a428251797bcb27",
+    "isFolder": false,
+    "metaHash": "39D60DDC734A4835C8B6BB4338D7978FAC58AED87189A4AC00B4D59FD1F230A4"
+  },
+  {
+    "path": "LoongRacing/Settings/NeonHarborRoute.asset",
+    "guid": "177e54d8cf3c6074e8a1fe43733e8179",
+    "isFolder": false,
+    "metaHash": "08DD0A0C4893B5DCB39CAC2DBF157B2F1E2742BDB548B968F642753B5F42F716"
+  },
+  {
+    "path": "LoongRacing/Tests/PlayMode",
+    "guid": "691282aa12807254880d1d00f125528e",
+    "isFolder": true,
+    "metaHash": "9DC4C2BB19393122B7E73E96989F777A0DB86A4FC99384A641AA4CDF7648D1EF"
+  },
+  {
+    "path": "LoongRacing/Tests/PlayMode/HarborCircuitTests.cs",
+    "guid": "59135b22ec030f943904045cf7a8f0fa",
+    "isFolder": false,
+    "metaHash": "B34F42B2F641F00FBC573CC5562681E99293D72BDE1B46AE56CF8CA8E0807F27"
+  },
+  {
+    "path": "LoongRacing/Tests/PlayMode/KartDrivingTests.cs",
+    "guid": "5f4326c1a4261d841a1fec68b927a208",
+    "isFolder": false,
+    "metaHash": "A55A985316A4EAEBC3B608DEE34EC78A00EA297C42B75D345AEA0DE35FC2C3A5"
+  },
+  {
+    "path": "LoongRacing/Tests/PlayMode/LoongRacing.PlayModeTests.asmdef",
+    "guid": "06cd522e7389f8d4f973b8e718cd6525",
+    "isFolder": false,
+    "metaHash": "5EBA8879B2ECED29B530364ABA417E0E9FFDD8A4117C9510E96FE8EE74D630A9"
+  },
+  {
+    "path": "LoongRacing/Tests/PlayMode/MenuFlowTests.cs",
+    "guid": "4bdc39ef751771d4e8fb99c43ccdf254",
+    "isFolder": false,
+    "metaHash": "037C092E160B7C8C01F845034040C2CC00930B6796EE3773C456AEDD01D577A2"
+  },
+  {
+    "path": "LoongRacing/Tests/PlayMode/RaceSessionTests.cs",
+    "guid": "cfdfe0264aa82f94d8ea92603edeb3ea",
+    "isFolder": false,
+    "metaHash": "498410DCC67A35BADF7493BBC3867189F486BAFAF20547195894FB8C9567099B"
+  },
+  {
+    "path": "LoongRacing/Tests/PlayMode/RouteProgressTests.cs",
+    "guid": "dd06f5ca33ece0e459df42d0e896e4bb",
+    "isFolder": false,
+    "metaHash": "4BB13C5433082ADFED5979FB07D574D5DF8D257D15C8CD507F997678BCAA6C40"
+  },
+  {
+    "path": "Scenes/SampleScene.unity",
+    "guid": "99c9720ab356a0642a771bea13969a05",
+    "isFolder": false,
+    "metaHash": "B5815A6B12AFAF810577BC89041C4CE46516C7CD6609693F8DB616F8E5584D80"
+  },
+  {
+    "path": "Settings/DefaultVolumeProfile.asset",
+    "guid": "ab09877e2e707104187f6f83e2f62510",
+    "isFolder": false,
+    "metaHash": "EFBCB026CEE6B8E32FDF27018C06B0515296A6CCBB43969E792FEA270310700A"
+  },
+  {
+    "path": "Settings/Mobile_Renderer.asset",
+    "guid": "65bc7dbf4170f435aa868c779acfb082",
+    "isFolder": false,
+    "metaHash": "A148EE2B4987B05B8FF7AE5F9BF84916184F77AEFDDC821DCEB551F5A69F8179"
+  },
+  {
+    "path": "Settings/Mobile_RPAsset.asset",
+    "guid": "5e6cbd92db86f4b18aec3ed561671858",
+    "isFolder": false,
+    "metaHash": "53EA46647712C615FD1A3F2E0DDDFA8559EEEDC649E9A1DBF93FF913DE28544C"
+  },
+  {
+    "path": "Settings/PC_Renderer.asset",
+    "guid": "f288ae1f4751b564a96ac7587541f7a2",
+    "isFolder": false,
+    "metaHash": "B5DF8DDB2708C6ED4C133A5FF9EE95A75CC20E4EE3ED6181366A61AEDBAF31EC"
+  },
+  {
+    "path": "Settings/PC_RPAsset.asset",
+    "guid": "4b83569d67af61e458304325a23e5dfd",
+    "isFolder": false,
+    "metaHash": "BB469B9B6F318E9E9BED29C3B2E73E79371C04743C6F95DD6603941F1CD3E53E"
+  },
+  {
+    "path": "Settings/SampleSceneProfile.asset",
+    "guid": "10fc4df2da32a41aaa32d77bc913491c",
+    "isFolder": false,
+    "metaHash": "2E23ABC214069F0ADBF2B2207F1DB54BE7876629EC2A3681D0F4AA5B61622EF0"
+  },
+  {
+    "path": "Settings/UniversalRenderPipelineGlobalSettings.asset",
+    "guid": "18dc0cd2c080841dea60987a38ce93fa",
+    "isFolder": false,
+    "metaHash": "F61661D8BC8DBE531DAF09F6211EF978C7BA145C9207C8E76524396AE0722D7C"
+  },
+  {
+    "path": "TutorialInfo/Icons",
+    "guid": "8a0c9218a650547d98138cd835033977",
+    "isFolder": true,
+    "metaHash": "546E7D7AF6B4D5E17D284C8F1188D05472E681911B8359905EE9B9E20769A106"
+  },
+  {
+    "path": "TutorialInfo/Layout.wlt",
+    "guid": "eabc9546105bf4accac1fd62a63e88e6",
+    "isFolder": false,
+    "metaHash": "B8745A251DF078FFA75DBAAC0C4C6DEBECB61AB306B5B119A490CE6C635A11D8"
+  },
+  {
+    "path": "TutorialInfo/Scripts",
+    "guid": "5a9bcd70e6a4b4b05badaa72e827d8e0",
+    "isFolder": true,
+    "metaHash": "930D0C8276CEA1559A3E315F8500EA6CA8B58D980EEE3B44AAA1D461742C47E0"
+  },
+  {
+    "path": "TutorialInfo/Icons/URP.png",
+    "guid": "727a75301c3d24613a3ebcec4a24c2c8",
+    "isFolder": false,
+    "metaHash": "B330F1FCFC4E6CECCC95FC34A38434141603469B135633E1C4E8A03C19F9FDBC"
+  },
+  {
+    "path": "TutorialInfo/Scripts/Editor",
+    "guid": "3ad9b87dffba344c89909c6d1b1c17e1",
+    "isFolder": true,
+    "metaHash": "7036BDBC8AF05799B5FD508484343B35C28A68B390198DA4673D34357D7D667F"
+  },
+  {
+    "path": "TutorialInfo/Scripts/Readme.cs",
+    "guid": "fcf7219bab7fe46a1ad266029b2fee19",
+    "isFolder": false,
+    "metaHash": "80A3DF9969FAB6E656583EE9BBCA884D0507E2B7DE3417F6EA3118FBA901CD60"
+  },
+  {
+    "path": "TutorialInfo/Scripts/Editor/ReadmeEditor.cs",
+    "guid": "476cc7d7cd9874016adc216baab94a0a",
+    "isFolder": false,
+    "metaHash": "F59080B424C16FA13EDD105BF006FDBAD98C11FCE0C921043E63C8877F144CD9"
+  }
+]

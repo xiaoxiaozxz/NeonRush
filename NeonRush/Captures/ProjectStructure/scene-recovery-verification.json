@@ -1,0 +1,10 @@
+{
+  "issue": "Unity reopened an empty editor workspace after batch validation",
+  "sceneFilesLost": false,
+  "restoredScene": "Assets/_Project/Scenes/NeonHarbor.unity",
+  "fix": "Inspect scenes with OpenPreviewScene/ClosePreviewScene instead of replacing the editor workspace",
+  "verificationSource": "Unity Test Runner UI in the user's open editor",
+  "editModePassed": 24,
+  "editModeFailed": 0,
+  "sceneRemainsLoadedAndActiveAfterTests": true
+}

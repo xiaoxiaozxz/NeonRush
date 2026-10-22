@@ -11,7 +11,7 @@ import random
 import wave
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "NeonRush/Assets/LoongRacing/Audio"
+OUT = ROOT / "NeonRush/Assets/_Project/Audio"
 CAPTURES = ROOT / "NeonRush/Captures"
 RATE = 44100
 TAU = math.tau

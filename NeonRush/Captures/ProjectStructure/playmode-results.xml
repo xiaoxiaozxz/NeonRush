@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="34" result="Passed" total="34" passed="34" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-22 10:13:52Z" end-time="2026-10-22 10:16:04Z" duration="131.9297505">
+  <test-suite type="TestSuite" id="1046" name="NeonRush" fullname="NeonRush" runstate="Runnable" testcasecount="34" result="Passed" start-time="2026-10-22 10:13:52Z" end-time="2026-10-22 10:16:04Z" duration="131.929751" total="34" passed="34" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1040" name="LoongRacing.PlayModeTests.dll" fullname="D:/myproject/3dloong/NeonRush/Library/ScriptAssemblies/LoongRacing.PlayModeTests.dll" runstate="Runnable" testcasecount="34" result="Passed" start-time="2026-10-22 10:13:52Z" end-time="2026-10-22 10:16:04Z" duration="131.921443" total="34" passed="34" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="28244" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1041" name="LoongRacing" fullname="LoongRacing" runstate="Runnable" testcasecount="34" result="Passed" start-time="2026-10-22 10:13:52Z" end-time="2026-10-22 10:16:04Z" duration="131.921005" total="34" passed="34" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1042" name="Tests" fullname="LoongRacing.Tests" runstate="Runnable" testcasecount="34" result="Passed" start-time="2026-10-22 10:13:52Z" end-time="2026-10-22 10:16:04Z" duration="131.920656" total="34" passed="34" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1001" name="HarborCircuitTests" fullname="LoongRacing.Tests.HarborCircuitTests" classname="LoongRacing.Tests.HarborCircuitTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-22 10:13:52Z" end-time="2026-10-22 10:14:44Z" duration="51.920320" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1005" name="NeonCoupeFinishesThreePhysicalLapsWithoutRecovery" fullname="LoongRacing.Tests.HarborCircuitTests.NeonCoupeFinishesThreePhysicalLapsWithoutRecovery" methodname="NeonCoupeFinishesThreePhysicalLapsWithoutRecovery" classname="LoongRacing.Tests.HarborCircuitTests" runstate="Runnable" seed="1190845556" result="Passed" start-time="2026-10-22 10:13:52Z" end-time="2026-10-22 10:14:26Z" duration="33.042270" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Neon QA] state=Finished laps=3 total=94.902s gates=36 offset=1.17m rescues=0
+]]></output>
+            </test-case>
+            <test-case id="1003" name="NeonCoupeJumpHasSeparateAirAndLandingBoosts" fullname="LoongRacing.Tests.HarborCircuitTests.NeonCoupeJumpHasSeparateAirAndLandingBoosts" methodname="NeonCoupeJumpHasSeparateAirAndLandingBoosts" classname="LoongRacing.Tests.HarborCircuitTests" runstate="Runnable" seed="744907787" result="Passed" start-time="2026-10-22 10:14:26Z" end-time="2026-10-22 10:14:28Z" duration="2.631955" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Jump QA] air=True landing=True peak=2.28m speed=181.0km/h pos=(-4.78, 0.50, -1.72) ground=True throttle=1 rescues=0
+]]></output>
+            </test-case>
+            <test-case id="1004" name="NeonRigWheelsSteerRollAndBrakeAtBoundAnchors" fullname="LoongRacing.Tests.HarborCircuitTests.NeonRigWheelsSteerRollAndBrakeAtBoundAnchors" methodname="NeonRigWheelsSteerRollAndBrakeAtBoundAnchors" classname="LoongRacing.Tests.HarborCircuitTests" runstate="Runnable" seed="1282391734" result="Passed" start-time="2026-10-22 10:14:28Z" end-time="2026-10-22 10:14:30Z" duration="1.639989" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1002" name="OptionalJumpNaturallyEnablesAirAndLandingBoosts" fullname="LoongRacing.Tests.HarborCircuitTests.OptionalJumpNaturallyEnablesAirAndLandingBoosts" methodname="OptionalJumpNaturallyEnablesAirAndLandingBoosts" classname="LoongRacing.Tests.HarborCircuitTests" runstate="Runnable" seed="84435742" result="Passed" start-time="2026-10-22 10:14:30Z" end-time="2026-10-22 10:14:32Z" duration="2.637725" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Jump QA] air=True landing=True peak=2.27m speed=182.0km/h pos=(-4.67, 0.50, -1.08) ground=True throttle=1 rescues=0
+]]></output>
+            </test-case>
+            <test-case id="1006" name="SingleLapChallengeFinishesThroughAllTwelveGatesWithPhysicalDriving" fullname="LoongRacing.Tests.HarborCircuitTests.SingleLapChallengeFinishesThroughAllTwelveGatesWithPhysicalDriving" methodname="SingleLapChallengeFinishesThroughAllTwelveGatesWithPhysicalDriving" classname="LoongRacing.Tests.HarborCircuitTests" runstate="Runnable" seed="1414297211" result="Passed" start-time="2026-10-22 10:14:32Z" end-time="2026-10-22 10:14:44Z" duration="11.954485" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[Circuit QA] elapsed=32.36s gates=12 height=6.94m maxOffset=1.24m recoveries=0
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1007" name="KartDrivingTests" fullname="LoongRacing.Tests.KartDrivingTests" classname="LoongRacing.Tests.KartDrivingTests" runstate="Runnable" testcasecount="16" result="Passed" start-time="2026-10-22 10:14:44Z" end-time="2026-10-22 10:15:41Z" duration="56.614603" total="16" passed="16" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1008" name="AcceleratesBrakesReversesAndResets" fullname="LoongRacing.Tests.KartDrivingTests.AcceleratesBrakesReversesAndResets" methodname="AcceleratesBrakesReversesAndResets" classname="LoongRacing.Tests.KartDrivingTests" runstate="Runnable" seed="638222375" result="Passed" start-time="2026-10-22 10:14:44Z" end-time="2026-10-22 10:14:48Z" duration="3.850891" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1018" name="AirBoostAndLandingBoostAreSeparateSingleUseWindows" fullname="LoongRacing.Tests.KartDrivingTests.AirBoostAndLandingBoostAreSeparateSingleUseWindows" methodname="AirBoostAndLandingBoostAreSeparateSingleUseWindows" classname="LoongRacing.Tests.KartDrivingTests" runstate="Runnable" seed="1382316865" result="Passed" start-time="2026-10-22 10:14:48Z" end-time="2026-10-22 10:14:50Z" duration="1.439022" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1013" name="AirborneThrottleDoesNotCreateForwardAcceleration" fullname="LoongRacing.Tests.KartDrivingTests.AirborneThrottleDoesNotCreateForwardAcceleration" methodname="AirborneThrottleDoesNotCreateForwardAcceleration" classname="LoongRacing.Tests.KartDrivingTests" runstate="Runnable" seed="930046223" result="Passed" start-time="2026-10-22 10:14:50Z" end-time="2026-10-22 10:14:50Z" duration="0.659556" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1023" name="AudioBankPlaysLoopsAndRespondsToSpeedAndMute" fullname="LoongRacing.Tests.KartDrivingTests.AudioBankPlaysLoopsAndRespondsToSpeedAndMute" methodname="AudioBankPlaysLoopsAndRespondsToSpeedAndMute" classname="LoongRacing.Tests.KartDrivingTests" runstate="Runnable" seed="1614519013" result="Passed" start-time="2026-10-22 10:14:50Z" end-time="2026-10-22 10:14:52Z" duration="1.660292" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1016" name="BufferedWOnDriftReleaseTriggersOneMiniBoost" fullname="LoongRacing.Tests.KartDrivingTests.BufferedWOnDriftReleaseTriggersOneMiniBoost" methodname="BufferedWOnDriftReleaseTriggersOneMiniBoost" classname="LoongRacing.Tests.KartDrivingTests" runstate="Runnable" seed="1375602491" result="Passed" start-time="2026-10-22 10:14:52Z" end-time="2026-10-22 10:14:55Z" duration="3.319515" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1021" name="DriftCreatesSlipChargesAndRecoversOnRelease" fullname="LoongRacing.Tests.KartDrivingTests.DriftCreatesSlipChargesAndRecoversOnRelease" methodname="DriftCreatesSlipChargesAndRecoversOnRelease" classname="LoongRacing.Tests.KartDrivingTests" runstate="Runnable" seed="1642941279" result="Passed" start-time="2026-10-22 10:14:55Z" end-time="2026-10-22 10:15:02Z" duration="6.520017" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1014" name="LargerDriftAngleAndFasterDefaultCharge" fullname="LoongRacing.Tests.KartDrivingTests.LargerDriftAngleAndFasterDefaultCharge" methodname="LargerDriftAngleAndFasterDefaultCharge" classname="LoongRacing.Tests.KartDrivingTests" runstate="Runnable" seed="67568508" result="Passed" start-time="2026-10-22 10:15:02Z" end-time="2026-10-22 10:15:05Z" duration="2.939840" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1022" name="LeavingGroundStopsDriftAndEnergyGain" fullname="LoongRacing.Tests.KartDrivingTests.LeavingGroundStopsDriftAndEnergyGain" methodname="LeavingGroundStopsDriftAndEnergyGain" classname="LoongRacing.Tests.KartDrivingTests" runstate="Runnable" seed="1489979663" result="Passed" start-time="2026-10-22 10:15:05Z" end-time="2026-10-22 10:15:07Z" duration="2.460052" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1020" name="LowSpeedAndOrdinarySteeringDoNotChargeEnergy" fullname="LoongRacing.Tests.KartDrivingTests.LowSpeedAndOrdinarySteeringDoNotChargeEnergy" methodname="LowSpeedAndOrdinarySteeringDoNotChargeEnergy" classname="LoongRacing.Tests.KartDrivingTests" runstate="Runnable" seed="1651688242" result="Passed" start-time="2026-10-22 10:15:07Z" end-time="2026-10-22 10:15:10Z" duration="2.659782" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1017" name="MiniBoostWindowExpires" fullname="LoongRacing.Tests.KartDrivingTests.MiniBoostWindowExpires" methodname="MiniBoostWindowExpires" classname="LoongRacing.Tests.KartDrivingTests" runstate="Runnable" seed="1676401914" result="Passed" start-time="2026-10-22 10:15:10Z" end-time="2026-10-22 10:15:14Z" duration="3.899858" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1015" name="NitroConsumesOneChargeCapsSpeedAndExpires" fullname="LoongRacing.Tests.KartDrivingTests.NitroConsumesOneChargeCapsSpeedAndExpires" methodname="NitroConsumesOneChargeCapsSpeedAndExpires" classname="LoongRacing.Tests.KartDrivingTests" runstate="Runnable" seed="1588830025" result="Passed" start-time="2026-10-22 10:15:14Z" end-time="2026-10-22 10:15:22Z" duration="7.999904" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1019" name="RealKeyboardE_Q_WBindingsTriggerDriftNitroAndMini" fullname="LoongRacing.Tests.KartDrivingTests.RealKeyboardE_Q_WBindingsTriggerDriftNitroAndMini" methodname="RealKeyboardE_Q_WBindingsTriggerDriftNitroAndMini" classname="LoongRacing.Tests.KartDrivingTests" runstate="Runnable" seed="1631378272" result="Passed" start-time="2026-10-22 10:15:22Z" end-time="2026-10-22 10:15:26Z" duration="4.507022" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1012" name="RecoveryPreservesPartialChargeAndInventoryButNewRunClearsBoth" fullname="LoongRacing.Tests.KartDrivingTests.RecoveryPreservesPartialChargeAndInventoryButNewRunClearsBoth" methodname="RecoveryPreservesPartialChargeAndInventoryButNewRunClearsBoth" classname="LoongRacing.Tests.KartDrivingTests" runstate="Runnable" seed="189056030" result="Passed" start-time="2026-10-22 10:15:26Z" end-time="2026-10-22 10:15:30Z" duration="3.536648" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1009" name="SteeringRequiresMovementAndTurnsInBothDirections" fullname="LoongRacing.Tests.KartDrivingTests.SteeringRequiresMovementAndTurnsInBothDirections" methodname="SteeringRequiresMovementAndTurnsInBothDirections" classname="LoongRacing.Tests.KartDrivingTests" runstate="Runnable" seed="1486956963" result="Passed" start-time="2026-10-22 10:15:30Z" end-time="2026-10-22 10:15:33Z" duration="3.159473" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1011" name="WallImpactKeepsNitroUntilItsOriginalExpiry" fullname="LoongRacing.Tests.KartDrivingTests.WallImpactKeepsNitroUntilItsOriginalExpiry" methodname="WallImpactKeepsNitroUntilItsOriginalExpiry" classname="LoongRacing.Tests.KartDrivingTests" runstate="Runnable" seed="189552603" result="Passed" start-time="2026-10-22 10:15:33Z" end-time="2026-10-22 10:15:38Z" duration="5.179222" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1010" name="WallStopsVehicleWithoutTunnelling" fullname="LoongRacing.Tests.KartDrivingTests.WallStopsVehicleWithoutTunnelling" methodname="WallStopsVehicleWithoutTunnelling" classname="LoongRacing.Tests.KartDrivingTests" runstate="Runnable" seed="1950485925" result="Passed" start-time="2026-10-22 10:15:38Z" end-time="2026-10-22 10:15:41Z" duration="2.819763" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1024" name="MenuFlowTests" fullname="LoongRacing.Tests.MenuFlowTests" classname="LoongRacing.Tests.MenuFlowTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-22 10:15:41Z" end-time="2026-10-22 10:15:48Z" duration="7.090742" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1026" name="LeavingPauseSettingsKeepsTheClockStoppedUntilResume" fullname="LoongRacing.Tests.MenuFlowTests.LeavingPauseSettingsKeepsTheClockStoppedUntilResume" methodname="LeavingPauseSettingsKeepsTheClockStoppedUntilResume" classname="LoongRacing.Tests.MenuFlowTests" runstate="Runnable" seed="197224555" result="Passed" start-time="2026-10-22 10:15:41Z" end-time="2026-10-22 10:15:46Z" duration="4.718988" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1025" name="MainMenuSettingsAndSelectionStartTheChosenMode" fullname="LoongRacing.Tests.MenuFlowTests.MainMenuSettingsAndSelectionStartTheChosenMode" methodname="MainMenuSettingsAndSelectionStartTheChosenMode" classname="LoongRacing.Tests.MenuFlowTests" runstate="Runnable" seed="582646748" result="Passed" start-time="2026-10-22 10:15:46Z" end-time="2026-10-22 10:15:47Z" duration="1.159891" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1027" name="ReturningFromPauseRestoresMainMenuAndCountdownControls" fullname="LoongRacing.Tests.MenuFlowTests.ReturningFromPauseRestoresMainMenuAndCountdownControls" methodname="ReturningFromPauseRestoresMainMenuAndCountdownControls" classname="LoongRacing.Tests.MenuFlowTests" runstate="Runnable" seed="671659182" result="Passed" start-time="2026-10-22 10:15:47Z" end-time="2026-10-22 10:15:48Z" duration="1.208142" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1028" name="RaceSessionTests" fullname="LoongRacing.Tests.RaceSessionTests" classname="LoongRacing.Tests.RaceSessionTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-22 10:15:48Z" end-time="2026-10-22 10:15:59Z" duration="11.199666" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1029" name="CountdownLocksControlsAndBothClocksRespectPause" fullname="LoongRacing.Tests.RaceSessionTests.CountdownLocksControlsAndBothClocksRespectPause" methodname="CountdownLocksControlsAndBothClocksRespectPause" classname="LoongRacing.Tests.RaceSessionTests" runstate="Runnable" seed="2008581350" result="Passed" start-time="2026-10-22 10:15:48Z" end-time="2026-10-22 10:15:52Z" duration="3.617336" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1030" name="OrderedFinishProducesOneResultAndRetryClearsRunOnly" fullname="LoongRacing.Tests.RaceSessionTests.OrderedFinishProducesOneResultAndRetryClearsRunOnly" methodname="OrderedFinishProducesOneResultAndRetryClearsRunOnly" classname="LoongRacing.Tests.RaceSessionTests" runstate="Runnable" seed="917232410" result="Passed" start-time="2026-10-22 10:15:52Z" end-time="2026-10-22 10:15:55Z" duration="3.411105" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1032" name="PracticeDoesNotWriteRecordsAndFullResetReturnsToMenu" fullname="LoongRacing.Tests.RaceSessionTests.PracticeDoesNotWriteRecordsAndFullResetReturnsToMenu" methodname="PracticeDoesNotWriteRecordsAndFullResetReturnsToMenu" classname="LoongRacing.Tests.RaceSessionTests" runstate="Runnable" seed="634720916" result="Passed" start-time="2026-10-22 10:15:55Z" end-time="2026-10-22 10:15:55Z" duration="0.259024" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1033" name="RecordsPersistOnlyFinitePositiveImprovements" fullname="LoongRacing.Tests.RaceSessionTests.RecordsPersistOnlyFinitePositiveImprovements" methodname="RecordsPersistOnlyFinitePositiveImprovements" classname="LoongRacing.Tests.RaceSessionTests" runstate="Runnable" seed="1694221232" result="Passed" start-time="2026-10-22 10:15:55Z" end-time="2026-10-22 10:15:55Z" duration="0.008289" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1031" name="ThreeLapsKeepTimingThroughRecoveryAndSaveSeparateTotal" fullname="LoongRacing.Tests.RaceSessionTests.ThreeLapsKeepTimingThroughRecoveryAndSaveSeparateTotal" methodname="ThreeLapsKeepTimingThroughRecoveryAndSaveSeparateTotal" classname="LoongRacing.Tests.RaceSessionTests" runstate="Runnable" seed="754639001" result="Passed" start-time="2026-10-22 10:15:55Z" end-time="2026-10-22 10:15:59Z" duration="3.899729" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1034" name="RouteProgressTests" fullname="LoongRacing.Tests.RouteProgressTests" classname="LoongRacing.Tests.RouteProgressTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-22 10:15:59Z" end-time="2026-10-22 10:16:04Z" duration="5.093629" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1036" name="CircuitRequiresEveryCheckpointAndCanRepeat" fullname="LoongRacing.Tests.RouteProgressTests.CircuitRequiresEveryCheckpointAndCanRepeat" methodname="CircuitRequiresEveryCheckpointAndCanRepeat" classname="LoongRacing.Tests.RouteProgressTests" runstate="Runnable" seed="1338962359" result="Passed" start-time="2026-10-22 10:15:59Z" end-time="2026-10-22 10:16:00Z" duration="0.232656" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1038" name="FallingAutomaticallyRecoversWithoutAdvancing" fullname="LoongRacing.Tests.RouteProgressTests.FallingAutomaticallyRecoversWithoutAdvancing" methodname="FallingAutomaticallyRecoversWithoutAdvancing" classname="LoongRacing.Tests.RouteProgressTests" runstate="Runnable" seed="1210615214" result="Passed" start-time="2026-10-22 10:16:00Z" end-time="2026-10-22 10:16:00Z" duration="0.296220" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1037" name="NearbyRecoveryPreservesSessionAndDoesNotPassGates" fullname="LoongRacing.Tests.RouteProgressTests.NearbyRecoveryPreservesSessionAndDoesNotPassGates" methodname="NearbyRecoveryPreservesSessionAndDoesNotPassGates" classname="LoongRacing.Tests.RouteProgressTests" runstate="Runnable" seed="892187424" result="Passed" start-time="2026-10-22 10:16:00Z" end-time="2026-10-22 10:16:01Z" duration="1.241573" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1039" name="OffRoadTimeoutRecoversAndWrongWayWarns" fullname="LoongRacing.Tests.RouteProgressTests.OffRoadTimeoutRecoversAndWrongWayWarns" methodname="OffRoadTimeoutRecoversAndWrongWayWarns" classname="LoongRacing.Tests.RouteProgressTests" runstate="Runnable" seed="859057400" result="Passed" start-time="2026-10-22 10:16:01Z" end-time="2026-10-22 10:16:04Z" duration="3.080339" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1035" name="OnlyOrderedForwardCrossingsWithinGateCount" fullname="LoongRacing.Tests.RouteProgressTests.OnlyOrderedForwardCrossingsWithinGateCount" methodname="OnlyOrderedForwardCrossingsWithinGateCount" classname="LoongRacing.Tests.RouteProgressTests" runstate="Runnable" seed="1700543517" result="Passed" start-time="2026-10-22 10:16:04Z" end-time="2026-10-22 10:16:04Z" duration="0.239140" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[<b><color=#2EA3FF>MCP-FOR-UNITY</color></b>: [TestRunnerNoThrottle] Restored Interaction Mode after test run.
+Saving results to: C:/Users/smile/AppData/LocalLow/DefaultCompany/NeonRush\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

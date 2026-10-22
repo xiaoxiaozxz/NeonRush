@@ -1,0 +1,7 @@
+{
+  "name": "LoongRacing.Core",
+  "rootNamespace": "LoongRacing",
+  "references": [],
+  "autoReferenced": true,
+  "noEngineReferences": true
+}

@@ -11,11 +11,11 @@
 ## 交付文件
 
 - `LoongVela_NeonHarbor.blend`：可编辑源模型，工作场景 `Loong Neon Studio`，保留 Blender 原场景。
-- `../../NeonRush/Assets/LoongRacing/Art/NeonHarbor/Models/`：赛车及六个环境模块的 FBX。
-- `../../NeonRush/Assets/LoongRacing/Art/NeonHarbor/Textures/`：2K 车漆、湿路颜色/法线/金属平滑度贴图及原创广告图。
-- `../../NeonRush/Assets/LoongRacing/Art/NeonHarbor/Materials/`：URP 材质、天空 Shader 和后处理配置。
-- `../../NeonRush/Assets/LoongRacing/Prefabs/VelaRacer.prefab`：驾驶系统可用的跑车 Prefab。
-- `../../NeonRush/Assets/LoongRacing/Scenes/NeonHarbor.unity`：独立夜景场景。
+- `../../NeonRush/Assets/_Project/Art/NeonHarbor/Models/`：赛车及六个环境模块的 FBX。
+- `../../NeonRush/Assets/_Project/Art/NeonHarbor/Textures/`：2K 车漆、湿路颜色/法线/金属平滑度贴图及原创广告图。
+- `../../NeonRush/Assets/_Project/Art/NeonHarbor/Materials/`：URP 材质、天空 Shader 和后处理配置。
+- `../../NeonRush/Assets/_Project/Prefabs/VelaRacer.prefab`：驾驶系统可用的跑车 Prefab。
+- `../../NeonRush/Assets/_Project/Scenes/NeonHarbor.unity`：独立夜景场景。
 - `../../NeonRush/Captures/NeonHarbor/`：三视图、车尾渲染、实际漂移、驾驶与样板总览、验证及性能 JSON。
 
 ## 模型和接入
@@ -42,3 +42,5 @@ Blender 使用 X 向右、Y 向前、Z 向上，车长约 4.8 米；Unity 模型
 `../../Tools/Art/build_neon_assets.py` 是 Blender 生成源脚本；已有 `Loong Neon Studio` 时主动拒绝覆盖，常规修改请直接编辑 .blend。Unity `NeonHarborSetup` 也会拒绝覆盖已存在场景；菜单正常打开现有成果。修改源模块后需重新导出 FBX，并重做受影响的静态合并与反射探针烘焙。
 
 `NeonPerformanceValidation.Start()` 为显式调用的编辑器验证工具，使用真实驾驶输入跑一圈并输出性能 JSON；未接入玩家操作流程。
+
+2026-10-22 目录整理后，Unity 资源位置更新为 `Assets/_Project/Art/NeonHarbor`，`.blend` 中两张外部贴图已改为新目录的相对路径。`../../Tools/Art/relink_neon_textures.py` 可在 Blender 中检查或修复这份源文件的贴图链接；验证记录见 `../../NeonRush/Captures/ProjectStructure/blender-textures.json`。

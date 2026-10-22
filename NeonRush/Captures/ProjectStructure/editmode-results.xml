@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="23" result="Passed" total="23" passed="23" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-22 10:18:03Z" end-time="2026-10-22 10:18:05Z" duration="1.7736063">
+  <test-suite type="TestSuite" id="1000" name="NeonRush" fullname="NeonRush" runstate="Runnable" testcasecount="23" result="Passed" start-time="2026-10-22 10:18:03Z" end-time="2026-10-22 10:18:05Z" duration="1.773606" total="23" passed="23" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1030" name="LoongRacing.EditModeTests.dll" fullname="D:/myproject/3dloong/NeonRush/Library/ScriptAssemblies/LoongRacing.EditModeTests.dll" runstate="Runnable" testcasecount="23" result="Passed" start-time="2026-10-22 10:18:03Z" end-time="2026-10-22 10:18:05Z" duration="1.765677" total="23" passed="23" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="30068" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1031" name="LoongRacing" fullname="LoongRacing" runstate="Runnable" testcasecount="23" result="Passed" start-time="2026-10-22 10:18:03Z" end-time="2026-10-22 10:18:05Z" duration="1.765294" total="23" passed="23" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1032" name="Tests" fullname="LoongRacing.Tests" runstate="Runnable" testcasecount="23" result="Passed" start-time="2026-10-22 10:18:03Z" end-time="2026-10-22 10:18:05Z" duration="1.765143" total="23" passed="23" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1001" name="ProjectAssetsTests" fullname="LoongRacing.Tests.ProjectAssetsTests" classname="LoongRacing.Tests.ProjectAssetsTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-10-22 10:18:03Z" end-time="2026-10-22 10:18:05Z" duration="1.754667" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1009" name="BuildScenesAndAudioBankResolveAtTheirNewPaths" fullname="LoongRacing.Tests.ProjectAssetsTests.BuildScenesAndAudioBankResolveAtTheirNewPaths" methodname="BuildScenesAndAudioBankResolveAtTheirNewPaths" classname="LoongRacing.Tests.ProjectAssetsTests" runstate="Runnable" seed="440907748" result="Passed" start-time="2026-10-22 10:18:03Z" end-time="2026-10-22 10:18:03Z" duration="0.019867" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1008" name="MigratedPrefabsKeepTheirComponentsAndDependencies" fullname="LoongRacing.Tests.ProjectAssetsTests.MigratedPrefabsKeepTheirComponentsAndDependencies" classname="LoongRacing.Tests.ProjectAssetsTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-22 10:18:03Z" end-time="2026-10-22 10:18:03Z" duration="0.055191" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1006" name="MigratedPrefabsKeepTheirComponentsAndDependencies(&quot;Assets/_Project/Prefabs/BlockKart.prefab&quot;)" fullname="LoongRacing.Tests.ProjectAssetsTests.MigratedPrefabsKeepTheirComponentsAndDependencies(&quot;Assets/_Project/Prefabs/BlockKart.prefab&quot;)" methodname="MigratedPrefabsKeepTheirComponentsAndDependencies" classname="LoongRacing.Tests.ProjectAssetsTests" runstate="Runnable" seed="864031813" result="Passed" start-time="2026-10-22 10:18:03Z" end-time="2026-10-22 10:18:03Z" duration="0.013890" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1007" name="MigratedPrefabsKeepTheirComponentsAndDependencies(&quot;Assets/_Project/Prefabs/VelaRacer.prefab&quot;)" fullname="LoongRacing.Tests.ProjectAssetsTests.MigratedPrefabsKeepTheirComponentsAndDependencies(&quot;Assets/_Project/Prefabs/VelaRacer.prefab&quot;)" methodname="MigratedPrefabsKeepTheirComponentsAndDependencies" classname="LoongRacing.Tests.ProjectAssetsTests" runstate="Runnable" seed="1820026594" result="Passed" start-time="2026-10-22 10:18:03Z" end-time="2026-10-22 10:18:03Z" duration="0.039170" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="ParameterizedMethod" id="1005" name="MigratedScenesKeepTheirComponentAndAssetReferences" fullname="LoongRacing.Tests.ProjectAssetsTests.MigratedScenesKeepTheirComponentAndAssetReferences" classname="LoongRacing.Tests.ProjectAssetsTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-22 10:18:03Z" end-time="2026-10-22 10:18:05Z" duration="1.666711" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1002" name="MigratedScenesKeepTheirComponentAndAssetReferences(&quot;Assets/_Project/Scenes/TrainingGround.unity&quot;)" fullname="LoongRacing.Tests.ProjectAssetsTests.MigratedScenesKeepTheirComponentAndAssetReferences(&quot;Assets/_Project/Scenes/TrainingGround.unity&quot;)" methodname="MigratedScenesKeepTheirComponentAndAssetReferences" classname="LoongRacing.Tests.ProjectAssetsTests" runstate="Runnable" seed="320260078" result="Passed" start-time="2026-10-22 10:18:03Z" end-time="2026-10-22 10:18:04Z" duration="0.457736" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1003" name="MigratedScenesKeepTheirComponentAndAssetReferences(&quot;Assets/_Project/Scenes/HarborCircuit.unity&quot;)" fullname="LoongRacing.Tests.ProjectAssetsTests.MigratedScenesKeepTheirComponentAndAssetReferences(&quot;Assets/_Project/Scenes/HarborCircuit.unity&quot;)" methodname="MigratedScenesKeepTheirComponentAndAssetReferences" classname="LoongRacing.Tests.ProjectAssetsTests" runstate="Runnable" seed="1280920051" result="Passed" start-time="2026-10-22 10:18:04Z" end-time="2026-10-22 10:18:04Z" duration="0.417425" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1004" name="MigratedScenesKeepTheirComponentAndAssetReferences(&quot;Assets/_Project/Scenes/NeonHarbor.unity&quot;)" fullname="LoongRacing.Tests.ProjectAssetsTests.MigratedScenesKeepTheirComponentAndAssetReferences(&quot;Assets/_Project/Scenes/NeonHarbor.unity&quot;)" methodname="MigratedScenesKeepTheirComponentAndAssetReferences" classname="LoongRacing.Tests.ProjectAssetsTests" runstate="Runnable" seed="1975370225" result="Passed" start-time="2026-10-22 10:18:04Z" end-time="2026-10-22 10:18:05Z" duration="0.790717" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+          </test-suite>
+          <test-suite type="TestFixture" id="1010" name="RaceTimeRulesTests" fullname="LoongRacing.Tests.RaceTimeRulesTests" classname="LoongRacing.Tests.RaceTimeRulesTests" runstate="Runnable" testcasecount="17" result="Passed" start-time="2026-10-22 10:18:05Z" end-time="2026-10-22 10:18:05Z" duration="0.009824" total="17" passed="17" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="ParameterizedMethod" id="1018" name="OnlyFinitePositiveTimesAreValid" fullname="LoongRacing.Tests.RaceTimeRulesTests.OnlyFinitePositiveTimesAreValid" classname="LoongRacing.Tests.RaceTimeRulesTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-10-22 10:18:05Z" end-time="2026-10-22 10:18:05Z" duration="0.003704" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1011" name="OnlyFinitePositiveTimesAreValid(0.0f,False)" fullname="LoongRacing.Tests.RaceTimeRulesTests.OnlyFinitePositiveTimesAreValid(0.0f,False)" methodname="OnlyFinitePositiveTimesAreValid" classname="LoongRacing.Tests.RaceTimeRulesTests" runstate="Runnable" seed="1316415098" result="Passed" start-time="2026-10-22 10:18:05Z" end-time="2026-10-22 10:18:05Z" duration="0.001977" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1012" name="OnlyFinitePositiveTimesAreValid(-1.0f,False)" fullname="LoongRacing.Tests.RaceTimeRulesTests.OnlyFinitePositiveTimesAreValid(-1.0f,False)" methodname="OnlyFinitePositiveTimesAreValid" classname="LoongRacing.Tests.RaceTimeRulesTests" runstate="Runnable" seed="1948422108" result="Passed" start-time="2026-10-22 10:18:05Z" end-time="2026-10-22 10:18:05Z" duration="0.000119" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1013" name="OnlyFinitePositiveTimesAreValid(float.NaN,False)" fullname="LoongRacing.Tests.RaceTimeRulesTests.OnlyFinitePositiveTimesAreValid(float.NaN,False)" methodname="OnlyFinitePositiveTimesAreValid" classname="LoongRacing.Tests.RaceTimeRulesTests" runstate="Runnable" seed="134224406" result="Passed" start-time="2026-10-22 10:18:05Z" end-time="2026-10-22 10:18:05Z" duration="0.000072" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1014" name="OnlyFinitePositiveTimesAreValid(float.PositiveInfinity,False)" fullname="LoongRacing.Tests.RaceTimeRulesTests.OnlyFinitePositiveTimesAreValid(float.PositiveInfinity,False)" methodname="OnlyFinitePositiveTimesAreValid" classname="LoongRacing.Tests.RaceTimeRulesTests" runstate="Runnable" seed="753668234" result="Passed" start-time="2026-10-22 10:18:05Z" end-time="2026-10-22 10:18:05Z" duration="0.000063" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1015" name="OnlyFinitePositiveTimesAreValid(float.NegativeInfinity,False)" fullname="LoongRacing.Tests.RaceTimeRulesTests.OnlyFinitePositiveTimesAreValid(float.NegativeInfinity,False)" methodname="OnlyFinitePositiveTimesAreValid" classname="LoongRacing.Tests.RaceTimeRulesTests" runstate="Runnable" seed="784637723" result="Passed" start-time="2026-10-22 10:18:05Z" end-time="2026-10-22 10:18:05Z" duration="0.000062" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1016" name="OnlyFinitePositiveTimesAreValid(0.001f,True)" fullname="LoongRacing.Tests.RaceTimeRulesTests.OnlyFinitePositiveTimesAreValid(0.001f,True)" methodname="OnlyFinitePositiveTimesAreValid" classname="LoongRacing.Tests.RaceTimeRulesTests" runstate="Runnable" seed="2088010061" result="Passed" start-time="2026-10-22 10:18:05Z" end-time="2026-10-22 10:18:05Z" duration="0.000059" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1017" name="OnlyFinitePositiveTimesAreValid(42.0f,True)" fullname="LoongRacing.Tests.RaceTimeRulesTests.OnlyFinitePositiveTimesAreValid(42.0f,True)" methodname="OnlyFinitePositiveTimesAreValid" classname="LoongRacing.Tests.RaceTimeRulesTests" runstate="Runnable" seed="1836101032" result="Passed" start-time="2026-10-22 10:18:05Z" end-time="2026-10-22 10:18:05Z" duration="0.000061" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="ParameterizedMethod" id="1029" name="RecordsAcceptOnlyValidFasterTimes" fullname="LoongRacing.Tests.RaceTimeRulesTests.RecordsAcceptOnlyValidFasterTimes" classname="LoongRacing.Tests.RaceTimeRulesTests" runstate="Runnable" testcasecount="10" result="Passed" start-time="2026-10-22 10:18:05Z" end-time="2026-10-22 10:18:05Z" duration="0.001844" total="10" passed="10" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1019" name="RecordsAcceptOnlyValidFasterTimes(40.0f,42.0f,True)" fullname="LoongRacing.Tests.RaceTimeRulesTests.RecordsAcceptOnlyValidFasterTimes(40.0f,42.0f,True)" methodname="RecordsAcceptOnlyValidFasterTimes" classname="LoongRacing.Tests.RaceTimeRulesTests" runstate="Runnable" seed="700607931" result="Passed" start-time="2026-10-22 10:18:05Z" end-time="2026-10-22 10:18:05Z" duration="0.000276" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1020" name="RecordsAcceptOnlyValidFasterTimes(42.0f,42.0f,False)" fullname="LoongRacing.Tests.RaceTimeRulesTests.RecordsAcceptOnlyValidFasterTimes(42.0f,42.0f,False)" methodname="RecordsAcceptOnlyValidFasterTimes" classname="LoongRacing.Tests.RaceTimeRulesTests" runstate="Runnable" seed="1361748347" result="Passed" start-time="2026-10-22 10:18:05Z" end-time="2026-10-22 10:18:05Z" duration="0.000069" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1021" name="RecordsAcceptOnlyValidFasterTimes(43.0f,42.0f,False)" fullname="LoongRacing.Tests.RaceTimeRulesTests.RecordsAcceptOnlyValidFasterTimes(43.0f,42.0f,False)" methodname="RecordsAcceptOnlyValidFasterTimes" classname="LoongRacing.Tests.RaceTimeRulesTests" runstate="Runnable" seed="1338829605" result="Passed" start-time="2026-10-22 10:18:05Z" end-time="2026-10-22 10:18:05Z" duration="0.000065" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1022" name="RecordsAcceptOnlyValidFasterTimes(42.0f,0.0f,True)" fullname="LoongRacing.Tests.RaceTimeRulesTests.RecordsAcceptOnlyValidFasterTimes(42.0f,0.0f,True)" methodname="RecordsAcceptOnlyValidFasterTimes" classname="LoongRacing.Tests.RaceTimeRulesTests" runstate="Runnable" seed="1146222911" result="Passed" start-time="2026-10-22 10:18:05Z" end-time="2026-10-22 10:18:05Z" duration="0.000066" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1023" name="RecordsAcceptOnlyValidFasterTimes(42.0f,-1.0f,True)" fullname="LoongRacing.Tests.RaceTimeRulesTests.RecordsAcceptOnlyValidFasterTimes(42.0f,-1.0f,True)" methodname="RecordsAcceptOnlyValidFasterTimes" classname="LoongRacing.Tests.RaceTimeRulesTests" runstate="Runnable" seed="1662674408" result="Passed" start-time="2026-10-22 10:18:05Z" end-time="2026-10-22 10:18:05Z" duration="0.000064" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1024" name="RecordsAcceptOnlyValidFasterTimes(42.0f,float.NaN,True)" fullname="LoongRacing.Tests.RaceTimeRulesTests.RecordsAcceptOnlyValidFasterTimes(42.0f,float.NaN,True)" methodname="RecordsAcceptOnlyValidFasterTimes" classname="LoongRacing.Tests.RaceTimeRulesTests" runstate="Runnable" seed="2134675615" result="Passed" start-time="2026-10-22 10:18:05Z" end-time="2026-10-22 10:18:05Z" duration="0.000063" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1025" name="RecordsAcceptOnlyValidFasterTimes(42.0f,float.PositiveInfinity,True)" fullname="LoongRacing.Tests.RaceTimeRulesTests.RecordsAcceptOnlyValidFasterTimes(42.0f,float.PositiveInfinity,True)" methodname="RecordsAcceptOnlyValidFasterTimes" classname="LoongRacing.Tests.RaceTimeRulesTests" runstate="Runnable" seed="359769994" result="Passed" start-time="2026-10-22 10:18:05Z" end-time="2026-10-22 10:18:05Z" duration="0.000064" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1026" name="RecordsAcceptOnlyValidFasterTimes(float.NaN,42.0f,False)" fullname="LoongRacing.Tests.RaceTimeRulesTests.RecordsAcceptOnlyValidFasterTimes(float.NaN,42.0f,False)" methodname="RecordsAcceptOnlyValidFasterTimes" classname="LoongRacing.Tests.RaceTimeRulesTests" runstate="Runnable" seed="1243707775" result="Passed" start-time="2026-10-22 10:18:05Z" end-time="2026-10-22 10:18:05Z" duration="0.000064" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1027" name="RecordsAcceptOnlyValidFasterTimes(float.PositiveInfinity,42.0f,False)" fullname="LoongRacing.Tests.RaceTimeRulesTests.RecordsAcceptOnlyValidFasterTimes(float.PositiveInfinity,42.0f,False)" methodname="RecordsAcceptOnlyValidFasterTimes" classname="LoongRacing.Tests.RaceTimeRulesTests" runstate="Runnable" seed="657042615" result="Passed" start-time="2026-10-22 10:18:05Z" end-time="2026-10-22 10:18:05Z" duration="0.000063" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1028" name="RecordsAcceptOnlyValidFasterTimes(0.0f,42.0f,False)" fullname="LoongRacing.Tests.RaceTimeRulesTests.RecordsAcceptOnlyValidFasterTimes(0.0f,42.0f,False)" methodname="RecordsAcceptOnlyValidFasterTimes" classname="LoongRacing.Tests.RaceTimeRulesTests" runstate="Runnable" seed="522067756" result="Passed" start-time="2026-10-22 10:18:05Z" end-time="2026-10-22 10:18:05Z" duration="0.000064" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[<b><color=#2EA3FF>MCP-FOR-UNITY</color></b>: [TestRunnerNoThrottle] Restored Interaction Mode after test run.
+Saving results to: C:/Users/smile/AppData/LocalLow/DefaultCompany/NeonRush\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

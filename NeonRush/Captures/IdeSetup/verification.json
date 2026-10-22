@@ -1,0 +1,19 @@
+{
+  "causes": [
+    "NuGet.Config contained 509 zero bytes and caused C# restore failures",
+    "Unity external editor was handled as an internal generic Code.exe launcher, with no generated solution/project files",
+    "C# language service treated scripts as miscellaneous files before solution reload"
+  ],
+  "fixes": [
+    "Backed up the corrupted user NuGet.Config and restored valid default configuration",
+    "Selected the actual VS Code installation through Unity's CodeEditor integration",
+    "Generated NeonRush.slnx and seven .csproj files",
+    "Reloaded VS Code so C# Dev Kit discovered the solution"
+  ],
+  "verification": {
+    "solutionOpened": "NeonRush.slnx",
+    "nugetRestore": "Completed in C# Dev Kit log",
+    "definitionNavigation": "F12: Gameplay/RaceRecordStore.cs -> Core/RaceTimeRules.cs",
+    "temporaryRepairScriptRemoved": true
+  }
+}

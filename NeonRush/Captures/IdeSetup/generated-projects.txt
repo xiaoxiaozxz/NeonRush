@@ -1,0 +1,9 @@
+Editor: Microsoft.Unity.VisualStudio.Editor.VisualStudioEditor
+D:\myproject\3dloong\NeonRush\NeonRush.slnx
+D:\myproject\3dloong\NeonRush\Assembly-CSharp-Editor.csproj
+D:\myproject\3dloong\NeonRush\Assembly-CSharp.csproj
+D:\myproject\3dloong\NeonRush\LoongRacing.Core.csproj
+D:\myproject\3dloong\NeonRush\LoongRacing.EditModeTests.csproj
+D:\myproject\3dloong\NeonRush\LoongRacing.Editor.csproj
+D:\myproject\3dloong\NeonRush\LoongRacing.PlayModeTests.csproj
+D:\myproject\3dloong\NeonRush\LoongRacing.Runtime.csproj

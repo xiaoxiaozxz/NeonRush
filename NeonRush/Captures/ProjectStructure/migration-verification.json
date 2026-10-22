@@ -1,0 +1,814 @@
+{
+  "preservedExistingGuids": 161,
+  "totalGuids": 175,
+  "unchangedExistingImporterMetadata": true,
+  "coreHasNoEngineReferences": true,
+  "oldActivePathsRemaining": 0,
+  "moves": [
+    {
+      "guid": "259ed6162e746df4cb46527635134110",
+      "from": "Editor",
+      "to": "ThirdParty/UnityTemplate/Editor"
+    },
+    {
+      "guid": "052faaac586de48259a63d0c4782560b",
+      "from": "InputSystem_Actions.inputactions",
+      "to": "_Project/Data/Input/InputSystem_Actions.inputactions"
+    },
+    {
+      "guid": "2c8526c0d51d9594094c92f2ea8fe817",
+      "from": "LoongRacing",
+      "to": "_Project"
+    },
+    {
+      "guid": "8105016687592461f977c054a80ce2f2",
+      "from": "Readme.asset",
+      "to": "ThirdParty/UnityTemplate/Readme.asset"
+    },
+    {
+      "guid": "3abbaa757b9f168419250dc319e56bcc",
+      "from": "Scenes",
+      "to": "ThirdParty/UnityTemplate/Scenes"
+    },
+    {
+      "guid": "709f11a7f3c4041caa4ef136ea32d874",
+      "from": "Settings",
+      "to": "_Project/Data/Rendering"
+    },
+    {
+      "guid": "ba062aa6c92b140379dbc06b43dd3b9b",
+      "from": "TutorialInfo",
+      "to": "ThirdParty/UnityTemplate/TutorialInfo"
+    },
+    {
+      "guid": "ce41c1d3c8e5c3b4d8265e885d33e194",
+      "from": "LoongRacing/Art",
+      "to": "_Project/Art"
+    },
+    {
+      "guid": "64147bf3700a60749b831e418eff84dc",
+      "from": "LoongRacing/Audio",
+      "to": "_Project/Audio"
+    },
+    {
+      "guid": "a9c1f61d98df19244a446698569603a7",
+      "from": "LoongRacing/Editor",
+      "to": "_Project/Scripts/Editor"
+    },
+    {
+      "guid": "fd39dc67f5c926f4bbc09c98a6e81741",
+      "from": "LoongRacing/Materials",
+      "to": "_Project/Art/Materials"
+    },
+    {
+      "guid": "e1ba0ca141f04674696ccbd096d26f88",
+      "from": "LoongRacing/Meshes",
+      "to": "_Project/Art/Meshes"
+    },
+    {
+      "guid": "a5f03e3ba64386e4081f4efbfc14911c",
+      "from": "LoongRacing/Prefabs",
+      "to": "_Project/Prefabs"
+    },
+    {
+      "guid": "f285f60655aefd5439ecfbbbbc93ddb5",
+      "from": "LoongRacing/Runtime",
+      "to": "_Project/Scripts/Runtime"
+    },
+    {
+      "guid": "a07ed6d050f00c144b3c0478723111f0",
+      "from": "LoongRacing/Scenes",
+      "to": "_Project/Scenes"
+    },
+    {
+      "guid": "6ab6f18fe48e83b44bbc5ae768c59599",
+      "from": "LoongRacing/Settings",
+      "to": "_Project/Data"
+    },
+    {
+      "guid": "edf00b6c17d84f1488f299e6ae511359",
+      "from": "LoongRacing/Tests",
+      "to": "_Project/Scripts/Tests"
+    },
+    {
+      "guid": "ca6337704908c1a44bf5c87b4ec7b064",
+      "from": "LoongRacing/Art/ConnectionProbe",
+      "to": "_Project/Art/ConnectionProbe"
+    },
+    {
+      "guid": "d70cae3daf3d42e4a80af7ef91083540",
+      "from": "LoongRacing/Art/NeonHarbor",
+      "to": "_Project/Art/NeonHarbor"
+    },
+    {
+      "guid": "ecf65e2978dd50c42a1c479184b0e1bb",
+      "from": "LoongRacing/Art/ConnectionProbe/CodexPipelineProbe.fbx",
+      "to": "_Project/Art/ConnectionProbe/CodexPipelineProbe.fbx"
+    },
+    {
+      "guid": "6e9d56cb47feca24c9349899eb9df3fe",
+      "from": "LoongRacing/Art/NeonHarbor/Materials",
+      "to": "_Project/Art/NeonHarbor/Materials"
+    },
+    {
+      "guid": "4ad4c067d50690c469311cf409b7d66f",
+      "from": "LoongRacing/Art/NeonHarbor/Meshes",
+      "to": "_Project/Art/NeonHarbor/Meshes"
+    },
+    {
+      "guid": "9d35255f1b1f65e41843d7cd31b19bd3",
+      "from": "LoongRacing/Art/NeonHarbor/Models",
+      "to": "_Project/Art/NeonHarbor/Models"
+    },
+    {
+      "guid": "5b653cc15651df8478677cd756f6e469",
+      "from": "LoongRacing/Art/NeonHarbor/NeonSky.shader",
+      "to": "_Project/Art/NeonHarbor/NeonSky.shader"
+    },
+    {
+      "guid": "25567e3551916354f966fe89d776ade4",
+      "from": "LoongRacing/Art/NeonHarbor/Probes",
+      "to": "_Project/Art/NeonHarbor/Probes"
+    },
+    {
+      "guid": "ed4670ab405921d44948b8de87f798e0",
+      "from": "LoongRacing/Art/NeonHarbor/Textures",
+      "to": "_Project/Art/NeonHarbor/Textures"
+    },
+    {
+      "guid": "cef814cb6271ef146a04a6282380cadf",
+      "from": "LoongRacing/Art/NeonHarbor/Materials/Neon_Concrete.mat",
+      "to": "_Project/Art/NeonHarbor/Materials/Neon_Concrete.mat"
+    },
+    {
+      "guid": "02861cc919c25cf4989b13a9d17fe646",
+      "from": "LoongRacing/Art/NeonHarbor/Materials/Neon_Cyan.mat",
+      "to": "_Project/Art/NeonHarbor/Materials/Neon_Cyan.mat"
+    },
+    {
+      "guid": "d717f503e8963ab478af05e902398fc5",
+      "from": "LoongRacing/Art/NeonHarbor/Materials/Neon_Pink.mat",
+      "to": "_Project/Art/NeonHarbor/Materials/Neon_Pink.mat"
+    },
+    {
+      "guid": "00f4ef4c9cfda204988b15f9613f01f9",
+      "from": "LoongRacing/Art/NeonHarbor/Materials/Neon_Poster.mat",
+      "to": "_Project/Art/NeonHarbor/Materials/Neon_Poster.mat"
+    },
+    {
+      "guid": "5dcbcb95178234148a9ba64928cbe88c",
+      "from": "LoongRacing/Art/NeonHarbor/Materials/Neon_Tower.mat",
+      "to": "_Project/Art/NeonHarbor/Materials/Neon_Tower.mat"
+    },
+    {
+      "guid": "f3449c0d26d83544592ec0c3ed7034a3",
+      "from": "LoongRacing/Art/NeonHarbor/Materials/NeonGrade.asset",
+      "to": "_Project/Art/NeonHarbor/Materials/NeonGrade.asset"
+    },
+    {
+      "guid": "118ac6e6320912346af11225712aa09b",
+      "from": "LoongRacing/Art/NeonHarbor/Materials/NeonSky.mat",
+      "to": "_Project/Art/NeonHarbor/Materials/NeonSky.mat"
+    },
+    {
+      "guid": "21d5eeda841826348b6829073dbfcafa",
+      "from": "LoongRacing/Art/NeonHarbor/Materials/Vela_Glass.mat",
+      "to": "_Project/Art/NeonHarbor/Materials/Vela_Glass.mat"
+    },
+    {
+      "guid": "2b84213d897a57741860330a56d51945",
+      "from": "LoongRacing/Art/NeonHarbor/Materials/Vela_Head.mat",
+      "to": "_Project/Art/NeonHarbor/Materials/Vela_Head.mat"
+    },
+    {
+      "guid": "0e2675013f4c4be4a899ba411bbe8fd7",
+      "from": "LoongRacing/Art/NeonHarbor/Materials/Vela_Metal.mat",
+      "to": "_Project/Art/NeonHarbor/Materials/Vela_Metal.mat"
+    },
+    {
+      "guid": "dd4f6d0910ae6ef408a1b96fe9777da4",
+      "from": "LoongRacing/Art/NeonHarbor/Materials/Vela_Paint.mat",
+      "to": "_Project/Art/NeonHarbor/Materials/Vela_Paint.mat"
+    },
+    {
+      "guid": "30467d9792aa86a409979a90db6ae348",
+      "from": "LoongRacing/Art/NeonHarbor/Materials/Vela_Rubber.mat",
+      "to": "_Project/Art/NeonHarbor/Materials/Vela_Rubber.mat"
+    },
+    {
+      "guid": "c67a5b2035a6a704da58b6cc9c20f330",
+      "from": "LoongRacing/Art/NeonHarbor/Materials/Vela_Tail.mat",
+      "to": "_Project/Art/NeonHarbor/Materials/Vela_Tail.mat"
+    },
+    {
+      "guid": "c59e521035a25fd4ab4ee0d777c31fab",
+      "from": "LoongRacing/Art/NeonHarbor/Materials/Vela_Trim.mat",
+      "to": "_Project/Art/NeonHarbor/Materials/Vela_Trim.mat"
+    },
+    {
+      "guid": "84635e681c01e8a45b1c06b4f1d4adc7",
+      "from": "LoongRacing/Art/NeonHarbor/Materials/WetRoad.mat",
+      "to": "_Project/Art/NeonHarbor/Materials/WetRoad.mat"
+    },
+    {
+      "guid": "e4e3afc8daf5bad47a1dcb3ed207fb63",
+      "from": "LoongRacing/Art/NeonHarbor/Meshes/StaticArtSample.asset",
+      "to": "_Project/Art/NeonHarbor/Meshes/StaticArtSample.asset"
+    },
+    {
+      "guid": "fcb35033fa73fd34bae326de13d7ad6e",
+      "from": "LoongRacing/Art/NeonHarbor/Meshes/StaticContinuousGuardrails.asset",
+      "to": "_Project/Art/NeonHarbor/Meshes/StaticContinuousGuardrails.asset"
+    },
+    {
+      "guid": "65b119194e1527e438159461a2e4c085",
+      "from": "LoongRacing/Art/NeonHarbor/Meshes/StaticNeonSkyline.asset",
+      "to": "_Project/Art/NeonHarbor/Meshes/StaticNeonSkyline.asset"
+    },
+    {
+      "guid": "97162c0e6a4bbd14eae83ac8dcd4e90b",
+      "from": "LoongRacing/Art/NeonHarbor/Meshes/StaticRouteMarkings.asset",
+      "to": "_Project/Art/NeonHarbor/Meshes/StaticRouteMarkings.asset"
+    },
+    {
+      "guid": "1c0fde92d92baff4c931aa023e96917e",
+      "from": "LoongRacing/Art/NeonHarbor/Meshes/VelaBody.asset",
+      "to": "_Project/Art/NeonHarbor/Meshes/VelaBody.asset"
+    },
+    {
+      "guid": "db6d382e48113564d8e96a5e88e25ba3",
+      "from": "LoongRacing/Art/NeonHarbor/Meshes/VelaWheel_FL.asset",
+      "to": "_Project/Art/NeonHarbor/Meshes/VelaWheel_FL.asset"
+    },
+    {
+      "guid": "c8e74cc56d5b6e741bf509a63c50794f",
+      "from": "LoongRacing/Art/NeonHarbor/Meshes/VelaWheel_FR.asset",
+      "to": "_Project/Art/NeonHarbor/Meshes/VelaWheel_FR.asset"
+    },
+    {
+      "guid": "cf4e44d241debbe4fa3ce542ec882604",
+      "from": "LoongRacing/Art/NeonHarbor/Meshes/VelaWheel_RL.asset",
+      "to": "_Project/Art/NeonHarbor/Meshes/VelaWheel_RL.asset"
+    },
+    {
+      "guid": "914fd61be735aa34a9c46f313827691e",
+      "from": "LoongRacing/Art/NeonHarbor/Meshes/VelaWheel_RR.asset",
+      "to": "_Project/Art/NeonHarbor/Meshes/VelaWheel_RR.asset"
+    },
+    {
+      "guid": "203816099063da247a76a4c503aa06a3",
+      "from": "LoongRacing/Art/NeonHarbor/Models/Module_Billboard.fbx",
+      "to": "_Project/Art/NeonHarbor/Models/Module_Billboard.fbx"
+    },
+    {
+      "guid": "cad59baf946806440a51a4834c23f797",
+      "from": "LoongRacing/Art/NeonHarbor/Models/Module_Gate.fbx",
+      "to": "_Project/Art/NeonHarbor/Models/Module_Gate.fbx"
+    },
+    {
+      "guid": "b7402dd0f5ba5e744bd943dbbe48a37d",
+      "from": "LoongRacing/Art/NeonHarbor/Models/Module_Pier.fbx",
+      "to": "_Project/Art/NeonHarbor/Models/Module_Pier.fbx"
+    },
+    {
+      "guid": "4de976e0da4e6874c98945d5d575359f",
+      "from": "LoongRacing/Art/NeonHarbor/Models/Module_Rail.fbx",
+      "to": "_Project/Art/NeonHarbor/Models/Module_Rail.fbx"
+    },
+    {
+      "guid": "c7865736be0600045babd1187ce9a695",
+      "from": "LoongRacing/Art/NeonHarbor/Models/Module_TowerA.fbx",
+      "to": "_Project/Art/NeonHarbor/Models/Module_TowerA.fbx"
+    },
+    {
+      "guid": "ecd22e5eecfee0848894dee725e5e314",
+      "from": "LoongRacing/Art/NeonHarbor/Models/Module_TowerB.fbx",
+      "to": "_Project/Art/NeonHarbor/Models/Module_TowerB.fbx"
+    },
+    {
+      "guid": "486439bc45cbec741be891bc8265f623",
+      "from": "LoongRacing/Art/NeonHarbor/Models/VelaCoupe.fbx",
+      "to": "_Project/Art/NeonHarbor/Models/VelaCoupe.fbx"
+    },
+    {
+      "guid": "980105c2906c80343a0b1fc1cd9e9b22",
+      "from": "LoongRacing/Art/NeonHarbor/Probes/Probe-20.exr",
+      "to": "_Project/Art/NeonHarbor/Probes/Probe-20.exr"
+    },
+    {
+      "guid": "4c3caa317b5739c43bba3cb823a2ffed",
+      "from": "LoongRacing/Art/NeonHarbor/Probes/Probe-80.exr",
+      "to": "_Project/Art/NeonHarbor/Probes/Probe-80.exr"
+    },
+    {
+      "guid": "1c207c5f5549c2c4d8aa063234ba0391",
+      "from": "LoongRacing/Art/NeonHarbor/Probes/Probe90.exr",
+      "to": "_Project/Art/NeonHarbor/Probes/Probe90.exr"
+    },
+    {
+      "guid": "004be2eb4d934e8438d64614fe8a4956",
+      "from": "LoongRacing/Art/NeonHarbor/Textures/NightRun_Poster.png",
+      "to": "_Project/Art/NeonHarbor/Textures/NightRun_Poster.png"
+    },
+    {
+      "guid": "0eac679e296c86d46bdd84aefe7231b6",
+      "from": "LoongRacing/Art/NeonHarbor/Textures/VelaPaint_Albedo.png",
+      "to": "_Project/Art/NeonHarbor/Textures/VelaPaint_Albedo.png"
+    },
+    {
+      "guid": "e8301bdb86ef7b24f84b3c339d379d19",
+      "from": "LoongRacing/Art/NeonHarbor/Textures/WetRoad_Albedo.png",
+      "to": "_Project/Art/NeonHarbor/Textures/WetRoad_Albedo.png"
+    },
+    {
+      "guid": "3d1501e7c79d5384e93d4e16f2a084e9",
+      "from": "LoongRacing/Art/NeonHarbor/Textures/WetRoad_MetalSmooth.png",
+      "to": "_Project/Art/NeonHarbor/Textures/WetRoad_MetalSmooth.png"
+    },
+    {
+      "guid": "aac849f6127e2ea4190f7f7b660b2a40",
+      "from": "LoongRacing/Art/NeonHarbor/Textures/WetRoad_Normal.png",
+      "to": "_Project/Art/NeonHarbor/Textures/WetRoad_Normal.png"
+    },
+    {
+      "guid": "73d5cdd5117f1a64b98dcc801d8db613",
+      "from": "LoongRacing/Audio/air_boost.wav",
+      "to": "_Project/Audio/air_boost.wav"
+    },
+    {
+      "guid": "8f27aa9f95a76d948873a52758f703de",
+      "from": "LoongRacing/Audio/collision_01.wav",
+      "to": "_Project/Audio/collision_01.wav"
+    },
+    {
+      "guid": "486d0eab0dc62804a9e623f1b4df9382",
+      "from": "LoongRacing/Audio/collision_02.wav",
+      "to": "_Project/Audio/collision_02.wav"
+    },
+    {
+      "guid": "9b4bbcf2c20331d4da5ab1130ea37765",
+      "from": "LoongRacing/Audio/collision_03.wav",
+      "to": "_Project/Audio/collision_03.wav"
+    },
+    {
+      "guid": "373f6e29374c58044af51f054ade2ebd",
+      "from": "LoongRacing/Audio/countdown_tick.wav",
+      "to": "_Project/Audio/countdown_tick.wav"
+    },
+    {
+      "guid": "024637c41a6e0d74f931644a8a4acb9a",
+      "from": "LoongRacing/Audio/engine_drive_loop.wav",
+      "to": "_Project/Audio/engine_drive_loop.wav"
+    },
+    {
+      "guid": "9e70c6041f344ff45bf4578959c491a4",
+      "from": "LoongRacing/Audio/engine_idle_loop.wav",
+      "to": "_Project/Audio/engine_idle_loop.wav"
+    },
+    {
+      "guid": "bb5cb92a879b753408e10fa7425b3ec7",
+      "from": "LoongRacing/Audio/gas_ready.wav",
+      "to": "_Project/Audio/gas_ready.wav"
+    },
+    {
+      "guid": "657cb476cea55c64b908c319e23813d7",
+      "from": "LoongRacing/Audio/landing.wav",
+      "to": "_Project/Audio/landing.wav"
+    },
+    {
+      "guid": "4b521b155b55e0b499acdb78c8e5b787",
+      "from": "LoongRacing/Audio/mini_boost.wav",
+      "to": "_Project/Audio/mini_boost.wav"
+    },
+    {
+      "guid": "e6f675bcb208d8843a5cde8cc47c2520",
+      "from": "LoongRacing/Audio/nitro_burst.wav",
+      "to": "_Project/Audio/nitro_burst.wav"
+    },
+    {
+      "guid": "f77d0432999d6124b8007acd76e8632c",
+      "from": "LoongRacing/Audio/race_start.wav",
+      "to": "_Project/Audio/race_start.wav"
+    },
+    {
+      "guid": "adcbda018a196ad4d8ebd9f449d998e8",
+      "from": "LoongRacing/Audio/README.md",
+      "to": "_Project/Audio/README.md"
+    },
+    {
+      "guid": "55f680fdf2d178f48a6d091ea1a59ff4",
+      "from": "LoongRacing/Audio/reset.wav",
+      "to": "_Project/Audio/reset.wav"
+    },
+    {
+      "guid": "de5e66fd04c4c7b4f8a04f731be3aebf",
+      "from": "LoongRacing/Audio/tyre_skid_loop.wav",
+      "to": "_Project/Audio/tyre_skid_loop.wav"
+    },
+    {
+      "guid": "39b7b82a851a50f4cacc39e8e0280aae",
+      "from": "LoongRacing/Audio/ui_pause.wav",
+      "to": "_Project/Audio/ui_pause.wav"
+    },
+    {
+      "guid": "af03c69c459dfed40a9808e21d62173c",
+      "from": "LoongRacing/Audio/ui_resume.wav",
+      "to": "_Project/Audio/ui_resume.wav"
+    },
+    {
+      "guid": "34038a3809a534e458e781d358602def",
+      "from": "LoongRacing/Audio/wind_loop.wav",
+      "to": "_Project/Audio/wind_loop.wav"
+    },
+    {
+      "guid": "08498f53680a91a4cb5e01d82772a951",
+      "from": "LoongRacing/Editor/HarborCircuitBuilder.cs",
+      "to": "_Project/Scripts/Editor/HarborCircuitBuilder.cs"
+    },
+    {
+      "guid": "ed7b12af24fe3264180e7cd805872507",
+      "from": "LoongRacing/Editor/KartAudioSetup.cs",
+      "to": "_Project/Scripts/Editor/KartAudioSetup.cs"
+    },
+    {
+      "guid": "a9cf8880979722e45bd6f38c4ed40530",
+      "from": "LoongRacing/Editor/LoongRacing.Editor.asmdef",
+      "to": "_Project/Scripts/Editor/LoongRacing.Editor.asmdef"
+    },
+    {
+      "guid": "8a3f9d8641b86ea4da9edde0d23296d8",
+      "from": "LoongRacing/Editor/NeonHarborSetup.cs",
+      "to": "_Project/Scripts/Editor/NeonHarborSetup.cs"
+    },
+    {
+      "guid": "a9d50a1e5769d624cadfabbf8b197444",
+      "from": "LoongRacing/Editor/NeonPerformanceValidation.cs",
+      "to": "_Project/Scripts/Editor/NeonPerformanceValidation.cs"
+    },
+    {
+      "guid": "65a939cea3c9af24685fa062d19406eb",
+      "from": "LoongRacing/Editor/StageFiveSetup.cs",
+      "to": "_Project/Scripts/Editor/StageFiveSetup.cs"
+    },
+    {
+      "guid": "17577a25c7060a0489a52a148f64e6d8",
+      "from": "LoongRacing/Editor/StageThreeSetup.cs",
+      "to": "_Project/Scripts/Editor/StageThreeSetup.cs"
+    },
+    {
+      "guid": "f9a63349b6582d84897952f1504fd300",
+      "from": "LoongRacing/Editor/StutterInvestigation.cs",
+      "to": "_Project/Scripts/Editor/StutterInvestigation.cs"
+    },
+    {
+      "guid": "2bf14a263e988b347a16c82bea4de490",
+      "from": "LoongRacing/Editor/TrainingSceneBuilder.cs",
+      "to": "_Project/Scripts/Editor/TrainingSceneBuilder.cs"
+    },
+    {
+      "guid": "9dc13967167f3864bb3d84c247abb3c5",
+      "from": "LoongRacing/Materials/Accent_Cyan.mat",
+      "to": "_Project/Art/Materials/Accent_Cyan.mat"
+    },
+    {
+      "guid": "c956647979d7ad74a862c53e9fb9ccdc",
+      "from": "LoongRacing/Materials/Barrier_Graphite.mat",
+      "to": "_Project/Art/Materials/Barrier_Graphite.mat"
+    },
+    {
+      "guid": "22534d49c91cbc7458e42dc11a750169",
+      "from": "LoongRacing/Materials/BoostPlume.mat",
+      "to": "_Project/Art/Materials/BoostPlume.mat"
+    },
+    {
+      "guid": "12b053ff4214e844ba59983fddc5b0e4",
+      "from": "LoongRacing/Materials/Buildings.mat",
+      "to": "_Project/Art/Materials/Buildings.mat"
+    },
+    {
+      "guid": "240bb464d54598d44b4fb0e10834f1d7",
+      "from": "LoongRacing/Materials/Curb_Cyan.mat",
+      "to": "_Project/Art/Materials/Curb_Cyan.mat"
+    },
+    {
+      "guid": "1d0e1a83b7bbc9a4f946930a27ffdfb9",
+      "from": "LoongRacing/Materials/Ground.mat",
+      "to": "_Project/Art/Materials/Ground.mat"
+    },
+    {
+      "guid": "494d33375de9aa24d924eec1def2c856",
+      "from": "LoongRacing/Materials/Headlights.mat",
+      "to": "_Project/Art/Materials/Headlights.mat"
+    },
+    {
+      "guid": "20c60f1e410d0ec4cad709264c2e3bad",
+      "from": "LoongRacing/Materials/Kart_Yellow.mat",
+      "to": "_Project/Art/Materials/Kart_Yellow.mat"
+    },
+    {
+      "guid": "a5bc243ae3a0e1a49990aa781c419f64",
+      "from": "LoongRacing/Materials/Marking_White.mat",
+      "to": "_Project/Art/Materials/Marking_White.mat"
+    },
+    {
+      "guid": "f984480abaf744f48847aff0b0763d4c",
+      "from": "LoongRacing/Materials/Rear_Lights.mat",
+      "to": "_Project/Art/Materials/Rear_Lights.mat"
+    },
+    {
+      "guid": "f44892b1979e7814e9d063139a0eb6d5",
+      "from": "LoongRacing/Materials/Road.mat",
+      "to": "_Project/Art/Materials/Road.mat"
+    },
+    {
+      "guid": "2c6961593d1403e49ad6699d9168a4a0",
+      "from": "LoongRacing/Materials/Tyre_Black.mat",
+      "to": "_Project/Art/Materials/Tyre_Black.mat"
+    },
+    {
+      "guid": "6608b2a4940fcd6468eecd0516d43a89",
+      "from": "LoongRacing/Materials/TyreMarks.mat",
+      "to": "_Project/Art/Materials/TyreMarks.mat"
+    },
+    {
+      "guid": "01e8144791fab6b4bb913c7dd8769bc7",
+      "from": "LoongRacing/Materials/Window_Blue.mat",
+      "to": "_Project/Art/Materials/Window_Blue.mat"
+    },
+    {
+      "guid": "eaf99b4191618fc41900cdf1e67c9c7e",
+      "from": "LoongRacing/Meshes/BoostPracticeRamp.asset",
+      "to": "_Project/Art/Meshes/BoostPracticeRamp.asset"
+    },
+    {
+      "guid": "ef17ec71b33907e42aa718de2f321c8e",
+      "from": "LoongRacing/Meshes/HarborJump.asset",
+      "to": "_Project/Art/Meshes/HarborJump.asset"
+    },
+    {
+      "guid": "bb18f83461e83bf4eb00558a1eb3d6bb",
+      "from": "LoongRacing/Meshes/HarborRoad.asset",
+      "to": "_Project/Art/Meshes/HarborRoad.asset"
+    },
+    {
+      "guid": "7877017c2ba242548b7ceca718e93f14",
+      "from": "LoongRacing/Meshes/TrainingRoad.asset",
+      "to": "_Project/Art/Meshes/TrainingRoad.asset"
+    },
+    {
+      "guid": "b3df6849941698c42b9855f381ef3b54",
+      "from": "LoongRacing/Prefabs/BlockKart.prefab",
+      "to": "_Project/Prefabs/BlockKart.prefab"
+    },
+    {
+      "guid": "ae93ea049a1592c4f9a87dc9adee0280",
+      "from": "LoongRacing/Prefabs/VelaRacer.prefab",
+      "to": "_Project/Prefabs/VelaRacer.prefab"
+    },
+    {
+      "guid": "879d6a49138027343b7f27cc0af993dd",
+      "from": "LoongRacing/Runtime/ArcadeKartController.cs",
+      "to": "_Project/Scripts/Runtime/Gameplay/ArcadeKartController.cs"
+    },
+    {
+      "guid": "30f6b9a8dddbd4c4b90004b9138e680f",
+      "from": "LoongRacing/Runtime/CheckpointGateView.cs",
+      "to": "_Project/Scripts/Runtime/Gameplay/CheckpointGateView.cs"
+    },
+    {
+      "guid": "846e014eea2a9784e8035c229ec4790f",
+      "from": "LoongRacing/Runtime/KartAudioBank.cs",
+      "to": "_Project/Scripts/Runtime/Gameplay/Configuration/KartAudioBank.cs"
+    },
+    {
+      "guid": "4238b421abcce2145be72ac951a9a170",
+      "from": "LoongRacing/Runtime/KartAudioController.cs",
+      "to": "_Project/Scripts/Runtime/Gameplay/KartAudioController.cs"
+    },
+    {
+      "guid": "337f9f6b139b81b4294056653c4edef3",
+      "from": "LoongRacing/Runtime/KartBoostEffects.cs",
+      "to": "_Project/Scripts/Runtime/Gameplay/KartBoostEffects.cs"
+    },
+    {
+      "guid": "d09aa78c2073acc469302ef95c2b164a",
+      "from": "LoongRacing/Runtime/KartChaseCamera.cs",
+      "to": "_Project/Scripts/Runtime/Gameplay/KartChaseCamera.cs"
+    },
+    {
+      "guid": "9ab0d1ac9d8bf68428b03857b4de3cca",
+      "from": "LoongRacing/Runtime/KartDriftEffects.cs",
+      "to": "_Project/Scripts/Runtime/Gameplay/KartDriftEffects.cs"
+    },
+    {
+      "guid": "b9711b00333ae8141aba6b68d13f08f5",
+      "from": "LoongRacing/Runtime/KartKeyboardInput.cs",
+      "to": "_Project/Scripts/Runtime/Gameplay/KartKeyboardInput.cs"
+    },
+    {
+      "guid": "94c8463590a30f74e8c3b94928666c9a",
+      "from": "LoongRacing/Runtime/KartRaceSession.cs",
+      "to": "_Project/Scripts/Runtime/Gameplay/KartRaceSession.cs"
+    },
+    {
+      "guid": "e28a6b6038aa84f4aae3479fcca191ad",
+      "from": "LoongRacing/Runtime/KartRouteProgress.cs",
+      "to": "_Project/Scripts/Runtime/Gameplay/KartRouteProgress.cs"
+    },
+    {
+      "guid": "6dc293ab4d513304a8d3c2911680c3f6",
+      "from": "LoongRacing/Runtime/KartTuning.cs",
+      "to": "_Project/Scripts/Runtime/Gameplay/Configuration/KartTuning.cs"
+    },
+    {
+      "guid": "dc334a5f696196046a3b846e2e57ee76",
+      "from": "LoongRacing/Runtime/KartVisualRig.cs",
+      "to": "_Project/Scripts/Runtime/Gameplay/KartVisualRig.cs"
+    },
+    {
+      "guid": "46a436871d26d5a48a85be6982776ea6",
+      "from": "LoongRacing/Runtime/LoongRacing.Runtime.asmdef",
+      "to": "_Project/Scripts/Runtime/LoongRacing.Runtime.asmdef"
+    },
+    {
+      "guid": "acc2c46a8304ec44bab144472ee16029",
+      "from": "LoongRacing/Runtime/NeonEnvironment.cs",
+      "to": "_Project/Scripts/Runtime/Gameplay/NeonEnvironment.cs"
+    },
+    {
+      "guid": "59cfd6bc879ef9b4b9397af134f0e133",
+      "from": "LoongRacing/Runtime/PracticeHud.Cache.cs",
+      "to": "_Project/Scripts/Runtime/UI/PracticeHud.Cache.cs"
+    },
+    {
+      "guid": "715afc626b055694c80293da27c4b875",
+      "from": "LoongRacing/Runtime/PracticeHud.cs",
+      "to": "_Project/Scripts/Runtime/UI/PracticeHud.cs"
+    },
+    {
+      "guid": "9048c2f7aa3b76c4498b0ecb7355ba65",
+      "from": "LoongRacing/Runtime/PracticeHud.Menu.cs",
+      "to": "_Project/Scripts/Runtime/UI/PracticeHud.Menu.cs"
+    },
+    {
+      "guid": "a7b77cea8ecf6854994e4e0c766fec96",
+      "from": "LoongRacing/Runtime/RaceRecordStore.cs",
+      "to": "_Project/Scripts/Runtime/Gameplay/RaceRecordStore.cs"
+    },
+    {
+      "guid": "79eb17f6fd80251428d2f7d524e99d26",
+      "from": "LoongRacing/Runtime/TrackRoute.cs",
+      "to": "_Project/Scripts/Runtime/Gameplay/Configuration/TrackRoute.cs"
+    },
+    {
+      "guid": "3e7e9fcc9c9f79548847e41df25ef4e8",
+      "from": "LoongRacing/Scenes/HarborCircuit.unity",
+      "to": "_Project/Scenes/HarborCircuit.unity"
+    },
+    {
+      "guid": "017375f0ee9e87b4fb52b5ea32179e62",
+      "from": "LoongRacing/Scenes/NeonHarbor.unity",
+      "to": "_Project/Scenes/NeonHarbor.unity"
+    },
+    {
+      "guid": "b1d09c2f28240434eaf4798b2c3e205d",
+      "from": "LoongRacing/Scenes/TrainingGround.unity",
+      "to": "_Project/Scenes/TrainingGround.unity"
+    },
+    {
+      "guid": "d1195d5c24a8280429f7a9f1e30b0a98",
+      "from": "LoongRacing/Settings/ArcadeKartTuning.asset",
+      "to": "_Project/Data/ArcadeKartTuning.asset"
+    },
+    {
+      "guid": "ac45faf59e182314887927c32d60bc73",
+      "from": "LoongRacing/Settings/HarborRoute.asset",
+      "to": "_Project/Data/HarborRoute.asset"
+    },
+    {
+      "guid": "115d7931d2e1c664687b3ff768feaade",
+      "from": "LoongRacing/Settings/Kart_WallSlide.physicMaterial",
+      "to": "_Project/Data/Kart_WallSlide.physicMaterial"
+    },
+    {
+      "guid": "43d39f98bb4f64e47a428251797bcb27",
+      "from": "LoongRacing/Settings/KartAudioBank.asset",
+      "to": "_Project/Data/KartAudioBank.asset"
+    },
+    {
+      "guid": "177e54d8cf3c6074e8a1fe43733e8179",
+      "from": "LoongRacing/Settings/NeonHarborRoute.asset",
+      "to": "_Project/Data/NeonHarborRoute.asset"
+    },
+    {
+      "guid": "691282aa12807254880d1d00f125528e",
+      "from": "LoongRacing/Tests/PlayMode",
+      "to": "_Project/Scripts/Tests/PlayMode"
+    },
+    {
+      "guid": "59135b22ec030f943904045cf7a8f0fa",
+      "from": "LoongRacing/Tests/PlayMode/HarborCircuitTests.cs",
+      "to": "_Project/Scripts/Tests/PlayMode/HarborCircuitTests.cs"
+    },
+    {
+      "guid": "5f4326c1a4261d841a1fec68b927a208",
+      "from": "LoongRacing/Tests/PlayMode/KartDrivingTests.cs",
+      "to": "_Project/Scripts/Tests/PlayMode/KartDrivingTests.cs"
+    },
+    {
+      "guid": "06cd522e7389f8d4f973b8e718cd6525",
+      "from": "LoongRacing/Tests/PlayMode/LoongRacing.PlayModeTests.asmdef",
+      "to": "_Project/Scripts/Tests/PlayMode/LoongRacing.PlayModeTests.asmdef"
+    },
+    {
+      "guid": "4bdc39ef751771d4e8fb99c43ccdf254",
+      "from": "LoongRacing/Tests/PlayMode/MenuFlowTests.cs",
+      "to": "_Project/Scripts/Tests/PlayMode/MenuFlowTests.cs"
+    },
+    {
+      "guid": "cfdfe0264aa82f94d8ea92603edeb3ea",
+      "from": "LoongRacing/Tests/PlayMode/RaceSessionTests.cs",
+      "to": "_Project/Scripts/Tests/PlayMode/RaceSessionTests.cs"
+    },
+    {
+      "guid": "dd06f5ca33ece0e459df42d0e896e4bb",
+      "from": "LoongRacing/Tests/PlayMode/RouteProgressTests.cs",
+      "to": "_Project/Scripts/Tests/PlayMode/RouteProgressTests.cs"
+    },
+    {
+      "guid": "99c9720ab356a0642a771bea13969a05",
+      "from": "Scenes/SampleScene.unity",
+      "to": "ThirdParty/UnityTemplate/Scenes/SampleScene.unity"
+    },
+    {
+      "guid": "ab09877e2e707104187f6f83e2f62510",
+      "from": "Settings/DefaultVolumeProfile.asset",
+      "to": "_Project/Data/Rendering/DefaultVolumeProfile.asset"
+    },
+    {
+      "guid": "65bc7dbf4170f435aa868c779acfb082",
+      "from": "Settings/Mobile_Renderer.asset",
+      "to": "_Project/Data/Rendering/Mobile_Renderer.asset"
+    },
+    {
+      "guid": "5e6cbd92db86f4b18aec3ed561671858",
+      "from": "Settings/Mobile_RPAsset.asset",
+      "to": "_Project/Data/Rendering/Mobile_RPAsset.asset"
+    },
+    {
+      "guid": "f288ae1f4751b564a96ac7587541f7a2",
+      "from": "Settings/PC_Renderer.asset",
+      "to": "_Project/Data/Rendering/PC_Renderer.asset"
+    },
+    {
+      "guid": "4b83569d67af61e458304325a23e5dfd",
+      "from": "Settings/PC_RPAsset.asset",
+      "to": "_Project/Data/Rendering/PC_RPAsset.asset"
+    },
+    {
+      "guid": "10fc4df2da32a41aaa32d77bc913491c",
+      "from": "Settings/SampleSceneProfile.asset",
+      "to": "_Project/Data/Rendering/SampleSceneProfile.asset"
+    },
+    {
+      "guid": "18dc0cd2c080841dea60987a38ce93fa",
+      "from": "Settings/UniversalRenderPipelineGlobalSettings.asset",
+      "to": "_Project/Data/Rendering/UniversalRenderPipelineGlobalSettings.asset"
+    },
+    {
+      "guid": "8a0c9218a650547d98138cd835033977",
+      "from": "TutorialInfo/Icons",
+      "to": "ThirdParty/UnityTemplate/TutorialInfo/Icons"
+    },
+    {
+      "guid": "eabc9546105bf4accac1fd62a63e88e6",
+      "from": "TutorialInfo/Layout.wlt",
+      "to": "ThirdParty/UnityTemplate/TutorialInfo/Layout.wlt"
+    },
+    {
+      "guid": "5a9bcd70e6a4b4b05badaa72e827d8e0",
+      "from": "TutorialInfo/Scripts",
+      "to": "ThirdParty/UnityTemplate/TutorialInfo/Scripts"
+    },
+    {
+      "guid": "727a75301c3d24613a3ebcec4a24c2c8",
+      "from": "TutorialInfo/Icons/URP.png",
+      "to": "ThirdParty/UnityTemplate/TutorialInfo/Icons/URP.png"
+    },
+    {
+      "guid": "3ad9b87dffba344c89909c6d1b1c17e1",
+      "from": "TutorialInfo/Scripts/Editor",
+      "to": "ThirdParty/UnityTemplate/TutorialInfo/Scripts/Editor"
+    },
+    {
+      "guid": "fcf7219bab7fe46a1ad266029b2fee19",
+      "from": "TutorialInfo/Scripts/Readme.cs",
+      "to": "ThirdParty/UnityTemplate/TutorialInfo/Scripts/Readme.cs"
+    },
+    {
+      "guid": "476cc7d7cd9874016adc216baab94a0a",
+      "from": "TutorialInfo/Scripts/Editor/ReadmeEditor.cs",
+      "to": "ThirdParty/UnityTemplate/TutorialInfo/Scripts/Editor/ReadmeEditor.cs"
+    }
+  ]
+}
